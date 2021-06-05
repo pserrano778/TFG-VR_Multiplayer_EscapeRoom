@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-05-20T18:47:30.946+02:00
-  initializedAtString: 2021-05-20T17:40:47.158+02:00
+  lastUpdatedAtString: 2021-06-05T16:46:23.209+02:00
+  initializedAtString: 2021-06-05T16:46:23.200+02:00
   localBranches:
   - name: main
     tracking: origin/main
@@ -25,7 +25,7 @@ MonoBehaviour:
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/pserrano778/TFG.git
+    url: https://github.com/pserrano778/TFG-VR_Multiplayer_EscapeRoom.git
     login: 
     user: 
     host: 
@@ -38,7 +38,7 @@ MonoBehaviour:
     - name: main
       remote:
         name: origin
-        url: https://github.com/pserrano778/TFG.git
+        url: https://github.com/pserrano778/TFG-VR_Multiplayer_EscapeRoom.git
       trackingBranch: main
   remoteConfigBranches:
     keys:
@@ -52,16 +52,16 @@ MonoBehaviour:
       - name: HEAD
         remote:
           name: origin
-          url: https://github.com/pserrano778/TFG.git
+          url: https://github.com/pserrano778/TFG-VR_Multiplayer_EscapeRoom.git
         trackingBranch: 
       - name: main
         remote:
           name: origin
-          url: https://github.com/pserrano778/TFG.git
+          url: https://github.com/pserrano778/TFG-VR_Multiplayer_EscapeRoom.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/pserrano778/TFG.git
+      url: https://github.com/pserrano778/TFG-VR_Multiplayer_EscapeRoom.git
