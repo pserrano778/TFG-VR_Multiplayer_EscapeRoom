@@ -832,6 +832,7 @@
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\MagicMirror\Prefab\MirrorShaderBumpMap.shader" />
+    <None Include="Assets\Procedural_Materials\Read me.txt" />
     <None Include="Assets\FurniturePack\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
@@ -901,6 +902,7 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
     <None Include="Assets\FurniturePack\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Hand Painted Seamless Wood Texture\Documentation\Documentation.txt" />
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
