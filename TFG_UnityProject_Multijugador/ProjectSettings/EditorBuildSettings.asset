@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TFG/Scenes/Individual.unity
+    guid: 723d6bd61a71978458f0497c415098b0
+  m_configObjects: {}

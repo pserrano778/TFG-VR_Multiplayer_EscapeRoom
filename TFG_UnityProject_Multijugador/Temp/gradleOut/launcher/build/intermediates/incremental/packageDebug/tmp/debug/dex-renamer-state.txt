@@ -1,0 +1,4 @@
+#Fri Jun 11 16:39:39 CEST 2021
+base.0=C\:\\Users\\Usuario\\Documents\\GitHub\\TFG-VR_Multiplayer_EscapeRoom\\TFG_UnityProject_Multijugador\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
