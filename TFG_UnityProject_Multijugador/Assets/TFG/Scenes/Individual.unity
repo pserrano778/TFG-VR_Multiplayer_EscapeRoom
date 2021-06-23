@@ -34722,8 +34722,8 @@ MonoBehaviour:
     maxAllowedPerFrameAngleDifference: 1.5
   validCollisionColor: {r: 0, g: 1, b: 0, a: 1}
   invalidCollisionColor: {r: 1, g: 0, b: 0, a: 1}
-  tracerVisibility: 1
-  cursorVisibility: 1
+  tracerVisibility: 0
+  cursorVisibility: 0
   maximumLength: 0.5
   scaleFactor: 0.002
   cursorScaleMultiplier: 10
@@ -34747,11 +34747,11 @@ MonoBehaviour:
   enableTeleport: 0
   targetListPolicy: {fileID: 0}
   pointerRenderer: {fileID: 591678828}
-  activationButton: 10
-  holdButtonToActivate: 1
+  activationButton: 16
+  holdButtonToActivate: 0
   activateOnEnable: 0
   activationDelay: 0
-  selectionButton: 10
+  selectionButton: 3
   selectOnPress: 0
   selectionDelay: 0
   selectAfterHoverDuration: 0
@@ -34774,13 +34774,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71b26f999cbdac8478b6c2a046256169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activationButton: 10
-  activationMode: 2
+  activationButton: 16
+  activationMode: 1
   selectionButton: 3
   clickMethod: 0
   attemptClickOnDeactivate: 0
   clickAfterHoverDuration: 0
-  maximumLength: Infinity
+  maximumLength: 0.5
   attachedTo: {fileID: 0}
   controllerEvents: {fileID: 0}
   customOrigin: {fileID: 0}
