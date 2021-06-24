@@ -17,7 +17,7 @@ AnimatorStateMachine:
     m_Position: {x: 460.92374, y: 53.907623, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2487576034902733209}
-    m_Position: {x: 576.53955, y: 186.23901, z: 0}
+    m_Position: {x: 580, y: 190, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -57,7 +57,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: closeChest
+  m_Name: close
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -83,7 +83,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: openChest
+  m_Name: open
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

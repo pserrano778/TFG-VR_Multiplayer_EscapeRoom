@@ -24,7 +24,7 @@ public class SkullBehaviout : MonoBehaviour
     {
         if (other.tag == "Bone")
         {
-            chestAnimator.Play("openChest", 0, 0.0f);
+            chestAnimator.Play("open", 0, 0.0f);
             note.GetComponent<VRTK_InteractableObject>().isGrabbable = true;
             StartCoroutine(WaitForAnimation(chestAnimator.GetCurrentAnimatorStateInfo(0).length * chestAnimator.GetCurrentAnimatorStateInfo(0).speed));
         }
@@ -34,7 +34,7 @@ public class SkullBehaviout : MonoBehaviour
     {
         if (other.tag == "Bone")
         {
-            chestAnimator.Play("closeChest", 0, 0.0f);
+            chestAnimator.Play("close", 0, 0.0f);
             StartCoroutine(WaitForAnimation(chestAnimator.GetCurrentAnimatorStateInfo(0).length * chestAnimator.GetCurrentAnimatorStateInfo(0).speed));
         }
     }
