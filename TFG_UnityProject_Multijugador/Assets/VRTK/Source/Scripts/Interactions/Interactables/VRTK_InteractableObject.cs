@@ -557,6 +557,12 @@ namespace VRTK
             PhotonView photonView = GetComponent<PhotonView>();
             if (photonView != null)
             {
+                // Take owner if objet is not mine
+                if (!photonView.IsMine)
+                {
+                    photonView.RequestOwnership();
+                }
+
                 photonView.RPC("GrabObjectNetwork", RpcTarget.All);
             }
             OnInteractableObjectGrabbed(SetInteractableObjectEvent(currentGrabbingGameObject));
