@@ -4,7 +4,10 @@ ScriptsOnlyBuild:
     - AttachPoints
     - ChangeColor
     - ChangeName
+    - DigitPadController
+    - DigitPadEventController
     - DoorController
+    - DoorRuneController
     - ExitGames.Demos.DemoPunVoice.FirstPersonController
     - ExitGames.Demos.DemoPunVoice.Highlighter
     - ExitGames.Demos.DemoPunVoice.OrthographicController
@@ -51,6 +54,7 @@ ScriptsOnlyBuild:
     - VRTK.VRTK_InteractTouch
     - VRTK.VRTK_InteractableObject
     - VRTK.VRTK_Logger
+    - VRTK.VRTK_Pointer
     - VRTK.VRTK_PolicyList
     - VRTK.VRTK_PositionRewind
     - VRTK.VRTK_RotateObjectControlAction
@@ -59,7 +63,10 @@ ScriptsOnlyBuild:
     - VRTK.VRTK_SDKSetupSwitcher
     - VRTK.VRTK_SlideObjectControlAction
     - VRTK.VRTK_SnapRotateObjectControlAction
+    - VRTK.VRTK_StraightPointerRenderer
     - VRTK.VRTK_TouchpadControl
+    - VRTK.VRTK_UICanvas
+    - VRTK.VRTK_UIPointer
     - VRTK.VRTK_VelocityEstimator
     - VRTK.VRTK_WarpObjectControlAction
     - VRTK.WindowsMR_Camera
@@ -67,11 +74,9 @@ ScriptsOnlyBuild:
     - VRTK.WindowsMR_TrackedObject
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
-    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
-    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.GitUserCache
     - GitHub.Unity.RepositoryInfoCache
@@ -114,8 +119,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Animations.Rigging.Rig
     - UnityEngine.Animations.Rigging.RigBuilder
     - UnityEngine.Animations.Rigging.TwoBoneIKConstraint
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.MaterialPalette
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
     Unity.RenderPipelines.Core.Runtime.dll:
@@ -154,6 +157,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -349,171 +353,187 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14426}
     - Class: 114
-      Script: {instanceID: 14606}
+      Script: {instanceID: 14440}
     - Class: 114
-      Script: {instanceID: 14674}
+      Script: {instanceID: 14608}
     - Class: 114
-      Script: {instanceID: 14698}
+      Script: {instanceID: 14676}
     - Class: 114
-      Script: {instanceID: 14710}
+      Script: {instanceID: 14700}
     - Class: 114
-      Script: {instanceID: 14792}
+      Script: {instanceID: 14712}
     - Class: 114
-      Script: {instanceID: 15072}
+      Script: {instanceID: 14794}
     - Class: 114
-      Script: {instanceID: 15082}
+      Script: {instanceID: 14952}
     - Class: 114
-      Script: {instanceID: 15130}
+      Script: {instanceID: 15074}
     - Class: 114
-      Script: {instanceID: 15280}
+      Script: {instanceID: 15084}
     - Class: 114
-      Script: {instanceID: 15314}
+      Script: {instanceID: 15132}
     - Class: 114
-      Script: {instanceID: 15394}
+      Script: {instanceID: 15282}
     - Class: 114
-      Script: {instanceID: 15440}
+      Script: {instanceID: 15316}
     - Class: 114
-      Script: {instanceID: 15486}
+      Script: {instanceID: 15396}
     - Class: 114
-      Script: {instanceID: 15666}
+      Script: {instanceID: 15442}
     - Class: 114
-      Script: {instanceID: 15676}
+      Script: {instanceID: 15488}
     - Class: 114
-      Script: {instanceID: 15864}
+      Script: {instanceID: 15668}
     - Class: 114
-      Script: {instanceID: 15908}
+      Script: {instanceID: 15678}
     - Class: 114
-      Script: {instanceID: 16228}
+      Script: {instanceID: 15866}
     - Class: 114
-      Script: {instanceID: 16384}
+      Script: {instanceID: 15910}
     - Class: 114
-      Script: {instanceID: 16396}
+      Script: {instanceID: 16230}
     - Class: 114
-      Script: {instanceID: 16434}
+      Script: {instanceID: 16250}
     - Class: 114
-      Script: {instanceID: 16506}
+      Script: {instanceID: 16386}
     - Class: 114
-      Script: {instanceID: 16512}
+      Script: {instanceID: 16398}
     - Class: 114
-      Script: {instanceID: 16536}
+      Script: {instanceID: 16436}
     - Class: 114
-      Script: {instanceID: 16594}
+      Script: {instanceID: 16508}
     - Class: 114
-      Script: {instanceID: 16710}
+      Script: {instanceID: 16514}
     - Class: 114
-      Script: {instanceID: 16716}
+      Script: {instanceID: 16538}
     - Class: 114
-      Script: {instanceID: 16942}
+      Script: {instanceID: 16596}
     - Class: 114
-      Script: {instanceID: 16998}
+      Script: {instanceID: 16712}
     - Class: 114
-      Script: {instanceID: 17002}
+      Script: {instanceID: 16718}
     - Class: 114
-      Script: {instanceID: 17072}
+      Script: {instanceID: 16842}
     - Class: 114
-      Script: {instanceID: 17080}
+      Script: {instanceID: 16944}
     - Class: 114
-      Script: {instanceID: 17146}
+      Script: {instanceID: 17000}
     - Class: 114
-      Script: {instanceID: 17178}
+      Script: {instanceID: 17004}
     - Class: 114
-      Script: {instanceID: 17188}
+      Script: {instanceID: 17074}
     - Class: 114
-      Script: {instanceID: 17328}
+      Script: {instanceID: 17082}
     - Class: 114
-      Script: {instanceID: 17408}
+      Script: {instanceID: 17148}
     - Class: 114
-      Script: {instanceID: 17444}
+      Script: {instanceID: 17180}
     - Class: 114
-      Script: {instanceID: 17474}
+      Script: {instanceID: 17190}
     - Class: 114
-      Script: {instanceID: 17490}
+      Script: {instanceID: 17330}
     - Class: 114
-      Script: {instanceID: 17526}
+      Script: {instanceID: 17410}
     - Class: 114
-      Script: {instanceID: 17558}
+      Script: {instanceID: 17446}
     - Class: 114
-      Script: {instanceID: 17574}
+      Script: {instanceID: 17476}
     - Class: 114
-      Script: {instanceID: 17736}
+      Script: {instanceID: 17492}
     - Class: 114
-      Script: {instanceID: 17798}
+      Script: {instanceID: 17528}
     - Class: 114
-      Script: {instanceID: 17808}
+      Script: {instanceID: 17560}
     - Class: 114
-      Script: {instanceID: 17836}
+      Script: {instanceID: 17576}
     - Class: 114
-      Script: {instanceID: 17986}
+      Script: {instanceID: 17738}
     - Class: 114
-      Script: {instanceID: 18060}
+      Script: {instanceID: 17800}
     - Class: 114
-      Script: {instanceID: 18178}
+      Script: {instanceID: 17810}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 17838}
     - Class: 114
-      Script: {instanceID: 18348}
+      Script: {instanceID: 17988}
     - Class: 114
-      Script: {instanceID: 18400}
+      Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 18424}
+      Script: {instanceID: 18062}
+    - Class: 114
+      Script: {instanceID: 18078}
+    - Class: 114
+      Script: {instanceID: 18182}
+    - Class: 114
+      Script: {instanceID: 18244}
+    - Class: 114
+      Script: {instanceID: 18352}
+    - Class: 114
+      Script: {instanceID: 18404}
     - Class: 114
       Script: {instanceID: 18428}
     - Class: 114
-      Script: {instanceID: 18484}
+      Script: {instanceID: 18432}
     - Class: 114
-      Script: {instanceID: 18586}
+      Script: {instanceID: 18472}
     - Class: 114
-      Script: {instanceID: 18616}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 18626}
+      Script: {instanceID: 18590}
     - Class: 114
-      Script: {instanceID: 18688}
+      Script: {instanceID: 18620}
     - Class: 114
-      Script: {instanceID: 18858}
+      Script: {instanceID: 18630}
     - Class: 114
-      Script: {instanceID: 18924}
+      Script: {instanceID: 18692}
     - Class: 114
-      Script: {instanceID: 18952}
+      Script: {instanceID: 18862}
     - Class: 114
-      Script: {instanceID: 19072}
+      Script: {instanceID: 18928}
     - Class: 114
-      Script: {instanceID: 19124}
+      Script: {instanceID: 18956}
     - Class: 114
-      Script: {instanceID: 19194}
+      Script: {instanceID: 19076}
     - Class: 114
-      Script: {instanceID: 19284}
+      Script: {instanceID: 19128}
     - Class: 114
-      Script: {instanceID: 19338}
+      Script: {instanceID: 19158}
     - Class: 114
-      Script: {instanceID: 19460}
+      Script: {instanceID: 19200}
     - Class: 114
-      Script: {instanceID: 19512}
+      Script: {instanceID: 19290}
     - Class: 114
-      Script: {instanceID: 19554}
+      Script: {instanceID: 19344}
     - Class: 114
-      Script: {instanceID: 19720}
+      Script: {instanceID: 19466}
     - Class: 114
-      Script: {instanceID: 19740}
+      Script: {instanceID: 19518}
     - Class: 114
-      Script: {instanceID: 19742}
+      Script: {instanceID: 19560}
     - Class: 114
-      Script: {instanceID: 19798}
+      Script: {instanceID: 19726}
+    - Class: 114
+      Script: {instanceID: 19746}
+    - Class: 114
+      Script: {instanceID: 19748}
     - Class: 114
       Script: {instanceID: 19804}
     - Class: 114
-      Script: {instanceID: 19840}
+      Script: {instanceID: 19810}
     - Class: 114
-      Script: {instanceID: 19858}
+      Script: {instanceID: 19846}
     - Class: 114
-      Script: {instanceID: 19874}
+      Script: {instanceID: 19864}
     - Class: 114
-      Script: {instanceID: 19910}
+      Script: {instanceID: 19880}
     - Class: 114
-      Script: {instanceID: 20016}
+      Script: {instanceID: 19916}
     - Class: 114
-      Script: {instanceID: 20078}
+      Script: {instanceID: 20022}
     - Class: 114
-      Script: {instanceID: 20086}
+      Script: {instanceID: 20084}
+    - Class: 114
+      Script: {instanceID: 20092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2373,6 +2393,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VRRigOnline
+  - hash:
+      serializedVersion: 2
+      Hash: a218e2de11e9ac31981c88a63aadbe21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DigitPadController
   - hash:
       serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
@@ -4973,6 +4999,12 @@ ScriptsOnlyBuild:
     className: VRTK_SDKObjectState
   - hash:
       serializedVersion: 2
+      Hash: 30f3213a6e218a461fa00e428f22d3eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorRuneController
+  - hash:
+      serializedVersion: 2
       Hash: e80cf4684910fdd7f091d85a19a93603
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer
@@ -5613,6 +5645,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomMasterClientIdProperty
+  - hash:
+      serializedVersion: 2
+      Hash: de19c354377dcbf1f3a5407d5d3a23ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DigitPadEventController
   - hash:
       serializedVersion: 2
       Hash: 8ed0c6058e426c695b481720f447b507
@@ -6318,4 +6356,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/TFG/Scenes/Individual.unity
-  playerPath: C:/Users/Usuario/Desktop/escenaCasa.apk
+  playerPath: C:/Users/Usuario/Desktop/escenaCasaPuzzlesSala1.apk

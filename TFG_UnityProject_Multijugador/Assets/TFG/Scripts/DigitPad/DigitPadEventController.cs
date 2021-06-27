@@ -7,9 +7,14 @@ public class DigitPadEventController : MonoBehaviour
     public uint number;
     public DigitPadController[] digits;
     public Animator animator;
+    public GameObject objectInside;
 
-    private bool locked = true;  
+    private bool locked = true;
 
+    private void Start()
+    {
+        objectInside.SetActive(false);
+    }
     public void CheckNumber()
     {
         if (locked)
@@ -18,7 +23,7 @@ public class DigitPadEventController : MonoBehaviour
 
             for (int i=0; i<digits.Length; i++)
             {
-                numberStr = digits[i].ToString();
+                numberStr += digits[i].digitText.text;
             }
 
             if (number.ToString().Equals(numberStr)){
@@ -31,6 +36,8 @@ public class DigitPadEventController : MonoBehaviour
 
     private void PlayAnimation()
     {
+        print("anim");
+        objectInside.SetActive(true);
         animator.Play("open", 0, 0.0f);
     }
 }

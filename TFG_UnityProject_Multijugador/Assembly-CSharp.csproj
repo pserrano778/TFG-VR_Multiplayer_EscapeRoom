@@ -422,6 +422,7 @@
     <Compile Include="Assets\TFG\Scripts\DigitPad\DigitPadController.cs" />
     <Compile Include="Assets\TFG\Scripts\DigitPad\DigitPadEventController.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\DoorController.cs" />
+    <Compile Include="Assets\TFG\Scripts\Door\DoorRuneController.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\CheckPlayerOutside.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\CloseMainDoorMultiplayer.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\PlayersInsideHouse.cs" />
