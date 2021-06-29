@@ -9,6 +9,7 @@ TagManager:
   - Suelo
   - Rune
   - EyeRune
+  - MoonRune
   layers:
   - Default
   - TransparentFX
