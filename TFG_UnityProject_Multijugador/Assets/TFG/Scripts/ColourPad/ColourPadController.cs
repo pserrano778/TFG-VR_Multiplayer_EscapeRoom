@@ -38,7 +38,7 @@ public class ColourPadController : MonoBehaviour
         newColors.normalColor = color;
 
         var transparentColor = color;
-        transparentColor.a = 0.6f;
+        transparentColor.a = 0.4f;
 
         newColors.highlightedColor = transparentColor;
 
