@@ -10,6 +10,9 @@ TagManager:
   - Rune
   - EyeRune
   - MoonRune
+  - MoonRune1
+  - EyeRune1
+  - WaterRune
   layers:
   - Default
   - TransparentFX

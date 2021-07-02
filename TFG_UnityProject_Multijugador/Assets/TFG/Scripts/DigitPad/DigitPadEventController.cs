@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DigitPadEventController : MonoBehaviour
 {
-    public uint number;
+    public string number;
     public DigitPadController[] digits;
     public Animator animator;
     public GameObject objectInside;
@@ -25,8 +25,9 @@ public class DigitPadEventController : MonoBehaviour
             {
                 numberStr += digits[i].digitText.text;
             }
-
-            if (number.ToString().Equals(numberStr)){
+            print(number);
+            print(numberStr);
+            if (number.Equals(numberStr)){
                PlayAnimation();
             }
 
@@ -36,7 +37,6 @@ public class DigitPadEventController : MonoBehaviour
 
     private void PlayAnimation()
     {
-        print("anim");
         objectInside.SetActive(true);
         animator.Play("open", 0, 0.0f);
     }
