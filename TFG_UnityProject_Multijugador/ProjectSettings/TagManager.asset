@@ -13,6 +13,9 @@ TagManager:
   - MoonRune1
   - EyeRune1
   - WaterRune
+  - TreeRune
+  - SkullRune
+  - SunRune
   layers:
   - Default
   - TransparentFX

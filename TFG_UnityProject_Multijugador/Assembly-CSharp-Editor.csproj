@@ -62,6 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Customizable_Furnture\Editor\Customizable_Furniture\EditorCleanUpAll.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Editor\Customizable_Furniture\EditorOptionsDisplay.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Editor\Customizable_Furniture\EditorSimpleSwitchMaterial.cs" />
     <Compile Include="Assets\FurniturePack\Editor\SettingsPrompt.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />

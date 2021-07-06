@@ -62,6 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\CleanUpAll.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\AnalogicClock.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\ClockTimer.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\DigitalClock.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\DigitalClockValue.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\DisplayFrame.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\DisplaySelectedObject.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\OptionsDisplay.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\OptionsDisplaySaveVar.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\PlayVideo.cs" />
+    <Compile Include="Assets\Customizable_Furnture\Source\Scripts\SimpleSwitchMaterial.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -848,6 +859,7 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Shaders\Multiview Stereo.shader" />
+    <None Include="Assets\Customizable_Furnture\Readme\Readme.txt" />
     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Default Correct.shader" />
