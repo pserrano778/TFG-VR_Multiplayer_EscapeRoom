@@ -430,6 +430,7 @@
     <Compile Include="Assets\TFG\Scripts\Character\VRFootIK.cs" />
     <Compile Include="Assets\TFG\Scripts\Character\VRRig.cs" />
     <Compile Include="Assets\TFG\Scripts\Character\VRRigOnline.cs" />
+    <Compile Include="Assets\TFG\Scripts\Chest\OpenWithKey.cs" />
     <Compile Include="Assets\TFG\Scripts\Closet\ClosetController.cs" />
     <Compile Include="Assets\TFG\Scripts\Closet\ClosetRune.cs" />
     <Compile Include="Assets\TFG\Scripts\ColourPad\ColourPadController.cs" />

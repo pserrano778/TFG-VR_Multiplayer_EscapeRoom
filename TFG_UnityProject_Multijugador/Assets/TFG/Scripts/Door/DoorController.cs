@@ -14,6 +14,8 @@ public class DoorController : MonoBehaviour
     public string tagOpen = "";
     public string tagClose = "";
 
+    public GameObject mark = null;
+
     // Sobreescribimos el disparador de colisión
     private void OnTriggerEnter(Collider other)
     {
@@ -56,6 +58,10 @@ public class DoorController : MonoBehaviour
                 {
                     if (tagClose == "Player" && other.gameObject.ToString().Equals("[VRTK][AUTOGEN][BodyColliderContainer] (UnityEngine.GameObject)"))
                     {
+                        if (mark != null)
+                        {
+                            mark.SetActive(true);
+                        }
                         animator.Play("doorClose", 0, 0.0f);
                         gameObject.SetActive(false);
                         closed = true;
