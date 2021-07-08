@@ -58,13 +58,12 @@ public class DoorController : MonoBehaviour
                 {
                     if (tagClose == "Player" && other.gameObject.ToString().Equals("[VRTK][AUTOGEN][BodyColliderContainer] (UnityEngine.GameObject)"))
                     {
+                        
+                        animator.Play("doorClose", 0, 0.0f);
                         if (mark != null)
                         {
-                            mark.SetActive(true);
+                            StartCoroutine(SetMarkAfterClose(animator.GetCurrentAnimatorStateInfo(0).length * animator.GetCurrentAnimatorStateInfo(0).speed));
                         }
-                        animator.Play("doorClose", 0, 0.0f);
-                        gameObject.SetActive(false);
-                        closed = true;
                     }
                 }
             }
@@ -75,5 +74,15 @@ public class DoorController : MonoBehaviour
     {
         yield return new WaitForSeconds(animationTime);
         animator.Play("doorOpen", 0, 0.0f);
+    }
+
+    IEnumerator SetMarkAfterClose(float animationTime)
+    {
+        closed = true;
+
+        yield return new WaitForSeconds(animationTime);
+
+        mark.SetActive(true);
+        gameObject.SetActive(false);
     }
 }
