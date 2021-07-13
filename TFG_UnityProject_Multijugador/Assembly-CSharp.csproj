@@ -434,9 +434,13 @@
     <Compile Include="Assets\TFG\Scripts\Closet\ClosetController.cs" />
     <Compile Include="Assets\TFG\Scripts\Closet\ClosetRune.cs" />
     <Compile Include="Assets\TFG\Scripts\ColourPad\ColourPadController.cs" />
+    <Compile Include="Assets\TFG\Scripts\ColourPad\ColourPadControllerRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\ColourPad\ColourPadEventController.cs" />
+    <Compile Include="Assets\TFG\Scripts\ColourPad\ColourPadEventControllerRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\DigitPad\DigitPadController.cs" />
+    <Compile Include="Assets\TFG\Scripts\DigitPad\DigitPadControllerRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\DigitPad\DigitPadEventController.cs" />
+    <Compile Include="Assets\TFG\Scripts\DigitPad\DigitPadEventControllerRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\DoorController.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\DoorRuneController.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\CheckPlayerOutside.cs" />

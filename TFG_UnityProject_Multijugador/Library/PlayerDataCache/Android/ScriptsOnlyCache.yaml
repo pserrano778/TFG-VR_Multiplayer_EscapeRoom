@@ -4,12 +4,14 @@ ScriptsOnlyBuild:
     - AttachPoints
     - ChangeColor
     - ChangeName
+    - CheckPlayerOutside
+    - CloseMainDoorMultiplayer
     - ClosetController
     - ClosetRune
-    - ColourPadController
-    - ColourPadEventController
-    - DigitPadController
-    - DigitPadEventController
+    - ColourPadControllerRPC
+    - ColourPadEventControllerRPC
+    - DigitPadControllerRPC
+    - DigitPadEventControllerRPC
     - DisplaySelectedObject
     - DoorController
     - DoorRuneController
@@ -18,9 +20,13 @@ ScriptsOnlyBuild:
     - ExitGames.Demos.DemoPunVoice.OrthographicController
     - ExitGames.Demos.DemoPunVoice.ThirdPersonController
     - KeyBehaviour
-    - LampLightSwitchBehaviour
+    - LampLightSwitchBehaviourRPC
     - LightSwitchBehaviour
+    - LightSwitchBehaviourRPC
+    - NetworkManager
     - NetworkPlayer
+    - NetworkPlayerSpawner
+    - NetworkVoiceManager
     - ONSPSettings
     - Open
     - OpenWithKey
@@ -30,6 +36,7 @@ ScriptsOnlyBuild:
     - OvrAvatarSettings
     - PointersController
     - ProximityVoiceTrigger
+    - SkullBehaviout
     - SteamVR_Camera
     - SteamVR_ControllerManager
     - SteamVR_Ears
@@ -39,6 +46,7 @@ ScriptsOnlyBuild:
     - SteamVR_Render
     - SteamVR_RenderModel
     - SteamVR_TrackedObject
+    - TransferOwnership
     - VRAnimatorController
     - VRAnimatorControllerOnline
     - VRFootIK
@@ -81,6 +89,7 @@ ScriptsOnlyBuild:
     - VRTK.WindowsMR_Camera
     - VRTK.WindowsMR_ControllerManager
     - VRTK.WindowsMR_TrackedObject
+    - VoiceChat
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.BranchesCache
@@ -120,6 +129,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     PhotonVoice.PUN.dll:
+    - Photon.Voice.PUN.PhotonVoiceNetwork
     - Photon.Voice.PUN.PhotonVoiceView
     PhotonVoice.dll:
     - Photon.Voice.Unity.Recorder
@@ -198,7 +208,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/TFG/Scenes/Individual.unity:
+    Assets/TFG/Scenes/Multijugador.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -314,6 +324,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12612}
     - Class: 114
+      Script: {instanceID: 12648}
+    - Class: 114
       Script: {instanceID: 12686}
     - Class: 114
       Script: {instanceID: 12714}
@@ -321,8 +333,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12946}
     - Class: 114
       Script: {instanceID: 12956}
-    - Class: 114
-      Script: {instanceID: 13084}
     - Class: 114
       Script: {instanceID: 13142}
     - Class: 114
@@ -364,13 +374,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14200}
     - Class: 114
-      Script: {instanceID: 14222}
-    - Class: 114
       Script: {instanceID: 14276}
     - Class: 114
       Script: {instanceID: 14438}
-    - Class: 114
-      Script: {instanceID: 14452}
     - Class: 114
       Script: {instanceID: 14622}
     - Class: 114
@@ -386,11 +392,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14968}
     - Class: 114
+      Script: {instanceID: 14984}
+    - Class: 114
       Script: {instanceID: 15090}
     - Class: 114
       Script: {instanceID: 15100}
-    - Class: 114
-      Script: {instanceID: 15118}
     - Class: 114
       Script: {instanceID: 15150}
     - Class: 114
@@ -414,11 +420,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15932}
     - Class: 114
+      Script: {instanceID: 16190}
+    - Class: 114
       Script: {instanceID: 16252}
     - Class: 114
       Script: {instanceID: 16272}
     - Class: 114
       Script: {instanceID: 16408}
+    - Class: 114
+      Script: {instanceID: 16414}
     - Class: 114
       Script: {instanceID: 16420}
     - Class: 114
@@ -438,7 +448,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16866}
     - Class: 114
+      Script: {instanceID: 16902}
+    - Class: 114
       Script: {instanceID: 16968}
+    - Class: 114
+      Script: {instanceID: 17008}
     - Class: 114
       Script: {instanceID: 17026}
     - Class: 114
@@ -462,6 +476,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17504}
     - Class: 114
+      Script: {instanceID: 17508}
+    - Class: 114
       Script: {instanceID: 17520}
     - Class: 114
       Script: {instanceID: 17556}
@@ -482,6 +498,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18020}
     - Class: 114
+      Script: {instanceID: 18086}
+    - Class: 114
       Script: {instanceID: 18092}
     - Class: 114
       Script: {instanceID: 18108}
@@ -498,6 +516,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18462}
     - Class: 114
+      Script: {instanceID: 18490}
+    - Class: 114
       Script: {instanceID: 18502}
     - Class: 114
       Script: {instanceID: 18518}
@@ -510,6 +530,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18722}
     - Class: 114
+      Script: {instanceID: 18848}
+    - Class: 114
       Script: {instanceID: 18892}
     - Class: 114
       Script: {instanceID: 18960}
@@ -519,8 +541,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 19108}
     - Class: 114
       Script: {instanceID: 19160}
-    - Class: 114
-      Script: {instanceID: 19190}
     - Class: 114
       Script: {instanceID: 19232}
     - Class: 114
@@ -550,6 +570,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19886}
     - Class: 114
+      Script: {instanceID: 19892}
+    - Class: 114
       Script: {instanceID: 19904}
     - Class: 114
       Script: {instanceID: 19920}
@@ -563,6 +585,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20126}
     - Class: 114
       Script: {instanceID: 20134}
+    - Class: 114
+      Script: {instanceID: 63360}
+    - Class: 114
+      Script: {instanceID: 86642}
+    - Class: 114
+      Script: {instanceID: 86740}
+    - Class: 114
+      Script: {instanceID: 86750}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -6494,7 +6524,31 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a218e2de11e9ac31981c88a63aadbe21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DigitPadControllerRPC
+  - hash:
+      serializedVersion: 2
+      Hash: 0fffb9c01dc1cf058586ee38ad6699c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DigitPadEventControllerRPC
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColourPadControllerRPC
+  - hash:
+      serializedVersion: 2
+      Hash: a62918e25b38dfa9a4a64b2281061ce5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColourPadEventControllerRPC
   platform: 13
   scenePathNames:
-  - Assets/TFG/Scenes/Individual.unity
-  playerPath: C:/Users/Usuario/Desktop/escenaCasaMIndividual.apk
+  - Assets/TFG/Scenes/Multijugador.unity
+  playerPath: C:/Users/Usuario/Desktop/escenaCasaMMultijugador.apk

@@ -25,8 +25,7 @@ public class KeyBehaviour : MonoBehaviour
         gameObject.GetComponent<VRTK.VRTK_InteractableObject>().enabled = false;
         if (gameObject.GetComponent<PhotonTransformView>() != null)
         {
-            gameObject.GetComponent<PhotonTransformView>().enabled = false;
-            gameObject.GetComponent<TransferOwnership>().enabled = false;
+            gameObject.GetComponent<PhotonTransformView>().enabled = false;      
         }
         animation.Play();
         float animationTime = animation.clip.length;

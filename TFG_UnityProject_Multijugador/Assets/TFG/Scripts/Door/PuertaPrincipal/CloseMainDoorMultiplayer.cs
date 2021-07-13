@@ -12,6 +12,8 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
 
     private PhotonView photonView;
 
+    public GameObject mark = null;
+
     private void Start()
     {
         photonView = PhotonView.Get(this);
@@ -52,7 +54,25 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
     private void closeDoor()
     {
         animator.Play("doorClose", 0, 0.0f);
-        gameObject.SetActive(false);
+        if (mark != null)
+        {
+            StartCoroutine(SetMarkAfterClose(animator.GetCurrentAnimatorStateInfo(0).length * animator.GetCurrentAnimatorStateInfo(0).speed));
+        }
+    }
+
+    IEnumerator OpenAfterAnim(float animationTime)
+    {
+        yield return new WaitForSeconds(animationTime);
+        animator.Play("doorOpen", 0, 0.0f);
+    }
+
+    IEnumerator SetMarkAfterClose(float animationTime)
+    {
         closed = true;
+
+        yield return new WaitForSeconds(animationTime);
+
+        mark.SetActive(true);
+        gameObject.SetActive(false);
     }
 }

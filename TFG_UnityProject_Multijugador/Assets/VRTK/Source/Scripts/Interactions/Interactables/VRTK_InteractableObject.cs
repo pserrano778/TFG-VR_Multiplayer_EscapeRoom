@@ -561,6 +561,7 @@ namespace VRTK
                 if (!photonView.IsMine)
                 {
                     photonView.RequestOwnership();
+                    print("entroPermisos");
                 }
 
                 photonView.RPC("GrabObjectNetwork", RpcTarget.All);

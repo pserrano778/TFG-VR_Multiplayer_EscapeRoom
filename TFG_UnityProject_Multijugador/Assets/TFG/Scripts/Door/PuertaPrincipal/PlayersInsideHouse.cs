@@ -14,7 +14,6 @@ public class PlayersInsideHouse
         {
             playerInside[player] = true;
         }
-        Debug.Log("debug1: " + playerInside[player]);
     }
 
     public static void setPlayerOutside(int player)
@@ -24,7 +23,6 @@ public class PlayersInsideHouse
         {
             playerInside[player] = false;
         }
-        Debug.Log("debug2: " + playerInside[player]);
     }
 
     public static bool getPlayerState(int player)

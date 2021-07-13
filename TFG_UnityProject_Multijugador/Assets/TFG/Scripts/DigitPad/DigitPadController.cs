@@ -19,7 +19,7 @@ public class DigitPadController : MonoBehaviour
         UpdateUIText();
     }
 
-    private void UpdateUIText()
+    protected void UpdateUIText()
     {
         digitText.text = digit.ToString();
     }

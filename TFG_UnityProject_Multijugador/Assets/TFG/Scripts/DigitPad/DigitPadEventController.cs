@@ -15,6 +15,7 @@ public class DigitPadEventController : MonoBehaviour
     {
         objectInside.SetActive(false);
     }
+
     public void CheckNumber()
     {
         if (locked)
@@ -25,8 +26,7 @@ public class DigitPadEventController : MonoBehaviour
             {
                 numberStr += digits[i].digitText.text;
             }
-            print(number);
-            print(numberStr);
+
             if (number.Equals(numberStr)){
                PlayAnimation();
             }
@@ -35,7 +35,7 @@ public class DigitPadEventController : MonoBehaviour
         }
     }
 
-    private void PlayAnimation()
+    protected void PlayAnimation()
     {
         objectInside.SetActive(true);
         animator.Play("open", 0, 0.0f);
