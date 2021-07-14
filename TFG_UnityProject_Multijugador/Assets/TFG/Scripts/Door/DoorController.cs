@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Photon.Pun;
 public class DoorController : MonoBehaviour
 {
     public Animator animator = null;
@@ -29,16 +29,33 @@ public class DoorController : MonoBehaviour
                 if (other.CompareTag(tagOpen))
                 {
                     float animationTime = 0;
+
                     if (other.CompareTag("Key"))
                     {
-                        animationTime = other.GetComponent<KeyBehaviour>().OpenDoor();
+                        PhotonView photonView = other.GetComponent<PhotonView>();
+
+                        // Si es un objeto instanciado de Photon View
+                        if (photonView != null)
+                        {
+                            // Si es nuestro objeto
+                            if (photonView.IsMine)
+                            {
+                                animationTime = other.GetComponent<KeyBehaviour>().OpenDoor();
+                                GetComponent<PhotonView>().RPC("OpenDoorRPC", RpcTarget.All, animationTime);
+                            }
+                        }
+                        else
+                        {
+                            animationTime = other.GetComponent<KeyBehaviour>().OpenDoor();
+                            StartCoroutine(OpenAfterAnim(animationTime));
+                        }
                     }
                     else
                     {
                         Destroy(other.gameObject, 1);
+                        StartCoroutine(OpenAfterAnim(animationTime));
                     }
                     closed = false;
-                    StartCoroutine(OpenAfterAnim(animationTime));       
                 }
             }
         }
@@ -58,7 +75,6 @@ public class DoorController : MonoBehaviour
                 {
                     if (tagClose == "Player" && other.gameObject.ToString().Equals("[VRTK][AUTOGEN][BodyColliderContainer] (UnityEngine.GameObject)"))
                     {
-                        
                         animator.Play("doorClose", 0, 0.0f);
                         if (mark != null)
                         {
@@ -68,6 +84,12 @@ public class DoorController : MonoBehaviour
                 }
             }
         }
+    }
+
+    [PunRPC]
+    private void OpenDoorRPC(float animationTime)
+    {
+        StartCoroutine(OpenAfterAnim(animationTime));
     }
 
     IEnumerator OpenAfterAnim(float animationTime)

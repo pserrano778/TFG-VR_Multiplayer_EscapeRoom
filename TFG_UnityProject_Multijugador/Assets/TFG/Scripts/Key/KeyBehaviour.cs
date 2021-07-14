@@ -21,16 +21,41 @@ public class KeyBehaviour : MonoBehaviour
 
     public float OpenDoor()
     {
+        PhotonView photonView = gameObject.GetComponent<PhotonView>();
+        if (photonView != null)
+        {
+            if (photonView.IsMine)
+            {
+                photonView.RPC("startAnimationRPC", RpcTarget.All);
+            }
+        }
+        else
+        {
+            startAnimation();
+        }
+
+        return animation.clip.length;
+    }
+
+    [PunRPC]
+    private void startAnimationRPC()
+    {
+        startAnimation();
+    }
+
+    private void startAnimation()
+    {
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
         gameObject.GetComponent<VRTK.VRTK_InteractableObject>().enabled = false;
         if (gameObject.GetComponent<PhotonTransformView>() != null)
         {
-            gameObject.GetComponent<PhotonTransformView>().enabled = false;      
+            gameObject.GetComponent<PhotonTransformView>().enabled = false;
         }
         animation.Play();
         float animationTime = animation.clip.length;
-        Destroy(gameObject, animationTime);
 
-        return animationTime;
+        PhotonView photonView = gameObject.GetComponent<PhotonView>();
+
+        Destroy(gameObject, animationTime);
     }
 }
