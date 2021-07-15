@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-07-16T01:30:44.688+02:00
-  initializedAtString: 2021-07-16T01:30:44.688+02:00
+  lastUpdatedAtString: 2021-07-16T01:34:36.477+02:00
+  initializedAtString: 2021-07-16T01:34:36.477+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/pserrano778/TFG-VR_Multiplayer_EscapeRoom.git
