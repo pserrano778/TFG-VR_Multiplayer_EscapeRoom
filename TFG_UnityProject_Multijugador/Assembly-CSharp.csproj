@@ -451,6 +451,7 @@
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LampLightSwitchBehaviourRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LightSwitchBehaviour.cs" />
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LightSwitchBehaviourRPC.cs" />
+    <Compile Include="Assets\TFG\Scripts\Linterna\Linterna.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkManager.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkPlayer.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkPlayerSpawner.cs" />
@@ -809,6 +810,7 @@
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TFG\Shader\BlackLight.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\FurniturePack\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
