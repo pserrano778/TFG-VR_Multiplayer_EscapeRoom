@@ -16,6 +16,8 @@ TagManager:
   - TreeRune
   - SkullRune
   - SunRune
+  - Linterna
+  - WindRune
   layers:
   - Default
   - TransparentFX

@@ -8,9 +8,8 @@
 
 		_LightDirection("Light Direction", Vector) = (0,0,1,0)
 		_LightPosition("Light Position", Vector) = (0,0,0,0)
-
 		_LightAngle("Light Angle", Range(0,180)) = 45
-		_StrengthScalar("Strength", Float) = 100
+		_StrengthScalar("Strength", Float) = 50
 	}
 	SubShader {
 		Tags { "RenderType" = "Transparent" "Queue" = "Transparent" }
@@ -38,7 +37,6 @@
 		float4 _LightDirection;
 		float _LightAngle;
 		float _StrengthScalar;
-		float _LightRange;
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
 			float3 direction = normalize(_LightPosition - IN.worldPos);
