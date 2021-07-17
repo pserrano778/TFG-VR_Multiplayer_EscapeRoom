@@ -71,6 +71,8 @@ public class BlackLightRoomLightSwitchBehaviourRPC : MonoBehaviour
 
     private void closeDoor()
     {
+        trackerJugadores.SetActive(false);
+        trackerLinterna.SetActive(false);
         codeActive = true;
         doorAnimator.Play("doorClose", 0, 0.0f);
         // Corrutina con la duracion de la animacion

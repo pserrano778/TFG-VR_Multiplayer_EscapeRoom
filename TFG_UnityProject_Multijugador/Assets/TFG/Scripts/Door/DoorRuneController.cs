@@ -46,6 +46,4 @@ public class DoorRuneController : MonoBehaviour
         Destroy(gameObject, 0);
         animator.Play("doorOpen", 0, 0.0f);  
     }
-
-    
 }
