@@ -62,6 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_Button.cs" />
+    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorKey.cs" />
+    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorScript.cs" />
+    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroController.cs" />
+    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroInteractive.cs" />
+    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
     <Compile Include="Assets\Customizable_Furnture\Source\Scripts\CleanUpAll.cs" />
     <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\AnalogicClock.cs" />
     <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\ClockTimer.cs" />
@@ -465,6 +471,8 @@
     <Compile Include="Assets\TFG\Scripts\Pad\PadEventController.cs" />
     <Compile Include="Assets\TFG\Scripts\Pad\RunePad\RunePadControllerRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\Pad\RunePad\RunePadEventControllerRPC.cs" />
+    <Compile Include="Assets\TFG\Scripts\PalancasArmario\LeverClosetController.cs" />
+    <Compile Include="Assets\TFG\Scripts\PalancasArmario\LeverTracker.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\PlayersInsideCounter.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\RoomObjectTracker.cs" />
     <Compile Include="Assets\TFG\Scripts\Skull\SkullBehaviout.cs" />

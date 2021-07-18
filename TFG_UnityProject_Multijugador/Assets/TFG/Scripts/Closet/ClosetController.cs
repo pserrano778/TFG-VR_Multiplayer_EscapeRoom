@@ -5,7 +5,7 @@ using UnityEngine;
 public class ClosetController : MonoBehaviour
 {
     // Cerrojo para evitar que dos objetos comprueben la runa al mismo tiempo
-    private static readonly object comprobandoRunas = new object();
+    private static readonly object checkingRunes = new object();
 
     private bool[] runesActive = { true, true };
     private bool doorsOpened = false;
@@ -30,17 +30,20 @@ public class ClosetController : MonoBehaviour
     private void CheckRunes()
     {
         // Bloquear el cerrojo
-        lock (comprobandoRunas)
+        lock (checkingRunes)
         {
+            // Si no están abiertas las puertas
             if (!doorsOpened)
             {
                 bool allRunesDisabled = true;
 
+                // Comprobamos si se han desactivado todas las ruanas
                 for (int i = 0; i < runesActive.Length && allRunesDisabled; i++)
                 {
                     allRunesDisabled = !runesActive[i];
                 }
 
+                // Si se han desactivado todas, se abren las puertas
                 if (allRunesDisabled)
                 {
                     doorsOpened = true;

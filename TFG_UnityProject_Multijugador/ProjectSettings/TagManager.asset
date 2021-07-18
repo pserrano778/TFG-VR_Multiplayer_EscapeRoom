@@ -18,6 +18,7 @@ TagManager:
   - SunRune
   - Linterna
   - WindRune
+  - Palanca
   layers:
   - Default
   - TransparentFX
