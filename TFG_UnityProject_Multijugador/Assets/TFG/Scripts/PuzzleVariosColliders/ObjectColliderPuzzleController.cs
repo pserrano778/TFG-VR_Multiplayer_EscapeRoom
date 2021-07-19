@@ -6,10 +6,10 @@ using Photon.Pun;
 public class ObjectColliderPuzzleController : MonoBehaviour
 {
     // Cerrojo para evitar que dos objetos comprueben el valor de objetos activos al mismo tiempo
-    private static readonly object checkingActiveObjects = new object();
+    protected static readonly object checkingActiveObjects = new object();
 
     // Cerrojo para evitar que dos entidades modifiquen el valor de objetos al mismo tiempo
-    private static readonly object modifyingNumberOfObjects = new object();
+    protected static readonly object modifyingNumberOfObjects = new object();
 
     private bool opened;
 
@@ -48,7 +48,7 @@ public class ObjectColliderPuzzleController : MonoBehaviour
     }
 
     [PunRPC]
-    private void ActivateObject()
+    protected void ActivateObject()
     {
         lock (modifyingNumberOfObjects)
         {
@@ -60,7 +60,7 @@ public class ObjectColliderPuzzleController : MonoBehaviour
     }
 
     [PunRPC]
-    private void DeactivateObject()
+    protected void DeactivateObject()
     {
         lock (modifyingNumberOfObjects)
         {

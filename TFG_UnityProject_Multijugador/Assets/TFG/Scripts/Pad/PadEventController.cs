@@ -13,6 +13,7 @@ public abstract class PadEventController : MonoBehaviour
     {
         objectInside.SetActive(false);
     }
+
     public abstract void CheckCode();
 
     protected void PlayAnimation()

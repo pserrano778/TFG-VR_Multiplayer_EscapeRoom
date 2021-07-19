@@ -7,6 +7,7 @@ public class RunePadEventControllerRPC : PadEventController
 {
     public RunePadControllerRPC[] codeElements;
     public Animator doorAnimator;
+
     public void CheckCodeRPCObject()
     {
         PhotonView photonView = PhotonView.Get(this);

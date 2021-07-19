@@ -10,6 +10,10 @@ public class CombineObjectsColliderTracker : MonoBehaviour
 
     private GameObject currentObject;
 
+    public SpriteRenderer sprite;
+
+    public int id;
+
     private void OnTriggerEnter(Collider other)
     {
         // Si coincide la etiqueta
@@ -23,8 +27,10 @@ public class CombineObjectsColliderTracker : MonoBehaviour
                     // Asignamos el objeto actual
                     currentObject = other.gameObject;
 
+                    sprite.color = new Color(0.7f, 0.6f, 0);
+
                     // Objeto Activado
-                    controller.SetNewObjectState(true, currentObject);
+                    controller.SetNewObjectState(true, currentObject, id);
                 }    
             }
         }
@@ -41,7 +47,9 @@ public class CombineObjectsColliderTracker : MonoBehaviour
                 if (currentObject == other.gameObject)
                 {
                     // Objeto Activado
-                    controller.SetNewObjectState(false, currentObject);
+                    controller.SetNewObjectState(false, currentObject, id);
+
+                    sprite.color = new Color(0, 0, 0.3f);
 
                     // Eliminamos el objeto actual
                     currentObject = null;
