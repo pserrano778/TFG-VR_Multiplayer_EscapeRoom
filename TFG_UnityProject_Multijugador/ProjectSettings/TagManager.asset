@@ -19,6 +19,8 @@ TagManager:
   - Linterna
   - WindRune
   - Palanca
+  - SkullCombine
+  - EyeCombine
   layers:
   - Default
   - TransparentFX

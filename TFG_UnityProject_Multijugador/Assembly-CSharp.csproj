@@ -471,8 +471,10 @@
     <Compile Include="Assets\TFG\Scripts\Pad\PadEventController.cs" />
     <Compile Include="Assets\TFG\Scripts\Pad\RunePad\RunePadControllerRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\Pad\RunePad\RunePadEventControllerRPC.cs" />
-    <Compile Include="Assets\TFG\Scripts\PalancasArmario\LeverClosetController.cs" />
-    <Compile Include="Assets\TFG\Scripts\PalancasArmario\LeverTracker.cs" />
+    <Compile Include="Assets\TFG\Scripts\PuzzleVariosColliders\CombineObjects\CombineObjectColliderPuzzleController.cs" />
+    <Compile Include="Assets\TFG\Scripts\PuzzleVariosColliders\CombineObjects\CombineObjectsColliderTracker.cs" />
+    <Compile Include="Assets\TFG\Scripts\PuzzleVariosColliders\ObjectColliderPuzzleController.cs" />
+    <Compile Include="Assets\TFG\Scripts\PuzzleVariosColliders\ObjectColliderTracker.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\PlayersInsideCounter.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\RoomObjectTracker.cs" />
     <Compile Include="Assets\TFG\Scripts\Skull\SkullBehaviout.cs" />
