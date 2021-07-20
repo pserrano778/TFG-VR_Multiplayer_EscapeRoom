@@ -477,7 +477,8 @@
     <Compile Include="Assets\TFG\Scripts\PuzzleVariosColliders\ObjectColliderTracker.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\PlayersInsideCounter.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\RoomObjectTracker.cs" />
-    <Compile Include="Assets\TFG\Scripts\Skull\SkullBehaviout.cs" />
+    <Compile Include="Assets\TFG\Scripts\Skull\ObjectInsideChest.cs" />
+    <Compile Include="Assets\TFG\Scripts\Skull\SkullBehaviour.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerChanger.cs" />
