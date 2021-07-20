@@ -54,9 +54,15 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
     private void closeDoor()
     {
         animator.Play("doorClose", 0, 0.0f);
+        
         if (mark != null)
         {
             StartCoroutine(SetMarkAfterClose(animator.GetCurrentAnimatorStateInfo(0).length * animator.GetCurrentAnimatorStateInfo(0).speed));
+        }
+        else
+        {
+            closed = true;
+            gameObject.SetActive(false);
         }
     }
 
@@ -68,8 +74,6 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
 
     IEnumerator SetMarkAfterClose(float animationTime)
     {
-        closed = true;
-
         yield return new WaitForSeconds(animationTime);
 
         mark.SetActive(true);

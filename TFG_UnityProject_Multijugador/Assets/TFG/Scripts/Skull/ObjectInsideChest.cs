@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public class ObjectInsideChest : MonoBehaviour
 {
-    public SkullBehaviour boneTracker;
+    public ObjectToOpenFurnitureBehaviour boneTracker;
     public string tagToCompare;
 
     private void OnTriggerEnter(Collider other)

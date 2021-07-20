@@ -34,7 +34,7 @@ public class ObjectColliderPuzzleController : MonoBehaviour
             // Comprobación de seguridad para no superar el número de objetos activos
             if (objectsActive < objectsActiveToOpen)
             {
-                GetComponent<PhotonView>().RPC("ActivateObject", RpcTarget.All);
+                ActivateObject();
             }
         }
         else
@@ -42,12 +42,11 @@ public class ObjectColliderPuzzleController : MonoBehaviour
             // Comprobación de seguridad para no establecer un número de objetos activos negativo
             if (objectsActive > 0)
             {
-                GetComponent<PhotonView>().RPC("DeactivateObject", RpcTarget.All);
+                DeactivateObject();
             }
         }
     }
 
-    [PunRPC]
     protected void ActivateObject()
     {
         lock (modifyingNumberOfObjects)
@@ -59,7 +58,6 @@ public class ObjectColliderPuzzleController : MonoBehaviour
         }
     }
 
-    [PunRPC]
     protected void DeactivateObject()
     {
         lock (modifyingNumberOfObjects)

@@ -24,13 +24,7 @@ public class CombineObjectsColliderTracker : MonoBehaviour
             {
                 if (currentObject == null)
                 {
-                    // Asignamos el objeto actual
-                    currentObject = other.gameObject;
-
-                    sprite.color = new Color(0.7f, 0.6f, 0);
-
-                    // Objeto Activado
-                    controller.SetNewObjectState(true, currentObject, id);
+                    GetComponent<PhotonView>().RPC("SetNewObject", RpcTarget.All, other.GetComponent<PhotonView>().ViewID);
                 }    
             }
         }
@@ -46,15 +40,33 @@ public class CombineObjectsColliderTracker : MonoBehaviour
             {
                 if (currentObject == other.gameObject)
                 {
-                    // Objeto Activado
-                    controller.SetNewObjectState(false, currentObject, id);
-
-                    sprite.color = new Color(0, 0, 0.3f);
-
-                    // Eliminamos el objeto actual
-                    currentObject = null;
+                    GetComponent<PhotonView>().RPC("RemoveObject", RpcTarget.All);
                 }
             }
         }
+    }
+
+    [PunRPC]
+    private void SetNewObject(int photonId)
+    {
+        // Asignamos el objeto actual
+        currentObject = PhotonView.Find(photonId).gameObject;
+
+        sprite.color = new Color(0.7f, 0.6f, 0);
+
+        // Objeto Activado
+        controller.SetNewObjectState(true, currentObject, id);
+    }
+
+    [PunRPC]
+    private void RemoveObject()
+    {
+        // Objeto Activado
+        controller.SetNewObjectState(false, currentObject, id);
+
+        sprite.color = new Color(0, 0, 0.3f);
+
+        // Eliminamos el objeto actual
+        currentObject = null;
     }
 }
