@@ -16,7 +16,7 @@ public class ObjectColliderTracker : MonoBehaviour
             if (other.GetComponent<PhotonView>().IsMine)
             {
                 // Objeto Activado
-                controller.ChangeObjectState(true);
+                GetComponent<PhotonView>().RPC("SetObjectInside", RpcTarget.All);
             }
         }
     }
@@ -29,9 +29,21 @@ public class ObjectColliderTracker : MonoBehaviour
             // Si soy el dueño del objeto
             if (other.GetComponent<PhotonView>().IsMine)
             {
-                // Objeto Activado
-                controller.ChangeObjectState(false);
+                // Objeto Desactivado
+                GetComponent<PhotonView>().RPC("SetObjectOutside", RpcTarget.All);
             }
         }
+    }
+
+    [PunRPC]
+    private void SetObjectInside()
+    {
+        controller.ChangeObjectState(true);
+    }
+
+    [PunRPC]
+    private void SetObjectOutside()
+    {
+        controller.ChangeObjectState(false);
     }
 }
