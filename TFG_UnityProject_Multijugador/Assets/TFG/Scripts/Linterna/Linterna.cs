@@ -8,6 +8,8 @@ public class Linterna : MonoBehaviour
     public GameObject luz;
     public GameObject luzHabitacion;
     public GameObject objetoARevelar;
+
+    private bool reset = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +24,16 @@ public class Linterna : MonoBehaviour
             material.SetVector("_LightPosition", luz.GetComponent<Light>().transform.position);
             material.SetVector("_LightDirection", -luz.GetComponent<Light>().transform.forward);
             material.SetFloat("_LightAngle", luz.GetComponent<Light>().spotAngle);
+
+            reset = true;
         }
-        else
+        else if(reset)
         {
             material.SetVector("_LightPosition", Vector3.zero);
             material.SetVector("_LightDirection", Vector3.zero);
             material.SetFloat("_LightAngle", 0);
+
+            reset = false;
         }
     }
 

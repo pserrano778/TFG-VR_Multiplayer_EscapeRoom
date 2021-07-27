@@ -477,6 +477,7 @@
     <Compile Include="Assets\TFG\Scripts\PuzzleVariosColliders\ObjectColliderTracker.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\PlayersInsideCounter.cs" />
     <Compile Include="Assets\TFG\Scripts\RoomObjectTracker\RoomObjectTracker.cs" />
+    <Compile Include="Assets\TFG\Scripts\SaveSystem\SaveManager.cs" />
     <Compile Include="Assets\TFG\Scripts\Skull\ObjectInsideChest.cs" />
     <Compile Include="Assets\TFG\Scripts\Skull\ObjectToOpenFurnitureBehaviour.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
