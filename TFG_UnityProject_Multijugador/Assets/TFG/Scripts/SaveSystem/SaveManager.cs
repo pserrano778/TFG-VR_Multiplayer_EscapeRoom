@@ -91,14 +91,25 @@ public class SaveManager : MonoBehaviour
     {
         activeSave.objectsPosition.Clear();
         activeSave.objectsRotation.Clear();
-        //activeSave.objectsPosition.Add(objectsToSave.character.transform.position);
-        //activeSave.objectsRotation.Add(objectsToSave.character.transform.rotation);
-        //activeSave.characterRespawnPosition = objectsToSave.character.transform.position;
-        //activeSave.characterRespawnRotation = objectsToSave.character.transform.rotation;
+
+        activeSave.nonPermanentObjectsPosition.Clear();
+        activeSave.nonPermanentObjectsRotation.Clear();
+        activeSave.nonPermanentObjectsName.Clear();
+
         for (int i = 0; i < objectsToSave.objectsToControlPosRot.Count; i++)
         {
             activeSave.objectsPosition.Add(objectsToSave.objectsToControlPosRot[i].transform.position);
             activeSave.objectsRotation.Add(objectsToSave.objectsToControlPosRot[i].transform.rotation);
+        }
+
+        for (int i = 0; i < objectsToSave.nonPermanentObjectsToControlPosRot.Count; i++)
+        {
+            if(objectsToSave.nonPermanentObjectsToControlPosRot[i] != null)
+            {
+                activeSave.nonPermanentObjectsPosition.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.position);
+                activeSave.nonPermanentObjectsRotation.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.rotation);
+                activeSave.nonPermanentObjectsName.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].name);
+            } 
         }
     }
 
@@ -109,8 +120,35 @@ public class SaveManager : MonoBehaviour
             objectsToSave.objectsToControlPosRot[i].transform.position = activeSave.objectsPosition[i];
             objectsToSave.objectsToControlPosRot[i].transform.rotation = activeSave.objectsRotation[i];
         }
-        //objectsToSave.character.transform.position = activeSave.objectsPosition[1];//activeSave.characterRespawnPosition;
-        //objectsToSave.character.transform.rotation = activeSave.objectsRotation[1];//activeSave.characterRespawnRotation;
+
+        // No hay objetos guardados
+        if (activeSave.nonPermanentObjectsPosition.Count == 0)
+        {
+            // Se eliminan los objetos de la escena
+            for (int i=0; i< objectsToSave.nonPermanentObjectsToControlPosRot.Count; i++)
+            {
+                Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
+                objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < activeSave.nonPermanentObjectsPosition.Count; i++)
+            {
+                while (objectsToSave.nonPermanentObjectsToControlPosRot[i].name != activeSave.nonPermanentObjectsName[i])
+                {
+                    Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
+                    objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
+
+                }
+                if (objectsToSave.nonPermanentObjectsToControlPosRot[i].name == activeSave.nonPermanentObjectsName[i])
+                {
+                    objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.position = activeSave.nonPermanentObjectsPosition[i];
+                    objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.rotation = activeSave.nonPermanentObjectsRotation[i];
+                }
+            }
+        }
+        
     }
 }
 
@@ -122,15 +160,19 @@ public class SaveData
     public List<Vector3> objectsPosition;
 
     public List<Quaternion> objectsRotation;
-    // public Vector3 characterRespawnPosition;
 
-    // public Quaternion characterRespawnRotation;
+    public List<Vector3> nonPermanentObjectsPosition;
 
+    public List<Quaternion> nonPermanentObjectsRotation;
+
+    public List<string> nonPermanentObjectsName;
 }
 
 [System.Serializable]
 public class ObjectsToSave
 {
     public List<GameObject> objectsToControlPosRot;
-    
+
+    public List<GameObject> nonPermanentObjectsToControlPosRot;
+
 }
