@@ -11,10 +11,6 @@ public class LampLightSwitchBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < lights.Length; i++)
-        {
-            lights[i].gameObject.SetActive(false);
-        }
 
     }
 
@@ -34,6 +30,12 @@ public class LampLightSwitchBehaviour : MonoBehaviour
 
     private void turnLightSwitch()
     {
+        // Si el animador está desactivado, se activa
+        if (!animator.enabled)
+        {
+            animator.enabled = true;
+        }
+
         // Si la luz está apagada
         if (off)
         {
