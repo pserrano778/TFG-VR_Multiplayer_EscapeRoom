@@ -28,6 +28,12 @@ public class DoorController : MonoBehaviour
                 // Si coincide la etiqueta del objeto con la de apertura
                 if (other.CompareTag(tagOpen))
                 {
+                    // Si el animador está desactivado, se activa
+                    if (!animator.enabled)
+                    {
+                        animator.enabled = true;
+                    }
+
                     float animationTime = 0;
 
                     if (other.CompareTag("Key"))
@@ -67,14 +73,26 @@ public class DoorController : MonoBehaviour
                 // Si coincide la etiqueta del objeto con la de cierre
                 if (other.CompareTag(tagClose))
                 {
+                    // Si el animador está desactivado, se activa
+                    if (!animator.enabled)
+                    {
+                        animator.enabled = true;
+                    }
+
                     animator.Play("doorClose", 0, 0.0f);
                     other.gameObject.SetActive(false);
                     closed = true;
                 }
                 else // Se busca al jugador
                 {
-                    if (tagClose == "Player" && other.gameObject.ToString().Equals("[VRTK][AUTOGEN][BodyColliderContainer] (UnityEngine.GameObject)"))
+                    if (tagClose == "Player" && (other.gameObject.ToString().Equals("[VRTK][AUTOGEN][BodyColliderContainer] (UnityEngine.GameObject)") || other.gameObject.name == "Sphere"))
                     {
+                        // Si el animador está desactivado, se activa
+                        if (!animator.enabled)
+                        {
+                            animator.enabled = true;
+                        }
+
                         animator.Play("doorClose", 0, 0.0f);
                         if (mark != null)
                         {

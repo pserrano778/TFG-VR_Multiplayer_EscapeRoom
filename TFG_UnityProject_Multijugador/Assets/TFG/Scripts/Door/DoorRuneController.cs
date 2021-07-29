@@ -12,6 +12,12 @@ public class DoorRuneController : MonoBehaviour
         // Si coincide la etiqueta del objeto con el de objeto actual
         if (other.CompareTag(tag))
         {
+            // Si el animador está desactivado, se activa
+            if (!animator.enabled)
+            {
+                animator.enabled = true;
+            }
+
             float animationTime = 0;
             PhotonView photonView = other.GetComponent<PhotonView>();
 

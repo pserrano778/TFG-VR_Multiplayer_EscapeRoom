@@ -23,6 +23,7 @@ TagManager:
   - EyeCombine
   - Combine
   - Note
+  - NaN
   layers:
   - Default
   - TransparentFX

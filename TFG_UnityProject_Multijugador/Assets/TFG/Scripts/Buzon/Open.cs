@@ -13,7 +13,7 @@ public class Open : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        key.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -30,6 +30,15 @@ public class Open : MonoBehaviour
                 openAnimation.Play();
             }
         }
-        
+    }
+
+    public bool GetClosed()
+    {
+        return closed;
+    }
+
+    public void SetClosed(bool doorClosed)
+    {
+        closed = doorClosed;
     }
 }

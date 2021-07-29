@@ -89,19 +89,35 @@ public class SaveManager : MonoBehaviour
 
     private void UpdateSaveData()
     {
+        SavePositionAndRotation();
+
+        SavePositionAndRotationOfNonPermanentObjects();
+
+        SaveDeactivableObjectsStatus();
+
+        SaveLightsStatus();
+
+        SaveDoorsState();
+    }
+
+    private void UpdateObjectsState()
+    {
+        UpdatePositionAndRotation();
+
+        UpdatePositionAndRotationOfNonPermanentObjects();
+
+        UpdateDeactivableObjects();
+
+        UpdateLights();
+
+        UpdateDoorsState();
+    }
+
+    private void SavePositionAndRotation()
+    {
         // Limpiamos los datos actuales
         activeSave.objectsPosition.Clear();
         activeSave.objectsRotation.Clear();
-
-        activeSave.nonPermanentObjectsPosition.Clear();
-        activeSave.nonPermanentObjectsRotation.Clear();
-        activeSave.nonPermanentObjectsName.Clear();
-
-        activeSave.deactivableObjects.Clear();
-
-        activeSave.lightsOff.Clear();
-
-        // Actualizamos los valores
 
         // Posiciones y rotaciones de los objetos
         for (int i = 0; i < objectsToSave.objectsToControlPosRot.Count; i++)
@@ -109,23 +125,106 @@ public class SaveManager : MonoBehaviour
             activeSave.objectsPosition.Add(objectsToSave.objectsToControlPosRot[i].transform.position);
             activeSave.objectsRotation.Add(objectsToSave.objectsToControlPosRot[i].transform.rotation);
         }
+    }
 
+    private void UpdatePositionAndRotation()
+    {
+        // Posicion y rotacion de los objetos
+        for (int i = 0; i < activeSave.objectsPosition.Count; i++)
+        {
+            // Si hay un animador en el padre, se desactiva
+            if (objectsToSave.objectsToControlPosRot[i].transform.parent.gameObject.GetComponent<Animator>() != null)
+            {
+                objectsToSave.objectsToControlPosRot[i].transform.parent.gameObject.GetComponent<Animator>().enabled = false;
+            }
+            objectsToSave.objectsToControlPosRot[i].transform.position = activeSave.objectsPosition[i];
+            objectsToSave.objectsToControlPosRot[i].transform.rotation = activeSave.objectsRotation[i];
+        }
+    }
+
+    private void SavePositionAndRotationOfNonPermanentObjects()
+    {
+        // Limpiamos los valores acutales
+        activeSave.nonPermanentObjectsPosition.Clear();
+        activeSave.nonPermanentObjectsRotation.Clear();
+        activeSave.nonPermanentObjectsIsActive.Clear();
+        activeSave.nonPermanentObjectsName.Clear();
+        
         // Objetos que pueden ser eliminados
         for (int i = 0; i < objectsToSave.nonPermanentObjectsToControlPosRot.Count; i++)
         {
-            if(objectsToSave.nonPermanentObjectsToControlPosRot[i] != null)
+            if (objectsToSave.nonPermanentObjectsToControlPosRot[i] != null)
             {
                 activeSave.nonPermanentObjectsPosition.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.position);
                 activeSave.nonPermanentObjectsRotation.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.rotation);
+                activeSave.nonPermanentObjectsIsActive.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].active);
                 activeSave.nonPermanentObjectsName.Add(objectsToSave.nonPermanentObjectsToControlPosRot[i].name);
-            } 
+            }
         }
+    }
+
+    private void UpdatePositionAndRotationOfNonPermanentObjects()
+    {
+        // Objetos que pueden ser eliminados
+        // No hay objetos guardados
+        if (activeSave.nonPermanentObjectsPosition.Count == 0)
+        {
+            // Se eliminan los objetos de la escena
+            for (int i = 0; i < objectsToSave.nonPermanentObjectsToControlPosRot.Count; i++)
+            {
+                Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
+                objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < activeSave.nonPermanentObjectsPosition.Count; i++)
+            {
+                // Eliminamos los objetos que no están guardadoos
+                while (objectsToSave.nonPermanentObjectsToControlPosRot[i].name != activeSave.nonPermanentObjectsName[i])
+                {
+                    
+                    Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
+                    objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
+
+                }
+
+                // Si el objeto está guardado, se actualiza
+                if (objectsToSave.nonPermanentObjectsToControlPosRot[i].name == activeSave.nonPermanentObjectsName[i])
+                {
+                    objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.position = activeSave.nonPermanentObjectsPosition[i];
+                    objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.rotation = activeSave.nonPermanentObjectsRotation[i];
+                    objectsToSave.nonPermanentObjectsToControlPosRot[i].SetActive(activeSave.nonPermanentObjectsIsActive[i]);
+                }
+            }
+        }
+    }
+
+    private void SaveDeactivableObjectsStatus()
+    {
+        // Limpiamos los valores actuales
+        activeSave.deactivableObjects.Clear();
 
         // Objetos que pueden activarse y desactivarse
         for (int i = 0; i < objectsToSave.deactivableObjects.Count; i++)
         {
             activeSave.deactivableObjects.Add(objectsToSave.deactivableObjects[i].active);
         }
+    }
+
+    private void UpdateDeactivableObjects()
+    {
+        // Objetos que pueden activarse y desactivarse
+        for (int i = 0; i < activeSave.deactivableObjects.Count; i++)
+        {
+            objectsToSave.deactivableObjects[i].SetActive(activeSave.deactivableObjects[i]);
+        }
+    }
+
+    private void SaveLightsStatus()
+    {
+        // Limpiamos los valores actuales
+        activeSave.lightsOff.Clear();
 
         // Luces
         for (int i = 0; i < objectsToSave.lights.Count; i++)
@@ -141,58 +240,8 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    private void UpdateObjectsState()
+    private void UpdateLights()
     {
-        // Posicion y rotacion de los objetos
-        for (int i=0; i<activeSave.objectsPosition.Count; i++)
-        {
-            // Si hay un animador en el padre, se desactiva
-            if (objectsToSave.objectsToControlPosRot[i].transform.parent.gameObject.GetComponent<Animator>() != null)
-            {
-                objectsToSave.objectsToControlPosRot[i].transform.parent.gameObject.GetComponent<Animator>().enabled = false;
-            }
-            objectsToSave.objectsToControlPosRot[i].transform.position = activeSave.objectsPosition[i];
-            objectsToSave.objectsToControlPosRot[i].transform.rotation = activeSave.objectsRotation[i];
-        }
-
-        // Objetos que pueden ser eliminados
-        // No hay objetos guardados
-        if (activeSave.nonPermanentObjectsPosition.Count == 0)
-        {
-            // Se eliminan los objetos de la escena
-            for (int i=0; i< objectsToSave.nonPermanentObjectsToControlPosRot.Count; i++)
-            {
-                Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
-                objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
-            }
-        }
-        else
-        {
-            for (int i = 0; i < activeSave.nonPermanentObjectsPosition.Count; i++)
-            {
-                // Eliminamos los objetos que no están guardadoos
-                while (objectsToSave.nonPermanentObjectsToControlPosRot[i].name != activeSave.nonPermanentObjectsName[i])
-                {
-                    Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
-                    objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
-
-                }
-
-                // Si el objeto está guardado, se actualiza
-                if (objectsToSave.nonPermanentObjectsToControlPosRot[i].name == activeSave.nonPermanentObjectsName[i])
-                {
-                    objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.position = activeSave.nonPermanentObjectsPosition[i];
-                    objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.rotation = activeSave.nonPermanentObjectsRotation[i];
-                }
-            }
-        }
-
-        // Objetos que pueden activarse y desactivarse
-        for (int i = 0; i < activeSave.deactivableObjects.Count; i++)
-        {
-            objectsToSave.deactivableObjects[i].SetActive(activeSave.deactivableObjects[i]);
-        }
-
         // Luces
         for (int i = 0; i < activeSave.lightsOff.Count; i++)
         {
@@ -206,6 +255,42 @@ public class SaveManager : MonoBehaviour
             }
         }
     }
+
+    private void SaveDoorsState()
+    {
+        // Limpiamos los valores actuales
+        activeSave.closedThings.Clear();
+
+        // Puertas
+        for (int i = 0; i < objectsToSave.closedThings.Count; i++)
+        {
+            if (objectsToSave.closedThings[i].GetComponent<DoorController>() != null)
+            {
+                activeSave.closedThings.Add(objectsToSave.closedThings[i].GetComponent<DoorController>().closed);
+            }
+            else if (objectsToSave.closedThings[i].GetComponent<Open>() != null)
+            {
+                activeSave.closedThings.Add(objectsToSave.closedThings[i].GetComponent<Open>().GetClosed());
+            }
+        }
+    }
+
+    private void UpdateDoorsState()
+    {
+        // Puertas
+        for (int i = 0; i < activeSave.closedThings.Count; i++)
+        {
+            if (objectsToSave.closedThings[i].GetComponent<DoorController>() != null)
+            {
+                objectsToSave.closedThings[i].GetComponent<DoorController>().closed = activeSave.closedThings[i];
+            }
+            else if(objectsToSave.closedThings[i].GetComponent<Open>() != null)
+            {
+                objectsToSave.closedThings[i].GetComponent<Open>().SetClosed(activeSave.closedThings[i]);
+            }
+        }
+    }
+
 }
 
 [System.Serializable]
@@ -214,18 +299,18 @@ public class SaveData
     public string saveName;
 
     public List<Vector3> objectsPosition;
-
     public List<Quaternion> objectsRotation;
 
     public List<Vector3> nonPermanentObjectsPosition;
-
     public List<Quaternion> nonPermanentObjectsRotation;
-
+    public List<bool> nonPermanentObjectsIsActive;
     public List<string> nonPermanentObjectsName;
 
     public List<bool> deactivableObjects;
 
     public List<bool> lightsOff;
+
+    public List<bool> closedThings;
 }
 
 [System.Serializable]
@@ -238,4 +323,6 @@ public class ObjectsToSave
     public List<GameObject> deactivableObjects;
 
     public List<GameObject> lights;
+
+    public List<GameObject> closedThings;
 }
