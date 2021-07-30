@@ -97,7 +97,9 @@ public class SaveManager : MonoBehaviour
 
         SaveLightsStatus();
 
-        SaveDoorsState();
+        SaveClosedThingsState();
+
+        SaveClosetDoor();
     }
 
     private void UpdateObjectsState()
@@ -110,7 +112,9 @@ public class SaveManager : MonoBehaviour
 
         UpdateLights();
 
-        UpdateDoorsState();
+        UpdateClosedThingsState();
+
+        UpdateClosetDoorState();
     }
 
     private void SavePositionAndRotation()
@@ -256,7 +260,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    private void SaveDoorsState()
+    private void SaveClosedThingsState()
     {
         // Limpiamos los valores actuales
         activeSave.closedThings.Clear();
@@ -275,7 +279,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    private void UpdateDoorsState()
+    private void UpdateClosedThingsState()
     {
         // Puertas
         for (int i = 0; i < activeSave.closedThings.Count; i++)
@@ -291,6 +295,35 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+    private void SaveClosetDoor()
+    {
+        // Limpiamos los valores actuales
+        activeSave.roomClosetRunes.Clear();
+        activeSave.roomClosetOpened.Clear();
+
+        for(int i = 0; i < objectsToSave.roomCloset.Count; i++)
+        {
+            activeSave.roomClosetOpened.Add(objectsToSave.roomCloset[i].GetComponent<ClosetController>().GetOpened());
+
+            for (int j = 0; j < objectsToSave.roomCloset[i].GetComponent<ClosetController>().GetNumRunes(); j++)
+            {
+                activeSave.roomClosetRunes.Add(objectsToSave.roomCloset[i].GetComponent<ClosetController>().GetRune(j));
+            }
+        }
+    }
+
+    private void UpdateClosetDoorState()
+    {
+        for (int i = 0; i < activeSave.roomClosetOpened.Count; i++)
+        {
+            objectsToSave.roomCloset[i].GetComponent<ClosetController>().SetOpened(activeSave.roomClosetOpened[i]);
+
+            for (int j = 0; j < activeSave.roomClosetRunes.Count; j++)
+            {
+                objectsToSave.roomCloset[i].GetComponent<ClosetController>().SetRune(j, activeSave.roomClosetRunes[j]);
+            }
+        }
+    }
 }
 
 [System.Serializable]
@@ -311,6 +344,9 @@ public class SaveData
     public List<bool> lightsOff;
 
     public List<bool> closedThings;
+
+    public List<bool> roomClosetRunes;
+    public List<bool> roomClosetOpened;
 }
 
 [System.Serializable]
@@ -325,4 +361,6 @@ public class ObjectsToSave
     public List<GameObject> lights;
 
     public List<GameObject> closedThings;
+
+    public List<GameObject> roomCloset;
 }

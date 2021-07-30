@@ -14,7 +14,7 @@ public class ClosetController : MonoBehaviour
 
     private void Start()
     {
-        objectInside.SetActive(false);
+
     }
 
     public void DisebleRune(int rune)
@@ -46,6 +46,11 @@ public class ClosetController : MonoBehaviour
                 // Si se han desactivado todas, se abren las puertas
                 if (allRunesDisabled)
                 {
+                    if (!GetComponent<Animator>().enabled)
+                    {
+                        GetComponent<Animator>().enabled = true;
+                    }
+
                     doorsOpened = true;
                     objectInside.SetActive(true);
 
@@ -53,5 +58,40 @@ public class ClosetController : MonoBehaviour
                 }
             }
         } // Desbloquear el cerrojo
+    }
+
+    public void  SetRune(int rune, bool state)
+    {
+        if (0 <= rune && rune <= 1)
+        {
+            runesActive[rune] = state;
+        }
+    }
+
+    public bool GetRune(int rune)
+    {
+        bool state = true;
+
+        if (0<=rune && rune <= 1)
+        {
+            state = runesActive[rune];
+        }
+
+        return state;
+    }
+
+    public void SetOpened(bool state)
+    {
+        doorsOpened = state;
+    }
+
+    public bool GetOpened()
+    {
+        return doorsOpened;
+    }
+
+    public int GetNumRunes()
+    {
+        return runesActive.Length;
     }
 }
