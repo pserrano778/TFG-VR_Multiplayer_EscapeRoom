@@ -4,30 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ColourPadController : MonoBehaviour
 {
-    private char color;
+    private char color = 'b';
  
     // Start is called before the first frame update
     void Start()
     {
-        color = 'b';
-        setNewColor(Color.blue);
+
     }
 
     public void NextColor()
     {
         if (color == 'b'){
-            color = 'r';
-            setNewColor(Color.red);
+            setColor('r');
         }
         else if (color == 'r')
         {
-            color = 'g';
-            setNewColor(Color.green);
+            setColor('g');
         }
         else
         {
-            color = 'b';
-            setNewColor(Color.blue);
+            setColor('b');
         }
     }
 
@@ -48,5 +44,24 @@ public class ColourPadController : MonoBehaviour
     public char getColor()
     {
         return color;
+    }
+
+    public void setColor(char colorC)
+    {
+        if (colorC == 'b')
+        {
+            color = 'b';
+            setNewColor(Color.blue);
+        }
+        else if (colorC == 'r')
+        {
+            color = 'r';
+            setNewColor(Color.red);
+        }
+        else if (colorC == 'g')
+        {
+            color = 'g';
+            setNewColor(Color.green);
+        }
     }
 }

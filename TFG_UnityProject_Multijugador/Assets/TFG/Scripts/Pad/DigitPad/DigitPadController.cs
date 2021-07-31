@@ -4,23 +4,36 @@ using UnityEngine;
 using TMPro;
 public class DigitPadController : MonoBehaviour
 {
-    private int digit;
+    private int digit = 0;
     public TextMeshProUGUI digitText;
  
     // Start is called before the first frame update
     void Start()
     {
-        digit = 0;
+
     }
 
     public void NextDigit()
     {
-        digit = (digit + 1) % 10;
-        UpdateUIText();
+        SetDigit((digit + 1) % 10);
     }
 
     protected void UpdateUIText()
     {
         digitText.text = digit.ToString();
+    }
+
+    public int GetDigit()
+    {
+        return digit;
+    }
+
+    public void SetDigit(int number)
+    {
+        if (number >= 0 && number <= 9)
+        {
+            digit = number;
+            UpdateUIText();
+        }
     }
 }

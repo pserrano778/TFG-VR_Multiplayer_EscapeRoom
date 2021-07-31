@@ -100,6 +100,8 @@ public class SaveManager : MonoBehaviour
         SaveClosedThingsState();
 
         SaveClosetDoor();
+
+        SavePadsState();
     }
 
     private void UpdateObjectsState()
@@ -115,6 +117,8 @@ public class SaveManager : MonoBehaviour
         UpdateClosedThingsState();
 
         UpdateClosetDoorState();
+
+        UpdatePadsState();
     }
 
     private void SavePositionAndRotation()
@@ -136,10 +140,14 @@ public class SaveManager : MonoBehaviour
         // Posicion y rotacion de los objetos
         for (int i = 0; i < activeSave.objectsPosition.Count; i++)
         {
-            // Si hay un animador en el padre, se desactiva
+            // Si hay un animador, se desactiva
             if (objectsToSave.objectsToControlPosRot[i].transform.parent.gameObject.GetComponent<Animator>() != null)
             {
                 objectsToSave.objectsToControlPosRot[i].transform.parent.gameObject.GetComponent<Animator>().enabled = false;
+            }
+            else if (objectsToSave.objectsToControlPosRot[i].GetComponent<Animator>() != null)
+            {
+                objectsToSave.objectsToControlPosRot[i].GetComponent<Animator>().enabled = false;
             }
             objectsToSave.objectsToControlPosRot[i].transform.position = activeSave.objectsPosition[i];
             objectsToSave.objectsToControlPosRot[i].transform.rotation = activeSave.objectsRotation[i];
@@ -176,6 +184,7 @@ public class SaveManager : MonoBehaviour
             // Se eliminan los objetos de la escena
             for (int i = 0; i < objectsToSave.nonPermanentObjectsToControlPosRot.Count; i++)
             {
+                objectsToSave.nonPermanentObjectsToControlPosRot[i].SetActive(false);
                 Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
                 objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
             }
@@ -187,7 +196,7 @@ public class SaveManager : MonoBehaviour
                 // Eliminamos los objetos que no están guardadoos
                 while (objectsToSave.nonPermanentObjectsToControlPosRot[i].name != activeSave.nonPermanentObjectsName[i])
                 {
-                    
+                    objectsToSave.nonPermanentObjectsToControlPosRot[i].SetActive(false);
                     Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[i], 0);
                     objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(i);
 
@@ -200,6 +209,14 @@ public class SaveManager : MonoBehaviour
                     objectsToSave.nonPermanentObjectsToControlPosRot[i].transform.rotation = activeSave.nonPermanentObjectsRotation[i];
                     objectsToSave.nonPermanentObjectsToControlPosRot[i].SetActive(activeSave.nonPermanentObjectsIsActive[i]);
                 }
+            }
+
+            // Si han quedado objetos por eliminar, se elimina por el final hasta que el tamaño de la lista coincida
+            while(objectsToSave.nonPermanentObjectsToControlPosRot.Count != activeSave.nonPermanentObjectsPosition.Count)
+            {
+                objectsToSave.nonPermanentObjectsToControlPosRot[activeSave.nonPermanentObjectsPosition.Count].SetActive(false);
+                Destroy(objectsToSave.nonPermanentObjectsToControlPosRot[activeSave.nonPermanentObjectsPosition.Count], 0);
+                objectsToSave.nonPermanentObjectsToControlPosRot.RemoveAt(activeSave.nonPermanentObjectsPosition.Count);
             }
         }
     }
@@ -276,6 +293,10 @@ public class SaveManager : MonoBehaviour
             {
                 activeSave.closedThings.Add(objectsToSave.closedThings[i].GetComponent<Open>().GetClosed());
             }
+            else if (objectsToSave.closedThings[i].GetComponent<OpenWithKey>() != null)
+            {
+                activeSave.closedThings.Add(objectsToSave.closedThings[i].GetComponent<OpenWithKey>().GetClosed());
+            }
         }
     }
 
@@ -291,6 +312,10 @@ public class SaveManager : MonoBehaviour
             else if(objectsToSave.closedThings[i].GetComponent<Open>() != null)
             {
                 objectsToSave.closedThings[i].GetComponent<Open>().SetClosed(activeSave.closedThings[i]);
+            }
+            else if (objectsToSave.closedThings[i].GetComponent<OpenWithKey>() != null)
+            {
+                objectsToSave.closedThings[i].GetComponent<OpenWithKey>().SetClosed(activeSave.closedThings[i]);
             }
         }
     }
@@ -324,6 +349,64 @@ public class SaveManager : MonoBehaviour
             }
         }
     }
+
+    private void SavePadsState()
+    {
+        // Limpiamos los valores actuales
+        activeSave.padLocked.Clear();
+        activeSave.digitsOfButtons.Clear();
+
+        for (int i = 0; i < objectsToSave.pads.Count; i++)
+        {
+            if (objectsToSave.pads[i].GetComponent<DigitPadEventController>() != null)
+            {
+                activeSave.padLocked.Add(objectsToSave.pads[i].GetComponent<DigitPadEventController>().GetLocked());
+            }
+            else if (objectsToSave.pads[i].GetComponent<ColourPadEventController>() != null)
+            {
+                activeSave.padLocked.Add(objectsToSave.pads[i].GetComponent<ColourPadEventController>().GetLocked());
+            }
+        }
+
+        for (int i = 0; i < objectsToSave.buttonsOfPads.Count; i++)
+        {
+            if (objectsToSave.buttonsOfPads[i].GetComponent<DigitPadController>() != null)
+            {
+                activeSave.digitsOfButtons.Add(objectsToSave.buttonsOfPads[i].GetComponent<DigitPadController>().GetDigit());
+            }
+            else if (objectsToSave.buttonsOfPads[i].GetComponent<ColourPadController>() != null)
+            {
+                activeSave.digitsOfButtons.Add(objectsToSave.buttonsOfPads[i].GetComponent<ColourPadController>().getColor());
+            }
+        }
+    }
+
+    private void UpdatePadsState()
+    {
+        for (int i = 0; i < activeSave.padLocked.Count; i++)
+        {
+            if (objectsToSave.pads[i].GetComponent<DigitPadEventController>() != null)
+            {
+                objectsToSave.pads[i].GetComponent<DigitPadEventController>().SetLocked(activeSave.padLocked[i]);
+            }
+            else if (objectsToSave.pads[i].GetComponent<ColourPadEventController>() != null)
+            {
+                objectsToSave.pads[i].GetComponent<ColourPadEventController>().SetLocked(activeSave.padLocked[i]);
+            }
+        }
+
+        for (int i = 0; i < activeSave.digitsOfButtons.Count; i++)
+        {
+            if (objectsToSave.buttonsOfPads[i].GetComponent<DigitPadController>() != null)
+            {
+                objectsToSave.buttonsOfPads[i].GetComponent<DigitPadController>().SetDigit(activeSave.digitsOfButtons[i]);
+            }
+            else if (objectsToSave.buttonsOfPads[i].GetComponent<ColourPadController>() != null)
+            {
+                objectsToSave.buttonsOfPads[i].GetComponent<ColourPadController>().setColor((char)activeSave.digitsOfButtons[i]);
+            }
+        }
+    }
 }
 
 [System.Serializable]
@@ -347,6 +430,10 @@ public class SaveData
 
     public List<bool> roomClosetRunes;
     public List<bool> roomClosetOpened;
+
+    public List<bool> padLocked;
+
+    public List<int> digitsOfButtons;   
 }
 
 [System.Serializable]
@@ -363,4 +450,8 @@ public class ObjectsToSave
     public List<GameObject> closedThings;
 
     public List<GameObject> roomCloset;
+
+    public List<GameObject> pads;
+
+    public List<GameObject> buttonsOfPads;
 }

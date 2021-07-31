@@ -13,7 +13,7 @@ public class OpenWithKey : MonoBehaviour
 
     private void Start()
     {
-        objectInside.SetActive(false);
+
     }
     // Sobreescribimos el disparador de colisión
     private void OnTriggerEnter(Collider other)
@@ -21,22 +21,37 @@ public class OpenWithKey : MonoBehaviour
         // Si la puerta está cerrada
         if (closed)
         {
-                // Si coincide la etiqueta del objeto con la de apertura
-                if (other.CompareTag(tagOpen))
+            // Si coincide la etiqueta del objeto con la de apertura
+            if (other.CompareTag(tagOpen))
+            {
+                if (!animator.enabled)
                 {
-                    float animationTime = 0;
-                    animationTime = other.GetComponent<KeyBehaviour>().OpenDoor();
-
-                    closed = false;
-                    objectInside.SetActive(true);
-                    StartCoroutine(OpenAfterAnim(animationTime));
+                    animator.enabled = true;
                 }
+
+                float animationTime = 0;
+                animationTime = other.GetComponent<KeyBehaviour>().OpenDoor();
+
+                closed = false;
+                objectInside.SetActive(true);
+                StartCoroutine(OpenAfterAnim(animationTime));
             }
         }
+    }
 
     IEnumerator OpenAfterAnim(float animationTime)
     {
         yield return new WaitForSeconds(animationTime);
         animator.Play("open", 0, 0.0f);
+    }
+
+    public bool GetClosed()
+    {
+        return closed;
+    }
+
+    public void SetClosed(bool isClosed)
+    {
+        closed = isClosed;
     }
 }

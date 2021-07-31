@@ -13,7 +13,7 @@ public class DigitPadEventController : MonoBehaviour
 
     private void Start()
     {
-        objectInside.SetActive(false);
+
     }
 
     public void CheckNumber()
@@ -28,8 +28,14 @@ public class DigitPadEventController : MonoBehaviour
             }
 
             if (number.Equals(numberStr)){
-               PlayAnimation();
-               locked = false;
+
+                if (!animator.enabled)
+                {
+                    animator.enabled = true;
+                }
+
+                PlayAnimation();
+                locked = false;
             }
         }
     }
@@ -38,5 +44,15 @@ public class DigitPadEventController : MonoBehaviour
     {
         objectInside.SetActive(true);
         animator.Play("open", 0, 0.0f);
+    }
+
+    public bool GetLocked()
+    {
+        return locked;
+    }
+
+    public void SetLocked(bool isLocked)
+    {
+        locked = isLocked;
     }
 }

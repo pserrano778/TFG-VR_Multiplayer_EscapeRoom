@@ -13,7 +13,7 @@ public class ColourPadEventController : MonoBehaviour
 
     private void Start()
     {
-        objectInside.SetActive(false);
+
     }
 
     public void CheckCode()
@@ -28,7 +28,13 @@ public class ColourPadEventController : MonoBehaviour
             }
 
             if (str.ToString().Equals(currentStr)){
-               PlayAnimation();
+
+                if (!animator.enabled)
+                {
+                    animator.enabled = true;
+                }
+
+                PlayAnimation();
                 locked = false;
             } 
         }
@@ -38,5 +44,15 @@ public class ColourPadEventController : MonoBehaviour
     {
         objectInside.SetActive(true);
         animator.Play("open", 0, 0.0f);
+    }
+
+    public bool GetLocked()
+    {
+        return locked;
+    }
+
+    public void SetLocked(bool isLocked)
+    {
+        locked = isLocked;
     }
 }
