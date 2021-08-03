@@ -451,7 +451,14 @@
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LightSwitchBehaviour.cs" />
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LightSwitchBehaviourRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\Linterna\Linterna.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\MainMenu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\Menu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\ModeSelectorMenu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\MultiplayerMenu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\NewGameMenu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\SinglePlayerMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkManager.cs" />
+    <Compile Include="Assets\TFG\Scripts\Network\NetworkManager2.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkPlayer.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkPlayerSpawner.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkVoiceManager.cs" />
