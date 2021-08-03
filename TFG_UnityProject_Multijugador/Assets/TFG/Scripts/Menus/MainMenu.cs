@@ -7,7 +7,7 @@ public class MainMenu : Menu
     
     public void PressStartButton()
     {
-        LoadScene("ModeSelectionMenu");
+        LoadScene("MenuSeleccionModo");
     }
 
     

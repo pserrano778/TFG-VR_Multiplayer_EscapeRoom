@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public abstract class Menu : MonoBehaviour
 {
+    public GameObject manager;
     public void LoadScene(string levelName)
     {
         SceneManager.LoadScene(levelName);
+        Destroy(manager);
     }
 
     public void PressQuitButton()

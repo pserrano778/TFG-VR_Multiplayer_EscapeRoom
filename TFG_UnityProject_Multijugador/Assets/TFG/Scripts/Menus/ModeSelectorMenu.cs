@@ -11,7 +11,7 @@ public class ModeSelectorMenu : Menu
 
     public void ModoUnJugador()
     {
-        LoadScene("MenuUnJugador");
+        LoadScene("MenuModoUnJugador");
     }
 
     public void ModoMultijugador()

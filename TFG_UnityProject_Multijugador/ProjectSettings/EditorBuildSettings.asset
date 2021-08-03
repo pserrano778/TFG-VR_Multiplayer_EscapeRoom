@@ -5,10 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/TFG/Scenes/Individual.unity
     guid: 723d6bd61a71978458f0497c415098b0
   - enabled: 1
     path: Assets/TFG/Scenes/Multijugador.unity
     guid: a8ad0e45f01a8224b8a076eab12ad533
+  - enabled: 1
+    path: Assets/TFG/Scenes/Menu/MenuModoMultijugador.unity
+    guid: 29fa8dd4a19858e4989046f5dfea6998
+  - enabled: 1
+    path: Assets/TFG/Scenes/Menu/MenuModoUnJugador.unity
+    guid: 2c366e9218de33c47beea10089a80ee5
+  - enabled: 1
+    path: Assets/TFG/Scenes/Menu/MenuNuevaPartida.unity
+    guid: 99e38d2ab3067294baf51738601b5061
+  - enabled: 1
+    path: Assets/TFG/Scenes/Menu/MenuPrincipal.unity
+    guid: 8348406a210d1ca439466154236fbcec
+  - enabled: 1
+    path: Assets/TFG/Scenes/Menu/MenuSeleccionModo.unity
+    guid: 61cfb0ff273032644a944f599a22e53a
   m_configObjects: {}

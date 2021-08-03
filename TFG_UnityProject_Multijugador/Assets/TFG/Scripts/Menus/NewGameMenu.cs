@@ -22,7 +22,7 @@ public class NewGameMenu : Menu
             File.Delete(savePath);
         }
 
-        LoadScene("MenuNuevaPartida");
+        LoadScene("Individual");
     }
 
     public override void Return()
