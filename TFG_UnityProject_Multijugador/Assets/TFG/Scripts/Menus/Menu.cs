@@ -8,8 +8,9 @@ public abstract class Menu : MonoBehaviour
     public GameObject manager;
     public void LoadScene(string levelName)
     {
-        SceneManager.LoadScene(levelName);
         Destroy(manager);
+        SceneManager.LoadScene(levelName);
+        
     }
 
     public void PressQuitButton()

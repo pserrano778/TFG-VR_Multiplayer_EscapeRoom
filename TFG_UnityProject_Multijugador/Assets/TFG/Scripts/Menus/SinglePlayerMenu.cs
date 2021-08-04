@@ -21,7 +21,7 @@ public class SinglePlayerMenu : Menu
         {
             saveActive = false;
             continueGameButton.gameObject.SetActive(false);
-            newGameButton.gameObject.transform.position.Set(0, 0, 0);
+            newGameButton.gameObject.transform.localPosition = new Vector3(0, 0, 0);
         }
         else
         {
