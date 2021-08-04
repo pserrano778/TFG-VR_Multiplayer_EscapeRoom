@@ -217,6 +217,7 @@ namespace OVRTouchSample
 
         private void CollisionEnable(bool enabled)
         {
+            /*
             if (m_collisionEnabled == enabled)
             {
                 return;
@@ -243,6 +244,7 @@ namespace OVRTouchSample
                     collider.transform.localScale = new Vector3(COLLIDER_SCALE_MIN, COLLIDER_SCALE_MIN, COLLIDER_SCALE_MIN);
                 }
             }
+            */
         }
     }
 }

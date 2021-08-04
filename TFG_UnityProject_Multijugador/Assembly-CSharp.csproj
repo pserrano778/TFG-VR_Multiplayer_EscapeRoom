@@ -458,6 +458,7 @@
     <Compile Include="Assets\TFG\Scripts\Menus\NewGameMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\PauseMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\SinglePlayerMenu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Network\HandsAnimation.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkManager.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkManager2.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkPlayer.cs" />
