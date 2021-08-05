@@ -1,21 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class PauseMenu : Menu
 {
-    public SaveManager saveManager;
     public GameObject pauseMenuDisplay;
+    public GameObject menu;
+    public GameObject confirmation;
 
     private bool buttonPressed = false;
     private bool paused = false;
 
-    private void Start()
-    {
-        pauseMenuDisplay.SetActive(false);
-    }
-
-    private void Update()
+    protected void CheckButton()
     {
         if (OVRInput.Get(OVRInput.Button.Three))
         {
@@ -39,19 +37,11 @@ public class PauseMenu : Menu
            
     }
 
-    public override void Return()
-    {
-        LoadScene("MenuModoUnJugador");
-    }
-
-    public void Save()
-    {
-        saveManager.Save();
-    }
-
     private void Pause()
     {
         paused = true;
+        confirmation.SetActive(false);
+        menu.SetActive(true);
         pauseMenuDisplay.SetActive(true);
         //Time.timeScale = 0;
     }
@@ -60,6 +50,20 @@ public class PauseMenu : Menu
     {
         paused = false;
         pauseMenuDisplay.SetActive(false);
+        confirmation.SetActive(false);
+        menu.SetActive(true);
         //Time.timeScale = 1;
+    }
+
+    public void ExitConfirm()
+    {
+        menu.SetActive(false);
+        confirmation.SetActive(true);    
+    }
+
+    public void CancelExit()
+    {
+        confirmation.SetActive(false);
+        menu.SetActive(true);
     }
 }

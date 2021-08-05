@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-08-04T19:38:30.122+02:00
-  initializedAtString: 2021-08-04T19:38:27.879+02:00
+  lastUpdatedAtString: 2021-08-05T21:42:31.686+02:00
+  initializedAtString: 2021-08-05T17:31:30.251+02:00
   entries:
   - path: TFG_UnityProject_Multijugador\.vs\TFG_UnityProject_Multijugador\v15\.suo
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\.vs\TFG_UnityProject_Multijugador\v15\.suo
@@ -52,25 +52,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\Oculus\SampleFramework\Core\CustomHands\Models\r_hand_skeletal_lowres.fbx.meta
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\Oculus\SampleFramework\Core\CustomHands\Models\r_hand_skeletal_lowres.fbx.meta
-    projectPath: Assets\Oculus\SampleFramework\Core\CustomHands\Models\r_hand_skeletal_lowres.fbx.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs
-    projectPath: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\Resources\Network Player.prefab
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\Resources\Network
-      Player.prefab
-    projectPath: Assets\Resources\Network Player.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: TFG_UnityProject_Multijugador\Assets\TFG\Material\BlackLightMaterial.mat
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Material\BlackLightMaterial.mat
     projectPath: Assets\TFG\Material\BlackLightMaterial.mat
@@ -80,6 +61,24 @@ MonoBehaviour:
   - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual.unity
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual.unity
     projectPath: Assets\TFG\Scenes\Individual.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\LightingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\LightingData.asset
+    projectPath: Assets\TFG\Scenes\Individual\LightingData.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\OcclusionCullingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\OcclusionCullingData.asset
+    projectPath: Assets\TFG\Scenes\Individual\OcclusionCullingData.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\ReflectionProbe-0.exr
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\ReflectionProbe-0.exr
+    projectPath: Assets\TFG\Scenes\Individual\ReflectionProbe-0.exr
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -119,108 +118,312 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\HandsAnimation.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\HandsAnimation.cs
-    projectPath: Assets\TFG\Scripts\Network\HandsAnimation.cs
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\LightingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\LightingData.asset
+    projectPath: Assets\TFG\Scenes\Multijugador\LightingData.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\OcclusionCullingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\OcclusionCullingData.asset
+    projectPath: Assets\TFG\Scenes\Multijugador\OcclusionCullingData.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\ReflectionProbe-0.exr
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\ReflectionProbe-0.exr
+    projectPath: Assets\TFG\Scenes\Multijugador\ReflectionProbe-0.exr
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenu.cs
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenu.cs
+    projectPath: Assets\TFG\Scripts\Menus\PauseMenu.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs
+    projectPath: Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\HandsAnimation.cs.meta
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\HandsAnimation.cs.meta
-    projectPath: Assets\TFG\Scripts\Network\HandsAnimation.cs.meta
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs.meta
+    projectPath: Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\07\070b0d758df27a845d30591340e7b9ff
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\07\070b0d758df27a845d30591340e7b9ff
-    projectPath: Library\Artifacts\07\070b0d758df27a845d30591340e7b9ff
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs
+    projectPath: Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\28\289fcc2498cfea31bf1dbc6cd0f9221c
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\28\289fcc2498cfea31bf1dbc6cd0f9221c
-    projectPath: Library\Artifacts\28\289fcc2498cfea31bf1dbc6cd0f9221c
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs.meta
+    projectPath: Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\NetworkManager.cs
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\NetworkManager.cs
+    projectPath: Assets\TFG\Scripts\Network\NetworkManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\VoiceChat.cs
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Network\VoiceChat.cs
+    projectPath: Assets\TFG\Scripts\Network\VoiceChat.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\0f\0f091cbffabf634608109bd95d0c00d1
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\0f\0f091cbffabf634608109bd95d0c00d1
+    projectPath: Library\Artifacts\0f\0f091cbffabf634608109bd95d0c00d1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\0f\0f43e73fd590c62e802bc78146d2de9b
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\0f\0f43e73fd590c62e802bc78146d2de9b
+    projectPath: Library\Artifacts\0f\0f43e73fd590c62e802bc78146d2de9b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\11\11163cad03f55b8b34f6b99a11b53c63
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\11\11163cad03f55b8b34f6b99a11b53c63
+    projectPath: Library\Artifacts\11\11163cad03f55b8b34f6b99a11b53c63
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\15\15a3604347a193acac324e9836ab4ab2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\15\15a3604347a193acac324e9836ab4ab2
+    projectPath: Library\Artifacts\15\15a3604347a193acac324e9836ab4ab2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\16\168dde046a1da389e0c7d7ab86ca30dc
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\16\168dde046a1da389e0c7d7ab86ca30dc
+    projectPath: Library\Artifacts\16\168dde046a1da389e0c7d7ab86ca30dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\1c\1c038238b810c91b19562c4534b7021f
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\1c\1c038238b810c91b19562c4534b7021f
+    projectPath: Library\Artifacts\1c\1c038238b810c91b19562c4534b7021f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\1f\1f70462f03eb0816794f8673280b7123
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\1f\1f70462f03eb0816794f8673280b7123
+    projectPath: Library\Artifacts\1f\1f70462f03eb0816794f8673280b7123
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\20\2027a5d488e89db83103c35ce752e17d
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\20\2027a5d488e89db83103c35ce752e17d
+    projectPath: Library\Artifacts\20\2027a5d488e89db83103c35ce752e17d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\2c\2c32b50f00bb4bda59706758caafabc2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\2c\2c32b50f00bb4bda59706758caafabc2
+    projectPath: Library\Artifacts\2c\2c32b50f00bb4bda59706758caafabc2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\2d\2d56e458aaa3390ac76ee64fed1ba4aa
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\2d\2d56e458aaa3390ac76ee64fed1ba4aa
+    projectPath: Library\Artifacts\2d\2d56e458aaa3390ac76ee64fed1ba4aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\33\338f3abf4ba8950da18da25689d1ba09
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\33\338f3abf4ba8950da18da25689d1ba09
+    projectPath: Library\Artifacts\33\338f3abf4ba8950da18da25689d1ba09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\34\3408c14ff16859fa168663f47cd64301
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\34\3408c14ff16859fa168663f47cd64301
+    projectPath: Library\Artifacts\34\3408c14ff16859fa168663f47cd64301
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\39\395470a15100b5b25b75298982729be3
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\39\395470a15100b5b25b75298982729be3
+    projectPath: Library\Artifacts\39\395470a15100b5b25b75298982729be3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\36\36467c7cff9e4488027745348e256d96
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\36\36467c7cff9e4488027745348e256d96
-    projectPath: Library\Artifacts\36\36467c7cff9e4488027745348e256d96
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\3c\3cc47ba4b2603d6739cea072e979663b
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\3c\3cc47ba4b2603d6739cea072e979663b
+    projectPath: Library\Artifacts\3c\3cc47ba4b2603d6739cea072e979663b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\4d\4d3d047aa2f45195832d87b53967f723
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\4d\4d3d047aa2f45195832d87b53967f723
-    projectPath: Library\Artifacts\4d\4d3d047aa2f45195832d87b53967f723
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\55\558e28d55ac36ec9527980ce7918e89e
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\55\558e28d55ac36ec9527980ce7918e89e
-    projectPath: Library\Artifacts\55\558e28d55ac36ec9527980ce7918e89e
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\3e\3e9bb630e03e70d989548744d2304ffb
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\3e\3e9bb630e03e70d989548744d2304ffb
+    projectPath: Library\Artifacts\3e\3e9bb630e03e70d989548744d2304ffb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\65\65e93e9271f6309e16aced705f14aab9
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\65\65e93e9271f6309e16aced705f14aab9
-    projectPath: Library\Artifacts\65\65e93e9271f6309e16aced705f14aab9
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\40\40ada0c3438630612ee0e16e0c2dbc2e
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\40\40ada0c3438630612ee0e16e0c2dbc2e
+    projectPath: Library\Artifacts\40\40ada0c3438630612ee0e16e0c2dbc2e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\7b\7ba6f677d5554f9a34fc17d258eaaace
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\7b\7ba6f677d5554f9a34fc17d258eaaace
-    projectPath: Library\Artifacts\7b\7ba6f677d5554f9a34fc17d258eaaace
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\82\82e92b0daea77d61024da0d291ea461c
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\82\82e92b0daea77d61024da0d291ea461c
-    projectPath: Library\Artifacts\82\82e92b0daea77d61024da0d291ea461c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\8e\8efd6583ee0fffa8517232c54816214d
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\8e\8efd6583ee0fffa8517232c54816214d
-    projectPath: Library\Artifacts\8e\8efd6583ee0fffa8517232c54816214d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\98\98a19c641af2a3a44f698246015719b3
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\98\98a19c641af2a3a44f698246015719b3
-    projectPath: Library\Artifacts\98\98a19c641af2a3a44f698246015719b3
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\4c\4cc87ce4eadc22fbcecc9c690d1c1f2a
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\4c\4cc87ce4eadc22fbcecc9c690d1c1f2a
+    projectPath: Library\Artifacts\4c\4cc87ce4eadc22fbcecc9c690d1c1f2a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\a5\a5345cd3cd135da575a38488441a7db0
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\a5\a5345cd3cd135da575a38488441a7db0
-    projectPath: Library\Artifacts\a5\a5345cd3cd135da575a38488441a7db0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\b6\b6cd68258672d71217c6d055e0723758
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\b6\b6cd68258672d71217c6d055e0723758
-    projectPath: Library\Artifacts\b6\b6cd68258672d71217c6d055e0723758
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\b9\b9d4a6b38160e5e650ecf2a77d673f74
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\b9\b9d4a6b38160e5e650ecf2a77d673f74
-    projectPath: Library\Artifacts\b9\b9d4a6b38160e5e650ecf2a77d673f74
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\4f\4f9c500da40703e76a1c5c48ceca8e84
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\4f\4f9c500da40703e76a1c5c48ceca8e84
+    projectPath: Library\Artifacts\4f\4f9c500da40703e76a1c5c48ceca8e84
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\f0\f0088f75c5f66fabbb3c47bf09798d62
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\f0\f0088f75c5f66fabbb3c47bf09798d62
-    projectPath: Library\Artifacts\f0\f0088f75c5f66fabbb3c47bf09798d62
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\61\6186f0e4d1be7bf045a1ea6e21225326
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\61\6186f0e4d1be7bf045a1ea6e21225326
+    projectPath: Library\Artifacts\61\6186f0e4d1be7bf045a1ea6e21225326
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\ff\ff6cca974e6fcd4380e072ea1fabfa9e
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\ff\ff6cca974e6fcd4380e072ea1fabfa9e
-    projectPath: Library\Artifacts\ff\ff6cca974e6fcd4380e072ea1fabfa9e
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\63\632e883b025acdef517efe0b4bcc13d3
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\63\632e883b025acdef517efe0b4bcc13d3
+    projectPath: Library\Artifacts\63\632e883b025acdef517efe0b4bcc13d3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\67\6799d6ec0e7fc082cf2ed38d079913cf
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\67\6799d6ec0e7fc082cf2ed38d079913cf
+    projectPath: Library\Artifacts\67\6799d6ec0e7fc082cf2ed38d079913cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\68\68f804f123bbc8123d983da3f6db0889
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\68\68f804f123bbc8123d983da3f6db0889
+    projectPath: Library\Artifacts\68\68f804f123bbc8123d983da3f6db0889
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\6c\6c55213f9e0036ce2a5fbbeee77eee53
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\6c\6c55213f9e0036ce2a5fbbeee77eee53
+    projectPath: Library\Artifacts\6c\6c55213f9e0036ce2a5fbbeee77eee53
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\77\77641e13ab7b87ae4f39da105f23e930
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\77\77641e13ab7b87ae4f39da105f23e930
+    projectPath: Library\Artifacts\77\77641e13ab7b87ae4f39da105f23e930
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\82\82662c98de2d7eb1901e0c60becb46f7
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\82\82662c98de2d7eb1901e0c60becb46f7
+    projectPath: Library\Artifacts\82\82662c98de2d7eb1901e0c60becb46f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\84\846aacb967e3b68d578981bb1adfdf9b
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\84\846aacb967e3b68d578981bb1adfdf9b
+    projectPath: Library\Artifacts\84\846aacb967e3b68d578981bb1adfdf9b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\94\94ddc52370895c277d29e6502f6b6298
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\94\94ddc52370895c277d29e6502f6b6298
+    projectPath: Library\Artifacts\94\94ddc52370895c277d29e6502f6b6298
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\95\951372341b0f07043c48fdea4855a6c0
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\95\951372341b0f07043c48fdea4855a6c0
+    projectPath: Library\Artifacts\95\951372341b0f07043c48fdea4855a6c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\99\99e68fa554af7a05d53032037b9ec313
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\99\99e68fa554af7a05d53032037b9ec313
+    projectPath: Library\Artifacts\99\99e68fa554af7a05d53032037b9ec313
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\9a\9a3f24946d8a29bd4788d4ba6f8082f2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\9a\9a3f24946d8a29bd4788d4ba6f8082f2
+    projectPath: Library\Artifacts\9a\9a3f24946d8a29bd4788d4ba6f8082f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\9f\9f8032c44f6bead7b065914e0ad650e6
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\9f\9f8032c44f6bead7b065914e0ad650e6
+    projectPath: Library\Artifacts\9f\9f8032c44f6bead7b065914e0ad650e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\b8\b86b326c5eae80e941747696ec4efad4
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\b8\b86b326c5eae80e941747696ec4efad4
+    projectPath: Library\Artifacts\b8\b86b326c5eae80e941747696ec4efad4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\ba\ba8b678e788081cf93bc0c24890d36bd
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\ba\ba8b678e788081cf93bc0c24890d36bd
+    projectPath: Library\Artifacts\ba\ba8b678e788081cf93bc0c24890d36bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\c0\c027b34000090d7310cd32694b67ed95
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\c0\c027b34000090d7310cd32694b67ed95
+    projectPath: Library\Artifacts\c0\c027b34000090d7310cd32694b67ed95
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\cc\cccd16e6938b06b123d989b3acac4dce
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\cc\cccd16e6938b06b123d989b3acac4dce
+    projectPath: Library\Artifacts\cc\cccd16e6938b06b123d989b3acac4dce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\ce\ce05220f7508543c0b10acf35483f7f2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\ce\ce05220f7508543c0b10acf35483f7f2
+    projectPath: Library\Artifacts\ce\ce05220f7508543c0b10acf35483f7f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\e0\e0657f50466e9b0674d77c8e641a12ad
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\e0\e0657f50466e9b0674d77c8e641a12ad
+    projectPath: Library\Artifacts\e0\e0657f50466e9b0674d77c8e641a12ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\eb\eb2f3243394d07949bf06bd68eb10e9b
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\eb\eb2f3243394d07949bf06bd68eb10e9b
+    projectPath: Library\Artifacts\eb\eb2f3243394d07949bf06bd68eb10e9b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\eb\ebb0ab6b6bf5915d742f0620b2df0931
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\eb\ebb0ab6b6bf5915d742f0620b2df0931
+    projectPath: Library\Artifacts\eb\ebb0ab6b6bf5915d742f0620b2df0931
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\ec\ec3312b4ea5be0fc2d2e64bd91cd91f5
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\ec\ec3312b4ea5be0fc2d2e64bd91cd91f5
+    projectPath: Library\Artifacts\ec\ec3312b4ea5be0fc2d2e64bd91cd91f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\f0\f0518325e4b90086c4d1161c73f0caa4
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\f0\f0518325e4b90086c4d1161c73f0caa4
+    projectPath: Library\Artifacts\f0\f0518325e4b90086c4d1161c73f0caa4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
@@ -281,219 +484,171 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\LastBuild.buildreport
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: TFG_UnityProject_Multijugador\Library\LastSceneManagerSetup.txt
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\LastSceneManagerSetup.txt
     projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\boot.config
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\boot.config
-    projectPath: Library\PlayerDataCache\Android\Data\boot.config
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\16ab40a13330da6e5450c7e5.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\16ab40a13330da6e5450c7e5.umbracache
+    projectPath: Library\Occlusion\16ab40a13330da6e5450c7e5.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\1eb980aa5368404e9c7eafd8.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\1eb980aa5368404e9c7eafd8.umbracache
+    projectPath: Library\Occlusion\1eb980aa5368404e9c7eafd8.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\33cac7777dc6bb40ecab2d47.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\33cac7777dc6bb40ecab2d47.umbracache
+    projectPath: Library\Occlusion\33cac7777dc6bb40ecab2d47.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\488532fd8504bb05989efcee.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\488532fd8504bb05989efcee.umbracache
+    projectPath: Library\Occlusion\488532fd8504bb05989efcee.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\5e45af2937f1b40b44f34968.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\5e45af2937f1b40b44f34968.umbracache
+    projectPath: Library\Occlusion\5e45af2937f1b40b44f34968.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\6e35e5c9e1a9c08410e95855.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\6e35e5c9e1a9c08410e95855.umbracache
+    projectPath: Library\Occlusion\6e35e5c9e1a9c08410e95855.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\71b88fd3baaad2caf63120ae.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\71b88fd3baaad2caf63120ae.umbracache
+    projectPath: Library\Occlusion\71b88fd3baaad2caf63120ae.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\753b3c3a92528e9ac5ba1416.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\753b3c3a92528e9ac5ba1416.umbracache
+    projectPath: Library\Occlusion\753b3c3a92528e9ac5ba1416.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\8503e13c4bdbc3dc4ceb237a.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\8503e13c4bdbc3dc4ceb237a.umbracache
+    projectPath: Library\Occlusion\8503e13c4bdbc3dc4ceb237a.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\8ea0863cfdc201de6a28822c.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\8ea0863cfdc201de6a28822c.umbracache
+    projectPath: Library\Occlusion\8ea0863cfdc201de6a28822c.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\9024c5d10493e3b830e3ad53.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\9024c5d10493e3b830e3ad53.umbracache
+    projectPath: Library\Occlusion\9024c5d10493e3b830e3ad53.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\9810e1cc7bdc4233cc94d9df.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\9810e1cc7bdc4233cc94d9df.umbracache
+    projectPath: Library\Occlusion\9810e1cc7bdc4233cc94d9df.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\9ac2deba9c9d594bf3276430.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\9ac2deba9c9d594bf3276430.umbracache
+    projectPath: Library\Occlusion\9ac2deba9c9d594bf3276430.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\a15933c02188a7aceff29381.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\a15933c02188a7aceff29381.umbracache
+    projectPath: Library\Occlusion\a15933c02188a7aceff29381.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\b05e8e3bd0bf66f572c9cc1a.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\b05e8e3bd0bf66f572c9cc1a.umbracache
+    projectPath: Library\Occlusion\b05e8e3bd0bf66f572c9cc1a.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\b79e74086cc90ebbee4a8e99.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\b79e74086cc90ebbee4a8e99.umbracache
+    projectPath: Library\Occlusion\b79e74086cc90ebbee4a8e99.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\bbc6d240ecb55f80cf1678ee.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\bbc6d240ecb55f80cf1678ee.umbracache
+    projectPath: Library\Occlusion\bbc6d240ecb55f80cf1678ee.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\d1b3af4d6a6076c67d886eb7.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\d1b3af4d6a6076c67d886eb7.umbracache
+    projectPath: Library\Occlusion\d1b3af4d6a6076c67d886eb7.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\d83b5f9320212f9b12be1ea4.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\d83b5f9320212f9b12be1ea4.umbracache
+    projectPath: Library\Occlusion\d83b5f9320212f9b12be1ea4.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\eb56a1835ea9d4de905c5c4a.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\eb56a1835ea9d4de905c5c4a.umbracache
+    projectPath: Library\Occlusion\eb56a1835ea9d4de905c5c4a.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\f42533541bf2ca3691e52ff1.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\f42533541bf2ca3691e52ff1.umbracache
+    projectPath: Library\Occlusion\f42533541bf2ca3691e52ff1.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\f516b0356adfddc07005ed4a.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\f516b0356adfddc07005ed4a.umbracache
+    projectPath: Library\Occlusion\f516b0356adfddc07005ed4a.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\f80f0e36183fe22faf428da1.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\f80f0e36183fe22faf428da1.umbracache
+    projectPath: Library\Occlusion\f80f0e36183fe22faf428da1.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\fc2dac10c327da06f6c5e475.umbracache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\fc2dac10c327da06f6c5e475.umbracache
+    projectPath: Library\Occlusion\fc2dac10c327da06f6c5e475.umbracache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\input.scene
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\input.scene
+    projectPath: Library\Occlusion\input.scene
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\log.txt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\log.txt
+    projectPath: Library\Occlusion\log.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.pdb
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.pdb
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.Platform.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.Platform.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Oculus.Platform.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.VR.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.VR.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Oculus.VR.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonChat.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonChat.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonChat.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonRealtime.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonRealtime.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonRealtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Demos.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Demos.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Demos.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Utilities.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Utilities.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Utilities.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.API.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.API.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.API.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.PUN.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.PUN.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.PUN.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Animation.Rigging.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Animation.Rigging.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Animation.Rigging.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Burst.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Burst.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Burst.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Mathematics.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Mathematics.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Mathematics.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Csg.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Csg.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Csg.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.KdTree.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.KdTree.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.KdTree.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Stl.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Stl.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Stl.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.Base.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.Base.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.Base.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\output.tome
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\output.tome
+    projectPath: Library\Occlusion\output.tome
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -515,177 +670,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\0\003d07c6eb7cf5d060378e3f4523cdbf.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\0\003d07c6eb7cf5d060378e3f4523cdbf.bin
-    projectPath: Library\ShaderCache\0\003d07c6eb7cf5d060378e3f4523cdbf.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache.db
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache.db
+    projectPath: Library\ShaderCache.db
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\0\01d2701f5cbc06d9a29cf25cdd5ec629.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\0\01d2701f5cbc06d9a29cf25cdd5ec629.bin
+    projectPath: Library\ShaderCache\0\01d2701f5cbc06d9a29cf25cdd5ec629.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\0\07320b96e4ff19178ddc767af3582a43.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\0\07320b96e4ff19178ddc767af3582a43.bin
-    projectPath: Library\ShaderCache\0\07320b96e4ff19178ddc767af3582a43.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\0\0debe87ca5bdc4b23e5e867d28cfa665.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\0\0debe87ca5bdc4b23e5e867d28cfa665.bin
+    projectPath: Library\ShaderCache\0\0debe87ca5bdc4b23e5e867d28cfa665.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\1\14fcce03a83bf4a4873ff0f6d606c1b3.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\1\14fcce03a83bf4a4873ff0f6d606c1b3.bin
-    projectPath: Library\ShaderCache\1\14fcce03a83bf4a4873ff0f6d606c1b3.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\3\36c7502ca662710bb7e65f5d9fa89346.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\3\36c7502ca662710bb7e65f5d9fa89346.bin
+    projectPath: Library\ShaderCache\3\36c7502ca662710bb7e65f5d9fa89346.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\1\18189f00352ee176a1b256cc161a4a6f.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\1\18189f00352ee176a1b256cc161a4a6f.bin
-    projectPath: Library\ShaderCache\1\18189f00352ee176a1b256cc161a4a6f.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\3\3b6f4e3fd2b03ade94886b22ae1282e8.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\3\3b6f4e3fd2b03ade94886b22ae1282e8.bin
+    projectPath: Library\ShaderCache\3\3b6f4e3fd2b03ade94886b22ae1282e8.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\1\1cebe87f3f217c555f17349cd80a89b2.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\1\1cebe87f3f217c555f17349cd80a89b2.bin
-    projectPath: Library\ShaderCache\1\1cebe87f3f217c555f17349cd80a89b2.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\5\594aae186741df2e67894cda73e0a31f.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\5\594aae186741df2e67894cda73e0a31f.bin
+    projectPath: Library\ShaderCache\5\594aae186741df2e67894cda73e0a31f.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\2\29239419ce56a9c4b44d582b0719b8c5.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\2\29239419ce56a9c4b44d582b0719b8c5.bin
-    projectPath: Library\ShaderCache\2\29239419ce56a9c4b44d582b0719b8c5.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\6\67472f42e808ac1b5a7e9cf3ac991e8e.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\6\67472f42e808ac1b5a7e9cf3ac991e8e.bin
+    projectPath: Library\ShaderCache\6\67472f42e808ac1b5a7e9cf3ac991e8e.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\3\3a87dafb83311546db709ffcdbb86475.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\3\3a87dafb83311546db709ffcdbb86475.bin
-    projectPath: Library\ShaderCache\3\3a87dafb83311546db709ffcdbb86475.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\7\75a2502fe3ff7f08b4a78130b61828da.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\7\75a2502fe3ff7f08b4a78130b61828da.bin
+    projectPath: Library\ShaderCache\7\75a2502fe3ff7f08b4a78130b61828da.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\4\41665d746d298fb2d82ee43180146f23.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\4\41665d746d298fb2d82ee43180146f23.bin
-    projectPath: Library\ShaderCache\4\41665d746d298fb2d82ee43180146f23.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\7\7b07d95424e5f3a86129842d0940d48b.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\7\7b07d95424e5f3a86129842d0940d48b.bin
+    projectPath: Library\ShaderCache\7\7b07d95424e5f3a86129842d0940d48b.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\5\54d0f73f663ca729db0bbf2b91edc4c8.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\5\54d0f73f663ca729db0bbf2b91edc4c8.bin
-    projectPath: Library\ShaderCache\5\54d0f73f663ca729db0bbf2b91edc4c8.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\a\adfc1c1ad9bfe8e4d1d14f172ed494b8.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\a\adfc1c1ad9bfe8e4d1d14f172ed494b8.bin
+    projectPath: Library\ShaderCache\a\adfc1c1ad9bfe8e4d1d14f172ed494b8.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\6\65a464f96387f8f1de2471b9d44db7c3.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\6\65a464f96387f8f1de2471b9d44db7c3.bin
-    projectPath: Library\ShaderCache\6\65a464f96387f8f1de2471b9d44db7c3.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\b\b966f48c76998475c7f49c6bccebe7fa.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\b\b966f48c76998475c7f49c6bccebe7fa.bin
+    projectPath: Library\ShaderCache\b\b966f48c76998475c7f49c6bccebe7fa.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\6\6be51920ff412be620e4aed69da02799.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\6\6be51920ff412be620e4aed69da02799.bin
-    projectPath: Library\ShaderCache\6\6be51920ff412be620e4aed69da02799.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\c\c79bb151e3779c3b9e3e9a29e0de6a5b.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\c\c79bb151e3779c3b9e3e9a29e0de6a5b.bin
+    projectPath: Library\ShaderCache\c\c79bb151e3779c3b9e3e9a29e0de6a5b.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\7\7690ab1fc2c1f430c45f8ea19f615531.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\7\7690ab1fc2c1f430c45f8ea19f615531.bin
-    projectPath: Library\ShaderCache\7\7690ab1fc2c1f430c45f8ea19f615531.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\c\c93c5941e91462c6e3202442bb6222d6.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\c\c93c5941e91462c6e3202442bb6222d6.bin
+    projectPath: Library\ShaderCache\c\c93c5941e91462c6e3202442bb6222d6.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\8\872b9e5c383d46253308f13f5f4270f8.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\8\872b9e5c383d46253308f13f5f4270f8.bin
-    projectPath: Library\ShaderCache\8\872b9e5c383d46253308f13f5f4270f8.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\9\9240aaa11cba7b1738fe7f7c2556c08a.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\9\9240aaa11cba7b1738fe7f7c2556c08a.bin
-    projectPath: Library\ShaderCache\9\9240aaa11cba7b1738fe7f7c2556c08a.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\9\95eb02a17ce0ba12d217f3032f1cf5ac.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\9\95eb02a17ce0ba12d217f3032f1cf5ac.bin
-    projectPath: Library\ShaderCache\9\95eb02a17ce0ba12d217f3032f1cf5ac.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\9\976696e02cf6377f021a85e2fc152cd6.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\9\976696e02cf6377f021a85e2fc152cd6.bin
-    projectPath: Library\ShaderCache\9\976696e02cf6377f021a85e2fc152cd6.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\9\9e98141f35fe9f3a55913c90b916e728.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\9\9e98141f35fe9f3a55913c90b916e728.bin
-    projectPath: Library\ShaderCache\9\9e98141f35fe9f3a55913c90b916e728.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\a\a30886ac6b5fd62e6f588434c01fea26.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\a\a30886ac6b5fd62e6f588434c01fea26.bin
-    projectPath: Library\ShaderCache\a\a30886ac6b5fd62e6f588434c01fea26.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\a\a63b42f52f069bbd5aeaef737f5da53f.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\a\a63b42f52f069bbd5aeaef737f5da53f.bin
-    projectPath: Library\ShaderCache\a\a63b42f52f069bbd5aeaef737f5da53f.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\b\b4f21170296a6a6939087b84b96788ea.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\b\b4f21170296a6a6939087b84b96788ea.bin
-    projectPath: Library\ShaderCache\b\b4f21170296a6a6939087b84b96788ea.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\c\c36d0ba311de679dff5e25c3fc06212b.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\c\c36d0ba311de679dff5e25c3fc06212b.bin
-    projectPath: Library\ShaderCache\c\c36d0ba311de679dff5e25c3fc06212b.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\c\ce8d0c9a225019500156d16075c5b23a.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\c\ce8d0c9a225019500156d16075c5b23a.bin
-    projectPath: Library\ShaderCache\c\ce8d0c9a225019500156d16075c5b23a.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\d\d152fb17bfa4b800172d5c9f805d47ad.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\d\d152fb17bfa4b800172d5c9f805d47ad.bin
-    projectPath: Library\ShaderCache\d\d152fb17bfa4b800172d5c9f805d47ad.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\d\dd6e8ab15d31ace6e062a36dc7905ef9.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\d\dd6e8ab15d31ace6e062a36dc7905ef9.bin
-    projectPath: Library\ShaderCache\d\dd6e8ab15d31ace6e062a36dc7905ef9.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\e\e4acccf63ff28f38dd3eb9564522972e.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\e\e4acccf63ff28f38dd3eb9564522972e.bin
-    projectPath: Library\ShaderCache\e\e4acccf63ff28f38dd3eb9564522972e.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\e\e58c7fe44e0ea8f012b016868c92c452.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\e\e58c7fe44e0ea8f012b016868c92c452.bin
-    projectPath: Library\ShaderCache\e\e58c7fe44e0ea8f012b016868c92c452.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\e\ecec43891cb1bf7c5cb297bfd204a130.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\e\ecec43891cb1bf7c5cb297bfd204a130.bin
-    projectPath: Library\ShaderCache\e\ecec43891cb1bf7c5cb297bfd204a130.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\e\efae890f7b4c1b199e1810b4ce6ce8db.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\e\efae890f7b4c1b199e1810b4ce6ce8db.bin
-    projectPath: Library\ShaderCache\e\efae890f7b4c1b199e1810b4ce6ce8db.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\e\efe91a5b719f1818129b74cd61c58e28.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\e\efe91a5b719f1818129b74cd61c58e28.bin
-    projectPath: Library\ShaderCache\e\efe91a5b719f1818129b74cd61c58e28.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\d\d085818e1ef101aca273c2af32264308.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\d\d085818e1ef101aca273c2af32264308.bin
+    projectPath: Library\ShaderCache\d\d085818e1ef101aca273c2af32264308.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -695,27 +760,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\f\f49213cc138ef7cefb771d6fa720f056.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\f\f49213cc138ef7cefb771d6fa720f056.bin
-    projectPath: Library\ShaderCache\f\f49213cc138ef7cefb771d6fa720f056.bin
+  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\f\f334c4a610d5d84c728a3ff0844707bc.bin
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\f\f334c4a610d5d84c728a3ff0844707bc.bin
+    projectPath: Library\ShaderCache\f\f334c4a610d5d84c728a3ff0844707bc.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\f\fa4585c0070bb88e8ac2eb2fbe2b3006.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\f\fa4585c0070bb88e8ac2eb2fbe2b3006.bin
-    projectPath: Library\ShaderCache\f\fa4585c0070bb88e8ac2eb2fbe2b3006.bin
+  - path: TFG_UnityProject_Multijugador\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\f\fee63dd36226b665b14e01a433e7d593.bin
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\f\fee63dd36226b665b14e01a433e7d593.bin
-    projectPath: Library\ShaderCache\f\fee63dd36226b665b14e01a433e7d593.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TFG_UnityProject_Multijugador\Library\shadercompiler-UnityShaderCompiler.exe3.log
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\shadercompiler-UnityShaderCompiler.exe3.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -725,42 +790,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-669c10684d5405447b.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-669c10684d5405447b.json
-    projectPath: Library\StateCache\Hierarchy\836cee-669c10684d5405447b.json
+  - path: TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-mainStage.json
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\836cee-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-84c8b8609f9bb434ea.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-84c8b8609f9bb434ea.json
-    projectPath: Library\StateCache\Hierarchy\836cee-84c8b8609f9bb434ea.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-e6ba3498ffa1e534b9.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-e6ba3498ffa1e534b9.json
-    projectPath: Library\StateCache\Hierarchy\836cee-e6ba3498ffa1e534b9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-669c10684d5405447b.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-669c10684d5405447b.json
-    projectPath: Library\StateCache\SceneView\e60a39-669c10684d5405447b.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-84c8b8609f9bb434ea.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-84c8b8609f9bb434ea.json
-    projectPath: Library\StateCache\SceneView\e60a39-84c8b8609f9bb434ea.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-e6ba3498ffa1e534b9.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-e6ba3498ffa1e534b9.json
-    projectPath: Library\StateCache\SceneView\e60a39-e6ba3498ffa1e534b9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-mainStage.json
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\SceneView\e60a39-mainStage.json
     projectPath: Library\StateCache\SceneView\e60a39-mainStage.json
@@ -773,9 +808,1803 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0316bc07cdc791e3f9122adedf1ee8f7.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0316bc07cdc791e3f9122adedf1ee8f7.clust
+    projectPath: Temp\ProcessJobs\0316bc07cdc791e3f9122adedf1ee8f7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\03783f5dcda3af9e2256e17aa8e76e88.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\03783f5dcda3af9e2256e17aa8e76e88.clust
+    projectPath: Temp\ProcessJobs\03783f5dcda3af9e2256e17aa8e76e88.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\04b3d30b19e5cb588814c94227aee8e7.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\04b3d30b19e5cb588814c94227aee8e7.clust
+    projectPath: Temp\ProcessJobs\04b3d30b19e5cb588814c94227aee8e7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\056fb5bbe7c5d58f2a4dd79817bffb83.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\056fb5bbe7c5d58f2a4dd79817bffb83.lt
+    projectPath: Temp\ProcessJobs\056fb5bbe7c5d58f2a4dd79817bffb83.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\056fb5bbe7c5d58f2a4dd79817bffb83.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\056fb5bbe7c5d58f2a4dd79817bffb83.vis
+    projectPath: Temp\ProcessJobs\056fb5bbe7c5d58f2a4dd79817bffb83.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\05fc17681f9260c11ed4bcbd796d362a.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\05fc17681f9260c11ed4bcbd796d362a.lt
+    projectPath: Temp\ProcessJobs\05fc17681f9260c11ed4bcbd796d362a.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\05fc17681f9260c11ed4bcbd796d362a.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\05fc17681f9260c11ed4bcbd796d362a.vis
+    projectPath: Temp\ProcessJobs\05fc17681f9260c11ed4bcbd796d362a.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\091740282e291d58421fc8ce806caa18.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\091740282e291d58421fc8ce806caa18.clust
+    projectPath: Temp\ProcessJobs\091740282e291d58421fc8ce806caa18.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0a9b7aa76af893eaa1bc87d2fe30411c.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0a9b7aa76af893eaa1bc87d2fe30411c.lt
+    projectPath: Temp\ProcessJobs\0a9b7aa76af893eaa1bc87d2fe30411c.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0a9b7aa76af893eaa1bc87d2fe30411c.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0a9b7aa76af893eaa1bc87d2fe30411c.vis
+    projectPath: Temp\ProcessJobs\0a9b7aa76af893eaa1bc87d2fe30411c.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0d6c08f6dce07354c6a4409be1bb807f.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0d6c08f6dce07354c6a4409be1bb807f.lt
+    projectPath: Temp\ProcessJobs\0d6c08f6dce07354c6a4409be1bb807f.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0d6c08f6dce07354c6a4409be1bb807f.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0d6c08f6dce07354c6a4409be1bb807f.vis
+    projectPath: Temp\ProcessJobs\0d6c08f6dce07354c6a4409be1bb807f.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0f6a8210b5d76244aa087fb3d00c34b8.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0f6a8210b5d76244aa087fb3d00c34b8.lt
+    projectPath: Temp\ProcessJobs\0f6a8210b5d76244aa087fb3d00c34b8.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\0f6a8210b5d76244aa087fb3d00c34b8.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\0f6a8210b5d76244aa087fb3d00c34b8.vis
+    projectPath: Temp\ProcessJobs\0f6a8210b5d76244aa087fb3d00c34b8.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\100c9567d6f18e3f710016bcd2fe7b3c.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\100c9567d6f18e3f710016bcd2fe7b3c.clust
+    projectPath: Temp\ProcessJobs\100c9567d6f18e3f710016bcd2fe7b3c.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\116df774956a2901c176042b84c1bead.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\116df774956a2901c176042b84c1bead.clust
+    projectPath: Temp\ProcessJobs\116df774956a2901c176042b84c1bead.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\12165ff81ebd0671abe707e66311027e.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\12165ff81ebd0671abe707e66311027e.clust
+    projectPath: Temp\ProcessJobs\12165ff81ebd0671abe707e66311027e.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1256d879b2a6369d531855260bd16ec4.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1256d879b2a6369d531855260bd16ec4.clust
+    projectPath: Temp\ProcessJobs\1256d879b2a6369d531855260bd16ec4.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\12d8d274f9a6f7904d63f4e0aa5f2b63.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\12d8d274f9a6f7904d63f4e0aa5f2b63.clust
+    projectPath: Temp\ProcessJobs\12d8d274f9a6f7904d63f4e0aa5f2b63.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\13dcb6add06464e24606eb9c203269a6.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\13dcb6add06464e24606eb9c203269a6.clust
+    projectPath: Temp\ProcessJobs\13dcb6add06464e24606eb9c203269a6.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\153079d8b26aa83095fffdee8b1e021f.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\153079d8b26aa83095fffdee8b1e021f.clust
+    projectPath: Temp\ProcessJobs\153079d8b26aa83095fffdee8b1e021f.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\17c2c8edd79880b8371b4550c02e0d44.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\17c2c8edd79880b8371b4550c02e0d44.clust
+    projectPath: Temp\ProcessJobs\17c2c8edd79880b8371b4550c02e0d44.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1b77d278138389eebed724d3560c7364.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1b77d278138389eebed724d3560c7364.lt
+    projectPath: Temp\ProcessJobs\1b77d278138389eebed724d3560c7364.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1b77d278138389eebed724d3560c7364.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1b77d278138389eebed724d3560c7364.vis
+    projectPath: Temp\ProcessJobs\1b77d278138389eebed724d3560c7364.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1bd7aa3c3a074c971092285389e448c5.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1bd7aa3c3a074c971092285389e448c5.clust
+    projectPath: Temp\ProcessJobs\1bd7aa3c3a074c971092285389e448c5.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1ccefebde7baf9e70a4693ee14e9a4bf.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1ccefebde7baf9e70a4693ee14e9a4bf.clust
+    projectPath: Temp\ProcessJobs\1ccefebde7baf9e70a4693ee14e9a4bf.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1d5bce19e7064a816ab20b28e972a844.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1d5bce19e7064a816ab20b28e972a844.clust
+    projectPath: Temp\ProcessJobs\1d5bce19e7064a816ab20b28e972a844.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1ebd45bacdbe79727f4228fe0b5de8ae.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1ebd45bacdbe79727f4228fe0b5de8ae.clust
+    projectPath: Temp\ProcessJobs\1ebd45bacdbe79727f4228fe0b5de8ae.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1f73a8c81069ef89de5df8883b7321dd.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1f73a8c81069ef89de5df8883b7321dd.lt
+    projectPath: Temp\ProcessJobs\1f73a8c81069ef89de5df8883b7321dd.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1f73a8c81069ef89de5df8883b7321dd.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1f73a8c81069ef89de5df8883b7321dd.vis
+    projectPath: Temp\ProcessJobs\1f73a8c81069ef89de5df8883b7321dd.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\1fc890c21cb046896eeadd7e9d178af3.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\1fc890c21cb046896eeadd7e9d178af3.clust
+    projectPath: Temp\ProcessJobs\1fc890c21cb046896eeadd7e9d178af3.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\20f773ee927cfbee00b8738730f276eb.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\20f773ee927cfbee00b8738730f276eb.clust
+    projectPath: Temp\ProcessJobs\20f773ee927cfbee00b8738730f276eb.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\21ad720ad14f075f4d356114607a7930.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\21ad720ad14f075f4d356114607a7930.lt
+    projectPath: Temp\ProcessJobs\21ad720ad14f075f4d356114607a7930.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\21ad720ad14f075f4d356114607a7930.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\21ad720ad14f075f4d356114607a7930.vis
+    projectPath: Temp\ProcessJobs\21ad720ad14f075f4d356114607a7930.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\28ebaefd9b1afddd6b0529bee90c5bc2.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\28ebaefd9b1afddd6b0529bee90c5bc2.clust
+    projectPath: Temp\ProcessJobs\28ebaefd9b1afddd6b0529bee90c5bc2.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\2c8ca7e5728a03975fae5bfd572e9566.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\2c8ca7e5728a03975fae5bfd572e9566.lt
+    projectPath: Temp\ProcessJobs\2c8ca7e5728a03975fae5bfd572e9566.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\2c8ca7e5728a03975fae5bfd572e9566.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\2c8ca7e5728a03975fae5bfd572e9566.vis
+    projectPath: Temp\ProcessJobs\2c8ca7e5728a03975fae5bfd572e9566.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\2e2e67400f34d3c98ab4533637e7d418.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\2e2e67400f34d3c98ab4533637e7d418.clust
+    projectPath: Temp\ProcessJobs\2e2e67400f34d3c98ab4533637e7d418.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\2ff329e80b93f1abbca385d813962859.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\2ff329e80b93f1abbca385d813962859.clust
+    projectPath: Temp\ProcessJobs\2ff329e80b93f1abbca385d813962859.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\308bb29692378fd8317b7b5763c815a2.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\308bb29692378fd8317b7b5763c815a2.lt
+    projectPath: Temp\ProcessJobs\308bb29692378fd8317b7b5763c815a2.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\308bb29692378fd8317b7b5763c815a2.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\308bb29692378fd8317b7b5763c815a2.vis
+    projectPath: Temp\ProcessJobs\308bb29692378fd8317b7b5763c815a2.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\30f1e51d37e9bf435e3ac5bb5f34d353.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\30f1e51d37e9bf435e3ac5bb5f34d353.lt
+    projectPath: Temp\ProcessJobs\30f1e51d37e9bf435e3ac5bb5f34d353.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\30f1e51d37e9bf435e3ac5bb5f34d353.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\30f1e51d37e9bf435e3ac5bb5f34d353.vis
+    projectPath: Temp\ProcessJobs\30f1e51d37e9bf435e3ac5bb5f34d353.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\317bbad349d7a656e28786ae16db1b9e.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\317bbad349d7a656e28786ae16db1b9e.clust
+    projectPath: Temp\ProcessJobs\317bbad349d7a656e28786ae16db1b9e.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\320faf1e8aa1c551bf27d95868b15ee2.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\320faf1e8aa1c551bf27d95868b15ee2.lt
+    projectPath: Temp\ProcessJobs\320faf1e8aa1c551bf27d95868b15ee2.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\320faf1e8aa1c551bf27d95868b15ee2.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\320faf1e8aa1c551bf27d95868b15ee2.vis
+    projectPath: Temp\ProcessJobs\320faf1e8aa1c551bf27d95868b15ee2.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\327fcdb6119c45f1297e3b97b0858df0.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\327fcdb6119c45f1297e3b97b0858df0.lt
+    projectPath: Temp\ProcessJobs\327fcdb6119c45f1297e3b97b0858df0.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\327fcdb6119c45f1297e3b97b0858df0.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\327fcdb6119c45f1297e3b97b0858df0.vis
+    projectPath: Temp\ProcessJobs\327fcdb6119c45f1297e3b97b0858df0.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\335c9dacfec27ce3b9ec4522a852b8a3.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\335c9dacfec27ce3b9ec4522a852b8a3.clust
+    projectPath: Temp\ProcessJobs\335c9dacfec27ce3b9ec4522a852b8a3.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\338794b7eebe42a65e20c288b32fbfb1.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\338794b7eebe42a65e20c288b32fbfb1.lt
+    projectPath: Temp\ProcessJobs\338794b7eebe42a65e20c288b32fbfb1.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\338794b7eebe42a65e20c288b32fbfb1.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\338794b7eebe42a65e20c288b32fbfb1.vis
+    projectPath: Temp\ProcessJobs\338794b7eebe42a65e20c288b32fbfb1.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3399ad6f8d2e2e692075f1354d831644.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3399ad6f8d2e2e692075f1354d831644.lt
+    projectPath: Temp\ProcessJobs\3399ad6f8d2e2e692075f1354d831644.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3399ad6f8d2e2e692075f1354d831644.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3399ad6f8d2e2e692075f1354d831644.vis
+    projectPath: Temp\ProcessJobs\3399ad6f8d2e2e692075f1354d831644.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3457b2cba436685e166ccedadd5c22b6.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3457b2cba436685e166ccedadd5c22b6.clust
+    projectPath: Temp\ProcessJobs\3457b2cba436685e166ccedadd5c22b6.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\34e5d75e1e50c4ad72cfb17f72930878.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\34e5d75e1e50c4ad72cfb17f72930878.lt
+    projectPath: Temp\ProcessJobs\34e5d75e1e50c4ad72cfb17f72930878.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\34e5d75e1e50c4ad72cfb17f72930878.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\34e5d75e1e50c4ad72cfb17f72930878.vis
+    projectPath: Temp\ProcessJobs\34e5d75e1e50c4ad72cfb17f72930878.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\35c4917838eefb031fa4d04873f539e7.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\35c4917838eefb031fa4d04873f539e7.clust
+    projectPath: Temp\ProcessJobs\35c4917838eefb031fa4d04873f539e7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3626d610fc9ebf1212fdcd9868f9dc66.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3626d610fc9ebf1212fdcd9868f9dc66.lt
+    projectPath: Temp\ProcessJobs\3626d610fc9ebf1212fdcd9868f9dc66.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3626d610fc9ebf1212fdcd9868f9dc66.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3626d610fc9ebf1212fdcd9868f9dc66.vis
+    projectPath: Temp\ProcessJobs\3626d610fc9ebf1212fdcd9868f9dc66.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3701421ded1f4fe3924bf2726018c766.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3701421ded1f4fe3924bf2726018c766.clust
+    projectPath: Temp\ProcessJobs\3701421ded1f4fe3924bf2726018c766.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3726de7e2f7916efa9fba9f5044770de.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3726de7e2f7916efa9fba9f5044770de.clust
+    projectPath: Temp\ProcessJobs\3726de7e2f7916efa9fba9f5044770de.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\37f1ce0c7d466693f8290d81cad8665a.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\37f1ce0c7d466693f8290d81cad8665a.lt
+    projectPath: Temp\ProcessJobs\37f1ce0c7d466693f8290d81cad8665a.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\37f1ce0c7d466693f8290d81cad8665a.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\37f1ce0c7d466693f8290d81cad8665a.vis
+    projectPath: Temp\ProcessJobs\37f1ce0c7d466693f8290d81cad8665a.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\37fdb60d14afd54ac4cad1285521ce7e.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\37fdb60d14afd54ac4cad1285521ce7e.clust
+    projectPath: Temp\ProcessJobs\37fdb60d14afd54ac4cad1285521ce7e.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\39890cc997d97cee4212ab1b6ec5ec34.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\39890cc997d97cee4212ab1b6ec5ec34.clust
+    projectPath: Temp\ProcessJobs\39890cc997d97cee4212ab1b6ec5ec34.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3ff71175d8efdca4fa36223419dffcc9.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3ff71175d8efdca4fa36223419dffcc9.lt
+    projectPath: Temp\ProcessJobs\3ff71175d8efdca4fa36223419dffcc9.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\3ff71175d8efdca4fa36223419dffcc9.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\3ff71175d8efdca4fa36223419dffcc9.vis
+    projectPath: Temp\ProcessJobs\3ff71175d8efdca4fa36223419dffcc9.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\40111c03ad4ad3d8f7fb4ebdec982f96.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\40111c03ad4ad3d8f7fb4ebdec982f96.lt
+    projectPath: Temp\ProcessJobs\40111c03ad4ad3d8f7fb4ebdec982f96.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\40111c03ad4ad3d8f7fb4ebdec982f96.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\40111c03ad4ad3d8f7fb4ebdec982f96.vis
+    projectPath: Temp\ProcessJobs\40111c03ad4ad3d8f7fb4ebdec982f96.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\409f0e47c35ef87f7bf9d03933002a91.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\409f0e47c35ef87f7bf9d03933002a91.lt
+    projectPath: Temp\ProcessJobs\409f0e47c35ef87f7bf9d03933002a91.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\409f0e47c35ef87f7bf9d03933002a91.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\409f0e47c35ef87f7bf9d03933002a91.vis
+    projectPath: Temp\ProcessJobs\409f0e47c35ef87f7bf9d03933002a91.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\465d74b36344a163dc9ab1628e550368.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\465d74b36344a163dc9ab1628e550368.clust
+    projectPath: Temp\ProcessJobs\465d74b36344a163dc9ab1628e550368.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\466e6d122fc3286322e365f6b5d70c38.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\466e6d122fc3286322e365f6b5d70c38.clust
+    projectPath: Temp\ProcessJobs\466e6d122fc3286322e365f6b5d70c38.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\4ed3f0fbbbf378c7541faf734b16e9f1.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\4ed3f0fbbbf378c7541faf734b16e9f1.clust
+    projectPath: Temp\ProcessJobs\4ed3f0fbbbf378c7541faf734b16e9f1.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\50109e25478d6072bd857978fc0afc31.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\50109e25478d6072bd857978fc0afc31.clust
+    projectPath: Temp\ProcessJobs\50109e25478d6072bd857978fc0afc31.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\51b94214e72d0ab3b412836a85511f0d.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\51b94214e72d0ab3b412836a85511f0d.lt
+    projectPath: Temp\ProcessJobs\51b94214e72d0ab3b412836a85511f0d.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\51b94214e72d0ab3b412836a85511f0d.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\51b94214e72d0ab3b412836a85511f0d.vis
+    projectPath: Temp\ProcessJobs\51b94214e72d0ab3b412836a85511f0d.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\52a32226a4cce306dd189dc6a025ae03.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\52a32226a4cce306dd189dc6a025ae03.lt
+    projectPath: Temp\ProcessJobs\52a32226a4cce306dd189dc6a025ae03.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\52a32226a4cce306dd189dc6a025ae03.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\52a32226a4cce306dd189dc6a025ae03.vis
+    projectPath: Temp\ProcessJobs\52a32226a4cce306dd189dc6a025ae03.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\52d41cb5b4d5151fc5ad03546f282fd4.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\52d41cb5b4d5151fc5ad03546f282fd4.lt
+    projectPath: Temp\ProcessJobs\52d41cb5b4d5151fc5ad03546f282fd4.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\52d41cb5b4d5151fc5ad03546f282fd4.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\52d41cb5b4d5151fc5ad03546f282fd4.vis
+    projectPath: Temp\ProcessJobs\52d41cb5b4d5151fc5ad03546f282fd4.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\531f994902c7ef9dc1ca28446c97a6c2.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\531f994902c7ef9dc1ca28446c97a6c2.clust
+    projectPath: Temp\ProcessJobs\531f994902c7ef9dc1ca28446c97a6c2.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\539d54189c5a35127fe57730cfdb824c.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\539d54189c5a35127fe57730cfdb824c.clust
+    projectPath: Temp\ProcessJobs\539d54189c5a35127fe57730cfdb824c.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\543c545cb5cfa134f7e60c66c2096e9e.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\543c545cb5cfa134f7e60c66c2096e9e.lt
+    projectPath: Temp\ProcessJobs\543c545cb5cfa134f7e60c66c2096e9e.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\543c545cb5cfa134f7e60c66c2096e9e.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\543c545cb5cfa134f7e60c66c2096e9e.vis
+    projectPath: Temp\ProcessJobs\543c545cb5cfa134f7e60c66c2096e9e.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\54759b1f26099ee91e8e5852e1275873.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\54759b1f26099ee91e8e5852e1275873.clust
+    projectPath: Temp\ProcessJobs\54759b1f26099ee91e8e5852e1275873.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\565e2073430ba7cd62241ba5131cf590.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\565e2073430ba7cd62241ba5131cf590.lt
+    projectPath: Temp\ProcessJobs\565e2073430ba7cd62241ba5131cf590.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\565e2073430ba7cd62241ba5131cf590.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\565e2073430ba7cd62241ba5131cf590.vis
+    projectPath: Temp\ProcessJobs\565e2073430ba7cd62241ba5131cf590.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\57c134716ecb7a6faa6f58fdac119e62.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\57c134716ecb7a6faa6f58fdac119e62.lt
+    projectPath: Temp\ProcessJobs\57c134716ecb7a6faa6f58fdac119e62.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\57c134716ecb7a6faa6f58fdac119e62.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\57c134716ecb7a6faa6f58fdac119e62.vis
+    projectPath: Temp\ProcessJobs\57c134716ecb7a6faa6f58fdac119e62.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5a118a70fae2f313594876e1e86fc8ba.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5a118a70fae2f313594876e1e86fc8ba.lt
+    projectPath: Temp\ProcessJobs\5a118a70fae2f313594876e1e86fc8ba.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5a118a70fae2f313594876e1e86fc8ba.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5a118a70fae2f313594876e1e86fc8ba.vis
+    projectPath: Temp\ProcessJobs\5a118a70fae2f313594876e1e86fc8ba.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5da8a64c12cce2214b40a0f1737f13e7.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5da8a64c12cce2214b40a0f1737f13e7.lt
+    projectPath: Temp\ProcessJobs\5da8a64c12cce2214b40a0f1737f13e7.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5da8a64c12cce2214b40a0f1737f13e7.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5da8a64c12cce2214b40a0f1737f13e7.vis
+    projectPath: Temp\ProcessJobs\5da8a64c12cce2214b40a0f1737f13e7.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5dd665814baf54d3bd70b8c1f1717fc6.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5dd665814baf54d3bd70b8c1f1717fc6.lt
+    projectPath: Temp\ProcessJobs\5dd665814baf54d3bd70b8c1f1717fc6.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5dd665814baf54d3bd70b8c1f1717fc6.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5dd665814baf54d3bd70b8c1f1717fc6.vis
+    projectPath: Temp\ProcessJobs\5dd665814baf54d3bd70b8c1f1717fc6.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5e6c142a4430e94e217cf380d7916013.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5e6c142a4430e94e217cf380d7916013.lt
+    projectPath: Temp\ProcessJobs\5e6c142a4430e94e217cf380d7916013.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\5e6c142a4430e94e217cf380d7916013.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\5e6c142a4430e94e217cf380d7916013.vis
+    projectPath: Temp\ProcessJobs\5e6c142a4430e94e217cf380d7916013.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6329773872fc00bb3d43c9d2eb6ce41a.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6329773872fc00bb3d43c9d2eb6ce41a.lt
+    projectPath: Temp\ProcessJobs\6329773872fc00bb3d43c9d2eb6ce41a.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6329773872fc00bb3d43c9d2eb6ce41a.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6329773872fc00bb3d43c9d2eb6ce41a.vis
+    projectPath: Temp\ProcessJobs\6329773872fc00bb3d43c9d2eb6ce41a.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\669b71141767c0b5e4cdbfbee6c08155.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\669b71141767c0b5e4cdbfbee6c08155.clust
+    projectPath: Temp\ProcessJobs\669b71141767c0b5e4cdbfbee6c08155.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\693a72a0aaf168064efb1b2942828048.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\693a72a0aaf168064efb1b2942828048.clust
+    projectPath: Temp\ProcessJobs\693a72a0aaf168064efb1b2942828048.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6abde1c1de2e1285ce0a9083f6df0387.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6abde1c1de2e1285ce0a9083f6df0387.lt
+    projectPath: Temp\ProcessJobs\6abde1c1de2e1285ce0a9083f6df0387.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6abde1c1de2e1285ce0a9083f6df0387.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6abde1c1de2e1285ce0a9083f6df0387.vis
+    projectPath: Temp\ProcessJobs\6abde1c1de2e1285ce0a9083f6df0387.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6be2ddca9a2a6f7f7c823cf03b9e1e12.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6be2ddca9a2a6f7f7c823cf03b9e1e12.clust
+    projectPath: Temp\ProcessJobs\6be2ddca9a2a6f7f7c823cf03b9e1e12.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6e2e1404859b32b6074d6340ec6e4010.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6e2e1404859b32b6074d6340ec6e4010.lt
+    projectPath: Temp\ProcessJobs\6e2e1404859b32b6074d6340ec6e4010.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\6e2e1404859b32b6074d6340ec6e4010.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\6e2e1404859b32b6074d6340ec6e4010.vis
+    projectPath: Temp\ProcessJobs\6e2e1404859b32b6074d6340ec6e4010.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7126abe37ba0521d854c97675a0dcc46.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7126abe37ba0521d854c97675a0dcc46.lt
+    projectPath: Temp\ProcessJobs\7126abe37ba0521d854c97675a0dcc46.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7126abe37ba0521d854c97675a0dcc46.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7126abe37ba0521d854c97675a0dcc46.vis
+    projectPath: Temp\ProcessJobs\7126abe37ba0521d854c97675a0dcc46.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\73cf978ad588a087c205baf3efa86616.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\73cf978ad588a087c205baf3efa86616.clust
+    projectPath: Temp\ProcessJobs\73cf978ad588a087c205baf3efa86616.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7548ef101159f5a96649c72de40d971b.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7548ef101159f5a96649c72de40d971b.lt
+    projectPath: Temp\ProcessJobs\7548ef101159f5a96649c72de40d971b.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7548ef101159f5a96649c72de40d971b.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7548ef101159f5a96649c72de40d971b.vis
+    projectPath: Temp\ProcessJobs\7548ef101159f5a96649c72de40d971b.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\76338e567d3c56a72c0a36f8da553bf1.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\76338e567d3c56a72c0a36f8da553bf1.lt
+    projectPath: Temp\ProcessJobs\76338e567d3c56a72c0a36f8da553bf1.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\76338e567d3c56a72c0a36f8da553bf1.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\76338e567d3c56a72c0a36f8da553bf1.vis
+    projectPath: Temp\ProcessJobs\76338e567d3c56a72c0a36f8da553bf1.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\77b7f9cbae46948d6f3aecd1b8902b0b.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\77b7f9cbae46948d6f3aecd1b8902b0b.clust
+    projectPath: Temp\ProcessJobs\77b7f9cbae46948d6f3aecd1b8902b0b.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\794cee92329d019a0ac79539521694bc.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\794cee92329d019a0ac79539521694bc.lt
+    projectPath: Temp\ProcessJobs\794cee92329d019a0ac79539521694bc.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\794cee92329d019a0ac79539521694bc.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\794cee92329d019a0ac79539521694bc.vis
+    projectPath: Temp\ProcessJobs\794cee92329d019a0ac79539521694bc.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7b91f2fad3bba3d15c97b1afbc82793b.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7b91f2fad3bba3d15c97b1afbc82793b.clust
+    projectPath: Temp\ProcessJobs\7b91f2fad3bba3d15c97b1afbc82793b.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7bc0d947c816f853f84f64c9de90c72b.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7bc0d947c816f853f84f64c9de90c72b.clust
+    projectPath: Temp\ProcessJobs\7bc0d947c816f853f84f64c9de90c72b.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7c0d3ec13f93cebbf3a0f90b62bd4243.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7c0d3ec13f93cebbf3a0f90b62bd4243.lt
+    projectPath: Temp\ProcessJobs\7c0d3ec13f93cebbf3a0f90b62bd4243.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7c0d3ec13f93cebbf3a0f90b62bd4243.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7c0d3ec13f93cebbf3a0f90b62bd4243.vis
+    projectPath: Temp\ProcessJobs\7c0d3ec13f93cebbf3a0f90b62bd4243.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7f6e7fbe90ab4689ab43f91360c3dcb1.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7f6e7fbe90ab4689ab43f91360c3dcb1.lt
+    projectPath: Temp\ProcessJobs\7f6e7fbe90ab4689ab43f91360c3dcb1.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\7f6e7fbe90ab4689ab43f91360c3dcb1.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\7f6e7fbe90ab4689ab43f91360c3dcb1.vis
+    projectPath: Temp\ProcessJobs\7f6e7fbe90ab4689ab43f91360c3dcb1.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\81172b6b70c72df1ce08d6fafd8dbad2.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\81172b6b70c72df1ce08d6fafd8dbad2.lt
+    projectPath: Temp\ProcessJobs\81172b6b70c72df1ce08d6fafd8dbad2.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\81172b6b70c72df1ce08d6fafd8dbad2.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\81172b6b70c72df1ce08d6fafd8dbad2.vis
+    projectPath: Temp\ProcessJobs\81172b6b70c72df1ce08d6fafd8dbad2.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8421818c6b971da9a7b86fd74e62c6ce.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8421818c6b971da9a7b86fd74e62c6ce.clust
+    projectPath: Temp\ProcessJobs\8421818c6b971da9a7b86fd74e62c6ce.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\849b99acc75cb66b4a7abff36ee6f532.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\849b99acc75cb66b4a7abff36ee6f532.clust
+    projectPath: Temp\ProcessJobs\849b99acc75cb66b4a7abff36ee6f532.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8717f127363a66a34ce42dd581421508.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8717f127363a66a34ce42dd581421508.clust
+    projectPath: Temp\ProcessJobs\8717f127363a66a34ce42dd581421508.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8755aec94fa6972fc21de2140d8b7fc7.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8755aec94fa6972fc21de2140d8b7fc7.clust
+    projectPath: Temp\ProcessJobs\8755aec94fa6972fc21de2140d8b7fc7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\877e15d6392820349c9e28096b80f59f.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\877e15d6392820349c9e28096b80f59f.clust
+    projectPath: Temp\ProcessJobs\877e15d6392820349c9e28096b80f59f.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8a9ad26a1f4a75eed662fd4f4f322eed.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8a9ad26a1f4a75eed662fd4f4f322eed.clust
+    projectPath: Temp\ProcessJobs\8a9ad26a1f4a75eed662fd4f4f322eed.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ac72712c24cfde4968aa55c7f1844af.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ac72712c24cfde4968aa55c7f1844af.clust
+    projectPath: Temp\ProcessJobs\8ac72712c24cfde4968aa55c7f1844af.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ae30be807901f7b719bc8a68000cf4a.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ae30be807901f7b719bc8a68000cf4a.clust
+    projectPath: Temp\ProcessJobs\8ae30be807901f7b719bc8a68000cf4a.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8c249ff8801ad92e4f12dd206cd318df.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8c249ff8801ad92e4f12dd206cd318df.lt
+    projectPath: Temp\ProcessJobs\8c249ff8801ad92e4f12dd206cd318df.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8c249ff8801ad92e4f12dd206cd318df.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8c249ff8801ad92e4f12dd206cd318df.vis
+    projectPath: Temp\ProcessJobs\8c249ff8801ad92e4f12dd206cd318df.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ca47a027539032e03d2283177bd7368.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ca47a027539032e03d2283177bd7368.lt
+    projectPath: Temp\ProcessJobs\8ca47a027539032e03d2283177bd7368.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ca47a027539032e03d2283177bd7368.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\8ca47a027539032e03d2283177bd7368.vis
+    projectPath: Temp\ProcessJobs\8ca47a027539032e03d2283177bd7368.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9096fc3cd23030aabe05ee7ab54b9dbe.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9096fc3cd23030aabe05ee7ab54b9dbe.clust
+    projectPath: Temp\ProcessJobs\9096fc3cd23030aabe05ee7ab54b9dbe.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\924cbd49b658a4ed14626f45c98e3b41.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\924cbd49b658a4ed14626f45c98e3b41.lt
+    projectPath: Temp\ProcessJobs\924cbd49b658a4ed14626f45c98e3b41.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\924cbd49b658a4ed14626f45c98e3b41.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\924cbd49b658a4ed14626f45c98e3b41.vis
+    projectPath: Temp\ProcessJobs\924cbd49b658a4ed14626f45c98e3b41.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9521b3ac6e2a3331e92c5f7444284431.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9521b3ac6e2a3331e92c5f7444284431.clust
+    projectPath: Temp\ProcessJobs\9521b3ac6e2a3331e92c5f7444284431.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9604ae82810b7f0ac5372e29c5307ea5.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9604ae82810b7f0ac5372e29c5307ea5.lt
+    projectPath: Temp\ProcessJobs\9604ae82810b7f0ac5372e29c5307ea5.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9604ae82810b7f0ac5372e29c5307ea5.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9604ae82810b7f0ac5372e29c5307ea5.vis
+    projectPath: Temp\ProcessJobs\9604ae82810b7f0ac5372e29c5307ea5.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\96a0ef77112ef40052dafc6f29025714.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\96a0ef77112ef40052dafc6f29025714.clust
+    projectPath: Temp\ProcessJobs\96a0ef77112ef40052dafc6f29025714.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\96b3a6ab09f78e6a8caa4c040f259a2b.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\96b3a6ab09f78e6a8caa4c040f259a2b.lt
+    projectPath: Temp\ProcessJobs\96b3a6ab09f78e6a8caa4c040f259a2b.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\96b3a6ab09f78e6a8caa4c040f259a2b.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\96b3a6ab09f78e6a8caa4c040f259a2b.vis
+    projectPath: Temp\ProcessJobs\96b3a6ab09f78e6a8caa4c040f259a2b.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\96ea6deedf76d2b573a178504362cd96.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\96ea6deedf76d2b573a178504362cd96.lt
+    projectPath: Temp\ProcessJobs\96ea6deedf76d2b573a178504362cd96.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\96ea6deedf76d2b573a178504362cd96.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\96ea6deedf76d2b573a178504362cd96.vis
+    projectPath: Temp\ProcessJobs\96ea6deedf76d2b573a178504362cd96.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ab526b1c4dfc005b817e02079cba740.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ab526b1c4dfc005b817e02079cba740.lt
+    projectPath: Temp\ProcessJobs\9ab526b1c4dfc005b817e02079cba740.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ab526b1c4dfc005b817e02079cba740.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ab526b1c4dfc005b817e02079cba740.vis
+    projectPath: Temp\ProcessJobs\9ab526b1c4dfc005b817e02079cba740.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ec08f57a38f361b997b8a3cf4d0d5a4.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ec08f57a38f361b997b8a3cf4d0d5a4.lt
+    projectPath: Temp\ProcessJobs\9ec08f57a38f361b997b8a3cf4d0d5a4.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ec08f57a38f361b997b8a3cf4d0d5a4.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9ec08f57a38f361b997b8a3cf4d0d5a4.vis
+    projectPath: Temp\ProcessJobs\9ec08f57a38f361b997b8a3cf4d0d5a4.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9eef05ff05f91b3897260e0309170627.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9eef05ff05f91b3897260e0309170627.clust
+    projectPath: Temp\ProcessJobs\9eef05ff05f91b3897260e0309170627.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f12c9f95b1e8aa7c98e735a8257181f.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f12c9f95b1e8aa7c98e735a8257181f.lt
+    projectPath: Temp\ProcessJobs\9f12c9f95b1e8aa7c98e735a8257181f.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f12c9f95b1e8aa7c98e735a8257181f.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f12c9f95b1e8aa7c98e735a8257181f.vis
+    projectPath: Temp\ProcessJobs\9f12c9f95b1e8aa7c98e735a8257181f.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f211c24d91ed6a408c9a3294131ca6d.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f211c24d91ed6a408c9a3294131ca6d.lt
+    projectPath: Temp\ProcessJobs\9f211c24d91ed6a408c9a3294131ca6d.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f211c24d91ed6a408c9a3294131ca6d.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9f211c24d91ed6a408c9a3294131ca6d.vis
+    projectPath: Temp\ProcessJobs\9f211c24d91ed6a408c9a3294131ca6d.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\9fb57aee391a1ac42dfbec4cdf1758e8.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\9fb57aee391a1ac42dfbec4cdf1758e8.clust
+    projectPath: Temp\ProcessJobs\9fb57aee391a1ac42dfbec4cdf1758e8.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\a0f31e5594f7d72b76fb88f287d4e095.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\a0f31e5594f7d72b76fb88f287d4e095.clust
+    projectPath: Temp\ProcessJobs\a0f31e5594f7d72b76fb88f287d4e095.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\a11990911fc58b0765e1094c82c48a53.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\a11990911fc58b0765e1094c82c48a53.clust
+    projectPath: Temp\ProcessJobs\a11990911fc58b0765e1094c82c48a53.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\a567af956ec52211017be02d61c78047.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\a567af956ec52211017be02d61c78047.clust
+    projectPath: Temp\ProcessJobs\a567af956ec52211017be02d61c78047.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\a6311493ecbd5b964eef946ad0e982ae.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\a6311493ecbd5b964eef946ad0e982ae.clust
+    projectPath: Temp\ProcessJobs\a6311493ecbd5b964eef946ad0e982ae.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\a82f34a61d8bd6abed0b0bb42a64e56f.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\a82f34a61d8bd6abed0b0bb42a64e56f.lt
+    projectPath: Temp\ProcessJobs\a82f34a61d8bd6abed0b0bb42a64e56f.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\a82f34a61d8bd6abed0b0bb42a64e56f.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\a82f34a61d8bd6abed0b0bb42a64e56f.vis
+    projectPath: Temp\ProcessJobs\a82f34a61d8bd6abed0b0bb42a64e56f.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\aa31c5c50318430c1e665843504b892b.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\aa31c5c50318430c1e665843504b892b.clust
+    projectPath: Temp\ProcessJobs\aa31c5c50318430c1e665843504b892b.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\ad3c8361dfe64a25e4f8c747110d085a.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\ad3c8361dfe64a25e4f8c747110d085a.lt
+    projectPath: Temp\ProcessJobs\ad3c8361dfe64a25e4f8c747110d085a.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\ad3c8361dfe64a25e4f8c747110d085a.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\ad3c8361dfe64a25e4f8c747110d085a.vis
+    projectPath: Temp\ProcessJobs\ad3c8361dfe64a25e4f8c747110d085a.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\ad507e072f9aeb27afb95d1f1c377cc7.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\ad507e072f9aeb27afb95d1f1c377cc7.clust
+    projectPath: Temp\ProcessJobs\ad507e072f9aeb27afb95d1f1c377cc7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\aebe54f5f14ade2bbf6beb4a393f67f3.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\aebe54f5f14ade2bbf6beb4a393f67f3.clust
+    projectPath: Temp\ProcessJobs\aebe54f5f14ade2bbf6beb4a393f67f3.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b0d8dc5f32376392f2c26c90b8c7e4aa.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b0d8dc5f32376392f2c26c90b8c7e4aa.lt
+    projectPath: Temp\ProcessJobs\b0d8dc5f32376392f2c26c90b8c7e4aa.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b0d8dc5f32376392f2c26c90b8c7e4aa.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b0d8dc5f32376392f2c26c90b8c7e4aa.vis
+    projectPath: Temp\ProcessJobs\b0d8dc5f32376392f2c26c90b8c7e4aa.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b1fe755da92b3ebac599d7131c5c79ab.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b1fe755da92b3ebac599d7131c5c79ab.lt
+    projectPath: Temp\ProcessJobs\b1fe755da92b3ebac599d7131c5c79ab.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b1fe755da92b3ebac599d7131c5c79ab.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b1fe755da92b3ebac599d7131c5c79ab.vis
+    projectPath: Temp\ProcessJobs\b1fe755da92b3ebac599d7131c5c79ab.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b23f785f343a183c6763c286ff06d6b2.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b23f785f343a183c6763c286ff06d6b2.clust
+    projectPath: Temp\ProcessJobs\b23f785f343a183c6763c286ff06d6b2.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b6da87079c0a9e35e18766649184f476.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b6da87079c0a9e35e18766649184f476.lt
+    projectPath: Temp\ProcessJobs\b6da87079c0a9e35e18766649184f476.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b6da87079c0a9e35e18766649184f476.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b6da87079c0a9e35e18766649184f476.vis
+    projectPath: Temp\ProcessJobs\b6da87079c0a9e35e18766649184f476.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b80242e85a338b071eac22b8f3ce802b.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b80242e85a338b071eac22b8f3ce802b.lt
+    projectPath: Temp\ProcessJobs\b80242e85a338b071eac22b8f3ce802b.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b80242e85a338b071eac22b8f3ce802b.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b80242e85a338b071eac22b8f3ce802b.vis
+    projectPath: Temp\ProcessJobs\b80242e85a338b071eac22b8f3ce802b.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b9195ef35646ff936398fb28384ce6f4.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b9195ef35646ff936398fb28384ce6f4.lt
+    projectPath: Temp\ProcessJobs\b9195ef35646ff936398fb28384ce6f4.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\b9195ef35646ff936398fb28384ce6f4.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\b9195ef35646ff936398fb28384ce6f4.vis
+    projectPath: Temp\ProcessJobs\b9195ef35646ff936398fb28384ce6f4.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\baa04dccb6302c8ff888ce54fa6f360d.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\baa04dccb6302c8ff888ce54fa6f360d.clust
+    projectPath: Temp\ProcessJobs\baa04dccb6302c8ff888ce54fa6f360d.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bba0648a6d8993e46e6c178da4a9d217.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bba0648a6d8993e46e6c178da4a9d217.clust
+    projectPath: Temp\ProcessJobs\bba0648a6d8993e46e6c178da4a9d217.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bcb6bd9100de18f0561e29a7d7b86471.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bcb6bd9100de18f0561e29a7d7b86471.lt
+    projectPath: Temp\ProcessJobs\bcb6bd9100de18f0561e29a7d7b86471.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bcb6bd9100de18f0561e29a7d7b86471.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bcb6bd9100de18f0561e29a7d7b86471.vis
+    projectPath: Temp\ProcessJobs\bcb6bd9100de18f0561e29a7d7b86471.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bdfc47e9a8668df07560180e9c9e0ba1.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bdfc47e9a8668df07560180e9c9e0ba1.lt
+    projectPath: Temp\ProcessJobs\bdfc47e9a8668df07560180e9c9e0ba1.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bdfc47e9a8668df07560180e9c9e0ba1.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bdfc47e9a8668df07560180e9c9e0ba1.vis
+    projectPath: Temp\ProcessJobs\bdfc47e9a8668df07560180e9c9e0ba1.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\be818d139d9fee7c98f41bf63b8baa17.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\be818d139d9fee7c98f41bf63b8baa17.lt
+    projectPath: Temp\ProcessJobs\be818d139d9fee7c98f41bf63b8baa17.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\be818d139d9fee7c98f41bf63b8baa17.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\be818d139d9fee7c98f41bf63b8baa17.vis
+    projectPath: Temp\ProcessJobs\be818d139d9fee7c98f41bf63b8baa17.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bf67e4a399ecc91be01d0c5df613b7d2.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bf67e4a399ecc91be01d0c5df613b7d2.lt
+    projectPath: Temp\ProcessJobs\bf67e4a399ecc91be01d0c5df613b7d2.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\bf67e4a399ecc91be01d0c5df613b7d2.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\bf67e4a399ecc91be01d0c5df613b7d2.vis
+    projectPath: Temp\ProcessJobs\bf67e4a399ecc91be01d0c5df613b7d2.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c1a0476b6bea03367862e43c0ec51ec8.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c1a0476b6bea03367862e43c0ec51ec8.clust
+    projectPath: Temp\ProcessJobs\c1a0476b6bea03367862e43c0ec51ec8.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c29503465d902a762d6a30734f170c4b.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c29503465d902a762d6a30734f170c4b.lt
+    projectPath: Temp\ProcessJobs\c29503465d902a762d6a30734f170c4b.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c29503465d902a762d6a30734f170c4b.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c29503465d902a762d6a30734f170c4b.vis
+    projectPath: Temp\ProcessJobs\c29503465d902a762d6a30734f170c4b.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c2e9437114d73ad3b55ab91887314aeb.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c2e9437114d73ad3b55ab91887314aeb.clust
+    projectPath: Temp\ProcessJobs\c2e9437114d73ad3b55ab91887314aeb.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c3ba542082c280c75b9c37353db10377.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c3ba542082c280c75b9c37353db10377.lt
+    projectPath: Temp\ProcessJobs\c3ba542082c280c75b9c37353db10377.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c3ba542082c280c75b9c37353db10377.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c3ba542082c280c75b9c37353db10377.vis
+    projectPath: Temp\ProcessJobs\c3ba542082c280c75b9c37353db10377.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c42daaf00b0c338b317d71dc2cf13f9a.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c42daaf00b0c338b317d71dc2cf13f9a.lt
+    projectPath: Temp\ProcessJobs\c42daaf00b0c338b317d71dc2cf13f9a.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c42daaf00b0c338b317d71dc2cf13f9a.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c42daaf00b0c338b317d71dc2cf13f9a.vis
+    projectPath: Temp\ProcessJobs\c42daaf00b0c338b317d71dc2cf13f9a.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c54a1fa0a9cbb6390df0176ecd471beb.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c54a1fa0a9cbb6390df0176ecd471beb.clust
+    projectPath: Temp\ProcessJobs\c54a1fa0a9cbb6390df0176ecd471beb.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c5897f2df29e19ff878824f583a3b59e.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c5897f2df29e19ff878824f583a3b59e.lt
+    projectPath: Temp\ProcessJobs\c5897f2df29e19ff878824f583a3b59e.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c5897f2df29e19ff878824f583a3b59e.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c5897f2df29e19ff878824f583a3b59e.vis
+    projectPath: Temp\ProcessJobs\c5897f2df29e19ff878824f583a3b59e.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c894fe92fa2254926ac0bafe6e666162.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c894fe92fa2254926ac0bafe6e666162.lt
+    projectPath: Temp\ProcessJobs\c894fe92fa2254926ac0bafe6e666162.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\c894fe92fa2254926ac0bafe6e666162.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\c894fe92fa2254926ac0bafe6e666162.vis
+    projectPath: Temp\ProcessJobs\c894fe92fa2254926ac0bafe6e666162.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\cd50896d807238f5e20eae7f8be6d521.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\cd50896d807238f5e20eae7f8be6d521.lt
+    projectPath: Temp\ProcessJobs\cd50896d807238f5e20eae7f8be6d521.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\cd50896d807238f5e20eae7f8be6d521.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\cd50896d807238f5e20eae7f8be6d521.vis
+    projectPath: Temp\ProcessJobs\cd50896d807238f5e20eae7f8be6d521.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\cdcc856f95c13e051664b710caaaa0e7.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\cdcc856f95c13e051664b710caaaa0e7.clust
+    projectPath: Temp\ProcessJobs\cdcc856f95c13e051664b710caaaa0e7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d2156f6a5765d0c16ddec5dc5e745f60.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d2156f6a5765d0c16ddec5dc5e745f60.clust
+    projectPath: Temp\ProcessJobs\d2156f6a5765d0c16ddec5dc5e745f60.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d2fcc4c3a2cde10c0f0983b4d7baeb1e.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d2fcc4c3a2cde10c0f0983b4d7baeb1e.clust
+    projectPath: Temp\ProcessJobs\d2fcc4c3a2cde10c0f0983b4d7baeb1e.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d463cdc1130584f586c37dd0b5a2e0a7.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d463cdc1130584f586c37dd0b5a2e0a7.lt
+    projectPath: Temp\ProcessJobs\d463cdc1130584f586c37dd0b5a2e0a7.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d463cdc1130584f586c37dd0b5a2e0a7.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d463cdc1130584f586c37dd0b5a2e0a7.vis
+    projectPath: Temp\ProcessJobs\d463cdc1130584f586c37dd0b5a2e0a7.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d5251bb0728be377d507a251faddd067.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d5251bb0728be377d507a251faddd067.lt
+    projectPath: Temp\ProcessJobs\d5251bb0728be377d507a251faddd067.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d5251bb0728be377d507a251faddd067.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d5251bb0728be377d507a251faddd067.vis
+    projectPath: Temp\ProcessJobs\d5251bb0728be377d507a251faddd067.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d9ed778b3dc816f203e854dd108f6c63.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d9ed778b3dc816f203e854dd108f6c63.lt
+    projectPath: Temp\ProcessJobs\d9ed778b3dc816f203e854dd108f6c63.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\d9ed778b3dc816f203e854dd108f6c63.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\d9ed778b3dc816f203e854dd108f6c63.vis
+    projectPath: Temp\ProcessJobs\d9ed778b3dc816f203e854dd108f6c63.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\dae9e3f1a6ae7af97430a33bb0f31eb7.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\dae9e3f1a6ae7af97430a33bb0f31eb7.lt
+    projectPath: Temp\ProcessJobs\dae9e3f1a6ae7af97430a33bb0f31eb7.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\dae9e3f1a6ae7af97430a33bb0f31eb7.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\dae9e3f1a6ae7af97430a33bb0f31eb7.vis
+    projectPath: Temp\ProcessJobs\dae9e3f1a6ae7af97430a33bb0f31eb7.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\dd4d511b44cc25f4edca378134ac58f1.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\dd4d511b44cc25f4edca378134ac58f1.clust
+    projectPath: Temp\ProcessJobs\dd4d511b44cc25f4edca378134ac58f1.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e0566ac274b5a4496013de77931cd897.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e0566ac274b5a4496013de77931cd897.clust
+    projectPath: Temp\ProcessJobs\e0566ac274b5a4496013de77931cd897.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e4752afe19d43a04e1393a5bb0461a68.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e4752afe19d43a04e1393a5bb0461a68.lt
+    projectPath: Temp\ProcessJobs\e4752afe19d43a04e1393a5bb0461a68.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e4752afe19d43a04e1393a5bb0461a68.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e4752afe19d43a04e1393a5bb0461a68.vis
+    projectPath: Temp\ProcessJobs\e4752afe19d43a04e1393a5bb0461a68.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e48482ef34468d5031c09432a289f8c2.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e48482ef34468d5031c09432a289f8c2.clust
+    projectPath: Temp\ProcessJobs\e48482ef34468d5031c09432a289f8c2.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e4e701f02e8b3f385570f57b259a2bb3.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e4e701f02e8b3f385570f57b259a2bb3.clust
+    projectPath: Temp\ProcessJobs\e4e701f02e8b3f385570f57b259a2bb3.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e536f099f62d042bd78e8474011314f8.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e536f099f62d042bd78e8474011314f8.lt
+    projectPath: Temp\ProcessJobs\e536f099f62d042bd78e8474011314f8.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e536f099f62d042bd78e8474011314f8.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e536f099f62d042bd78e8474011314f8.vis
+    projectPath: Temp\ProcessJobs\e536f099f62d042bd78e8474011314f8.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e622a21f53e8b48c78081c230fb800a9.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e622a21f53e8b48c78081c230fb800a9.clust
+    projectPath: Temp\ProcessJobs\e622a21f53e8b48c78081c230fb800a9.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\ee0cc3986209414a5850e6a214cc95fc.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\ee0cc3986209414a5850e6a214cc95fc.clust
+    projectPath: Temp\ProcessJobs\ee0cc3986209414a5850e6a214cc95fc.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\ee724659b4b8cc67851874aedb7fb8f4.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\ee724659b4b8cc67851874aedb7fb8f4.clust
+    projectPath: Temp\ProcessJobs\ee724659b4b8cc67851874aedb7fb8f4.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1773f4daf0a9d973c4aa2d7e56b5c7e.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1773f4daf0a9d973c4aa2d7e56b5c7e.lt
+    projectPath: Temp\ProcessJobs\f1773f4daf0a9d973c4aa2d7e56b5c7e.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1773f4daf0a9d973c4aa2d7e56b5c7e.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1773f4daf0a9d973c4aa2d7e56b5c7e.vis
+    projectPath: Temp\ProcessJobs\f1773f4daf0a9d973c4aa2d7e56b5c7e.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1a5e14c65bd098094476cf2fd9d70c5.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1a5e14c65bd098094476cf2fd9d70c5.lt
+    projectPath: Temp\ProcessJobs\f1a5e14c65bd098094476cf2fd9d70c5.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1a5e14c65bd098094476cf2fd9d70c5.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1a5e14c65bd098094476cf2fd9d70c5.vis
+    projectPath: Temp\ProcessJobs\f1a5e14c65bd098094476cf2fd9d70c5.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1ee9b86c6d7eacd4557b4d85d933070.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f1ee9b86c6d7eacd4557b4d85d933070.clust
+    projectPath: Temp\ProcessJobs\f1ee9b86c6d7eacd4557b4d85d933070.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5444c728553537102c827ce02f98197.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5444c728553537102c827ce02f98197.lt
+    projectPath: Temp\ProcessJobs\f5444c728553537102c827ce02f98197.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5444c728553537102c827ce02f98197.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5444c728553537102c827ce02f98197.vis
+    projectPath: Temp\ProcessJobs\f5444c728553537102c827ce02f98197.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f57781ab3f45b9302c95244a2d876792.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f57781ab3f45b9302c95244a2d876792.clust
+    projectPath: Temp\ProcessJobs\f57781ab3f45b9302c95244a2d876792.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5ad10bfa7bb9f9bccb2084c5bad7ec2.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5ad10bfa7bb9f9bccb2084c5bad7ec2.clust
+    projectPath: Temp\ProcessJobs\f5ad10bfa7bb9f9bccb2084c5bad7ec2.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5afd836a6f8c53a84abfab3ec9cd460.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5afd836a6f8c53a84abfab3ec9cd460.lt
+    projectPath: Temp\ProcessJobs\f5afd836a6f8c53a84abfab3ec9cd460.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5afd836a6f8c53a84abfab3ec9cd460.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5afd836a6f8c53a84abfab3ec9cd460.vis
+    projectPath: Temp\ProcessJobs\f5afd836a6f8c53a84abfab3ec9cd460.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5c9e1ebeadd0abab6529968b0781f2d.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5c9e1ebeadd0abab6529968b0781f2d.lt
+    projectPath: Temp\ProcessJobs\f5c9e1ebeadd0abab6529968b0781f2d.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5c9e1ebeadd0abab6529968b0781f2d.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f5c9e1ebeadd0abab6529968b0781f2d.vis
+    projectPath: Temp\ProcessJobs\f5c9e1ebeadd0abab6529968b0781f2d.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f6718c5dfa94ecbbd8f6b6edcd5cb43e.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f6718c5dfa94ecbbd8f6b6edcd5cb43e.lt
+    projectPath: Temp\ProcessJobs\f6718c5dfa94ecbbd8f6b6edcd5cb43e.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f6718c5dfa94ecbbd8f6b6edcd5cb43e.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f6718c5dfa94ecbbd8f6b6edcd5cb43e.vis
+    projectPath: Temp\ProcessJobs\f6718c5dfa94ecbbd8f6b6edcd5cb43e.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\f88cab85127287eaccb4bef35b7859e9.clust
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\f88cab85127287eaccb4bef35b7859e9.clust
+    projectPath: Temp\ProcessJobs\f88cab85127287eaccb4bef35b7859e9.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\faec8c24c1dba95bfea230025827d40d.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\faec8c24c1dba95bfea230025827d40d.lt
+    projectPath: Temp\ProcessJobs\faec8c24c1dba95bfea230025827d40d.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\faec8c24c1dba95bfea230025827d40d.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\faec8c24c1dba95bfea230025827d40d.vis
+    projectPath: Temp\ProcessJobs\faec8c24c1dba95bfea230025827d40d.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\fd2eaa24b84a1729a61bf04ab5b17bf6.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\fd2eaa24b84a1729a61bf04ab5b17bf6.lt
+    projectPath: Temp\ProcessJobs\fd2eaa24b84a1729a61bf04ab5b17bf6.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\fd2eaa24b84a1729a61bf04ab5b17bf6.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\fd2eaa24b84a1729a61bf04ab5b17bf6.vis
+    projectPath: Temp\ProcessJobs\fd2eaa24b84a1729a61bf04ab5b17bf6.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\fe7f6f0fd110e8358cb6fef335a1caeb.lt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\fe7f6f0fd110e8358cb6fef335a1caeb.lt
+    projectPath: Temp\ProcessJobs\fe7f6f0fd110e8358cb6fef335a1caeb.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\fe7f6f0fd110e8358cb6fef335a1caeb.vis
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\fe7f6f0fd110e8358cb6fef335a1caeb.vis
+    projectPath: Temp\ProcessJobs\fe7f6f0fd110e8358cb6fef335a1caeb.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Temp\UnityLockfile
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-01ec89d3fd7d5a840930df6cd59d5c72
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-01ec89d3fd7d5a840930df6cd59d5c72
+    projectPath: Temp\UnityTempFile-01ec89d3fd7d5a840930df6cd59d5c72
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-0346c77bfd6b1814c963cc32b1ef4946
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-0346c77bfd6b1814c963cc32b1ef4946
+    projectPath: Temp\UnityTempFile-0346c77bfd6b1814c963cc32b1ef4946
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-03afaf17a1f74d3488ae8391048daae0
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-03afaf17a1f74d3488ae8391048daae0
+    projectPath: Temp\UnityTempFile-03afaf17a1f74d3488ae8391048daae0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-104bd68682fc64b4d930c05c92960578
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-104bd68682fc64b4d930c05c92960578
+    projectPath: Temp\UnityTempFile-104bd68682fc64b4d930c05c92960578
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-27b7ed4b2aecb024994deebd0e7961bb
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-27b7ed4b2aecb024994deebd0e7961bb
+    projectPath: Temp\UnityTempFile-27b7ed4b2aecb024994deebd0e7961bb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-29f4b936a0474ba42aebe964e07f2958
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-29f4b936a0474ba42aebe964e07f2958
+    projectPath: Temp\UnityTempFile-29f4b936a0474ba42aebe964e07f2958
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-2c828dfacd48f8842b38537855fd33f9
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-2c828dfacd48f8842b38537855fd33f9
+    projectPath: Temp\UnityTempFile-2c828dfacd48f8842b38537855fd33f9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-327865b78abc1b646a3165cfa04e42ce
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-327865b78abc1b646a3165cfa04e42ce
+    projectPath: Temp\UnityTempFile-327865b78abc1b646a3165cfa04e42ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-3c11d35a67c88404b8a698c8f8d5022c
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-3c11d35a67c88404b8a698c8f8d5022c
+    projectPath: Temp\UnityTempFile-3c11d35a67c88404b8a698c8f8d5022c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-4068ccd5ce50f7e41993e2126d8380bf
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-4068ccd5ce50f7e41993e2126d8380bf
+    projectPath: Temp\UnityTempFile-4068ccd5ce50f7e41993e2126d8380bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-44fc33eab2bc3864690510494bd1c13d
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-44fc33eab2bc3864690510494bd1c13d
+    projectPath: Temp\UnityTempFile-44fc33eab2bc3864690510494bd1c13d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-46ff982536e23524c90932da9af4e689
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-46ff982536e23524c90932da9af4e689
+    projectPath: Temp\UnityTempFile-46ff982536e23524c90932da9af4e689
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-5a38f2cab506443479f5fbc7df354e31
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-5a38f2cab506443479f5fbc7df354e31
+    projectPath: Temp\UnityTempFile-5a38f2cab506443479f5fbc7df354e31
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-5fca6954b1723864f8de816394743ae8
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-5fca6954b1723864f8de816394743ae8
+    projectPath: Temp\UnityTempFile-5fca6954b1723864f8de816394743ae8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-663e869534ea64947a56f0ab06e217c5
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-663e869534ea64947a56f0ab06e217c5
+    projectPath: Temp\UnityTempFile-663e869534ea64947a56f0ab06e217c5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-6933de05614bc1246977cd3d3e191189
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-6933de05614bc1246977cd3d3e191189
+    projectPath: Temp\UnityTempFile-6933de05614bc1246977cd3d3e191189
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-6e92783ef7f755e4da70a4c1978f9e23
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-6e92783ef7f755e4da70a4c1978f9e23
+    projectPath: Temp\UnityTempFile-6e92783ef7f755e4da70a4c1978f9e23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-764d936b50b85624c9b7347bc070958d
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-764d936b50b85624c9b7347bc070958d
+    projectPath: Temp\UnityTempFile-764d936b50b85624c9b7347bc070958d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-7b5201af63b804e43be85b94e77cd845
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-7b5201af63b804e43be85b94e77cd845
+    projectPath: Temp\UnityTempFile-7b5201af63b804e43be85b94e77cd845
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-80e4936bd5f12ff41a7d1cfc1016ee19
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-80e4936bd5f12ff41a7d1cfc1016ee19
+    projectPath: Temp\UnityTempFile-80e4936bd5f12ff41a7d1cfc1016ee19
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-842f72cda70c8aa4c850a3134cbe0244
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-842f72cda70c8aa4c850a3134cbe0244
+    projectPath: Temp\UnityTempFile-842f72cda70c8aa4c850a3134cbe0244
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-867d082a264edfc4fa496869a3b3d956
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-867d082a264edfc4fa496869a3b3d956
+    projectPath: Temp\UnityTempFile-867d082a264edfc4fa496869a3b3d956
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-8b98aab4152e345499be7197a22c83da
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-8b98aab4152e345499be7197a22c83da
+    projectPath: Temp\UnityTempFile-8b98aab4152e345499be7197a22c83da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-8d4aae3fb53f0df4eb65a3ed7ca27241
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-8d4aae3fb53f0df4eb65a3ed7ca27241
+    projectPath: Temp\UnityTempFile-8d4aae3fb53f0df4eb65a3ed7ca27241
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-927dd53b2449b9143aab60a82c6ca5ae
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-927dd53b2449b9143aab60a82c6ca5ae
+    projectPath: Temp\UnityTempFile-927dd53b2449b9143aab60a82c6ca5ae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-953e4a76ba409104988fb9aebf8caa49
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-953e4a76ba409104988fb9aebf8caa49
+    projectPath: Temp\UnityTempFile-953e4a76ba409104988fb9aebf8caa49
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-95724e9da679b024f802de1e90fc0556
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-95724e9da679b024f802de1e90fc0556
+    projectPath: Temp\UnityTempFile-95724e9da679b024f802de1e90fc0556
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-959b9dbf87dc9944295e7738905030e3
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-959b9dbf87dc9944295e7738905030e3
+    projectPath: Temp\UnityTempFile-959b9dbf87dc9944295e7738905030e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-9965fddda21248942a0022fab2eda40a
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-9965fddda21248942a0022fab2eda40a
+    projectPath: Temp\UnityTempFile-9965fddda21248942a0022fab2eda40a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-9c120c41d18526349867b16338435fcc
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-9c120c41d18526349867b16338435fcc
+    projectPath: Temp\UnityTempFile-9c120c41d18526349867b16338435fcc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-a9b988dec1f81a6429a8a713a7d9bdfd
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-a9b988dec1f81a6429a8a713a7d9bdfd
+    projectPath: Temp\UnityTempFile-a9b988dec1f81a6429a8a713a7d9bdfd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-ab526b9ed064aec4cb8abe24cf052f6e
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-ab526b9ed064aec4cb8abe24cf052f6e
+    projectPath: Temp\UnityTempFile-ab526b9ed064aec4cb8abe24cf052f6e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-ad27a3e90fb3e8141999c5decbd33f12
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-ad27a3e90fb3e8141999c5decbd33f12
+    projectPath: Temp\UnityTempFile-ad27a3e90fb3e8141999c5decbd33f12
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-aefba583f31049a488b2e053424681a4
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-aefba583f31049a488b2e053424681a4
+    projectPath: Temp\UnityTempFile-aefba583f31049a488b2e053424681a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-b0f2332a454a37b47a7d1d90daedb2f5
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-b0f2332a454a37b47a7d1d90daedb2f5
+    projectPath: Temp\UnityTempFile-b0f2332a454a37b47a7d1d90daedb2f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-b6ce3439e861839418dc935a083c01b2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-b6ce3439e861839418dc935a083c01b2
+    projectPath: Temp\UnityTempFile-b6ce3439e861839418dc935a083c01b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-b80414ead703aff41895b1e37e7e0856
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-b80414ead703aff41895b1e37e7e0856
+    projectPath: Temp\UnityTempFile-b80414ead703aff41895b1e37e7e0856
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-cacb738fb3189ad44a55f42d61deedbd
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-cacb738fb3189ad44a55f42d61deedbd
+    projectPath: Temp\UnityTempFile-cacb738fb3189ad44a55f42d61deedbd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-cf801a0f38cb6f740acf6794212d6b06
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-cf801a0f38cb6f740acf6794212d6b06
+    projectPath: Temp\UnityTempFile-cf801a0f38cb6f740acf6794212d6b06
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-d1f15f689f62ea64e917931eaef93625
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-d1f15f689f62ea64e917931eaef93625
+    projectPath: Temp\UnityTempFile-d1f15f689f62ea64e917931eaef93625
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-d673ed4035b871d4eadec68fc9486c04
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-d673ed4035b871d4eadec68fc9486c04
+    projectPath: Temp\UnityTempFile-d673ed4035b871d4eadec68fc9486c04
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-df7f83ff6f686364baa8a571f139aea2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-df7f83ff6f686364baa8a571f139aea2
+    projectPath: Temp\UnityTempFile-df7f83ff6f686364baa8a571f139aea2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-e6135459db268cb4eb423217dcb6f1b2
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-e6135459db268cb4eb423217dcb6f1b2
+    projectPath: Temp\UnityTempFile-e6135459db268cb4eb423217dcb6f1b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-e967374b9ace24c4f860895640f83676
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-e967374b9ace24c4f860895640f83676
+    projectPath: Temp\UnityTempFile-e967374b9ace24c4f860895640f83676
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-ebbf387df9646e846b24b83f8d0bb6d7
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-ebbf387df9646e846b24b83f8d0bb6d7
+    projectPath: Temp\UnityTempFile-ebbf387df9646e846b24b83f8d0bb6d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-ebc73b8b9ebd9e5439102005c1cecf45
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-ebc73b8b9ebd9e5439102005c1cecf45
+    projectPath: Temp\UnityTempFile-ebc73b8b9ebd9e5439102005c1cecf45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-f10ca07a419109547998282f1043a750
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-f10ca07a419109547998282f1043a750
+    projectPath: Temp\UnityTempFile-f10ca07a419109547998282f1043a750
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-f80e19d136bc7684c834dc940103b0c0
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-f80e19d136bc7684c834dc940103b0c0
+    projectPath: Temp\UnityTempFile-f80e19d136bc7684c834dc940103b0c0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using TMPro;
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     private static int player;
     private bool owner = false;
-
+    public TextMeshProUGUI numPlayersText;
     // Start is called before the first frame update
     void Start()
     {
@@ -73,6 +74,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         }
 
         base.OnJoinedRoom();
+
+        ChangeText();
         /*
         // If there is 2 players, load the game
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
@@ -86,7 +89,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         Debug.Log("A new player has joined.");
         base.OnPlayerEnteredRoom(newPlayer);
-        
+
+        ChangeText();
+
         // If there is 2 players, load the game and hide the room
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
@@ -106,5 +111,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     static public int getPlayer()
     {
         return player;
+    }
+
+    private void ChangeText()
+    {
+        numPlayersText.text = "Número de Jugadores: " + PhotonNetwork.CurrentRoom.PlayerCount;
+    }
+
+    public override void OnPlayerLeftRoom(Player otherPlayer)
+    {
+        base.OnPlayerLeftRoom(otherPlayer);
+
+        ChangeText();
     }
 }
