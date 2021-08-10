@@ -137,7 +137,7 @@ public class DoorController : MonoBehaviour
     {
         if (audioClose != null)
         {
-            AudioSource.PlayClipAtPoint(audioClose, transform.position, 0.03f);
+            AudioSource.PlayClipAtPoint(audioClose, animator.gameObject.transform.position, 0.03f);
         }
     }
 
@@ -145,7 +145,7 @@ public class DoorController : MonoBehaviour
     {
         if (audioOpen != null)
         {
-            AudioSource.PlayClipAtPoint(audioOpen, transform.position, 0.025f);
+            AudioSource.PlayClipAtPoint(audioOpen, animator.gameObject.transform.position, 0.025f);
         }
     }
 }

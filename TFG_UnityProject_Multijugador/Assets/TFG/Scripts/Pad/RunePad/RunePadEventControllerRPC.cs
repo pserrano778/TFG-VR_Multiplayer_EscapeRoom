@@ -47,7 +47,7 @@ public class RunePadEventControllerRPC : PadEventController
     {
         if (audioOpen != null)
         {
-            AudioSource.PlayClipAtPoint(audioOpen, transform.position, 0.025f);
+            AudioSource.PlayClipAtPoint(audioOpen, animator.gameObject.transform.position, 0.025f);
         }
     }
 }
