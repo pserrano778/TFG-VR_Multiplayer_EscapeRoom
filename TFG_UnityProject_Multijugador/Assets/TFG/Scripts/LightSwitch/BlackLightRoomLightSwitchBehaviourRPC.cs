@@ -14,6 +14,7 @@ public class BlackLightRoomLightSwitchBehaviourRPC : MonoBehaviour
     public Animator doorAnimator = null;
     public GameObject doorCode = null;
     private bool codeActive = false;
+    public AudioClip audioClose = null;
 
     // Start is called before the first frame update
     void Start()
@@ -75,6 +76,7 @@ public class BlackLightRoomLightSwitchBehaviourRPC : MonoBehaviour
         trackerLinterna.SetActive(false);
         codeActive = true;
         doorAnimator.Play("doorClose", 0, 0.0f);
+        PlayAudioClose();
         // Corrutina con la duracion de la animacion
         StartCoroutine(SetCodeAfterClose(doorAnimator.GetCurrentAnimatorStateInfo(0).length * doorAnimator.GetCurrentAnimatorStateInfo(0).speed));
     }
@@ -83,5 +85,13 @@ public class BlackLightRoomLightSwitchBehaviourRPC : MonoBehaviour
     {
         yield return new WaitForSeconds(animationTime);
         doorCode.SetActive(true);
+    }
+
+    public void PlayAudioClose()
+    {
+        if (audioClose != null)
+        {
+            AudioSource.PlayClipAtPoint(audioClose, transform.position, 0.03f);
+        }
     }
 }

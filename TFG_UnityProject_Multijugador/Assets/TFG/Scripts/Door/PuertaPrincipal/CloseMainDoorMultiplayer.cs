@@ -14,6 +14,8 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
 
     public GameObject mark = null;
 
+    public AudioClip audioClose;
+
     private void Start()
     {
         photonView = PhotonView.Get(this);
@@ -54,7 +56,7 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
     private void closeDoor()
     {
         animator.Play("doorClose", 0, 0.0f);
-        
+        PlayAudioClose();
         if (mark != null)
         {
             StartCoroutine(SetMarkAfterClose(animator.GetCurrentAnimatorStateInfo(0).length * animator.GetCurrentAnimatorStateInfo(0).speed));
@@ -78,5 +80,13 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
 
         mark.SetActive(true);
         gameObject.SetActive(false);
+    }
+
+    public void PlayAudioClose()
+    {
+        if (audioClose != null)
+        {
+            AudioSource.PlayClipAtPoint(audioClose, transform.position, 0.03f);
+        }
     }
 }

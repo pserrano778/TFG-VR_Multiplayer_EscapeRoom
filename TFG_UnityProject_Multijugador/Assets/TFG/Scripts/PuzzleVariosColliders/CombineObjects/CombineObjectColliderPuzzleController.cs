@@ -10,6 +10,7 @@ public class CombineObjectColliderPuzzleController : ObjectColliderPuzzleControl
     private List<int> idsAnimation = new List<int>();
 
     public SpriteRenderer[] sprites;
+    public AudioClip audioOpen;
 
     public void SetNewObjectState(bool active, GameObject newObject, int id)
     {
@@ -66,6 +67,15 @@ public class CombineObjectColliderPuzzleController : ObjectColliderPuzzleControl
             }
 
             base.Open();
+            PlayAudioOpen();
+        }
+    }
+
+    public void PlayAudioOpen()
+    {
+        if (audioOpen != null)
+        {
+            AudioSource.PlayClipAtPoint(audioOpen, transform.position, 0.025f);
         }
     }
 }

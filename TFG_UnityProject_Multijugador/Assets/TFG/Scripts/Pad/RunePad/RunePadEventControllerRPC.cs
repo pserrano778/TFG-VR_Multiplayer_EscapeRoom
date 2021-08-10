@@ -7,6 +7,7 @@ public class RunePadEventControllerRPC : PadEventController
 {
     public RunePadControllerRPC[] codeElements;
     public Animator doorAnimator;
+    public AudioClip audioOpen;
 
     public void CheckCodeRPCObject()
     {
@@ -36,8 +37,17 @@ public class RunePadEventControllerRPC : PadEventController
             {
                 PlayAnimation();
                 doorAnimator.Play("doorOpen", 0, 0.0f);
+                PlayAudioOpen();
                 gameObject.SetActive(false);
             }            
+        }
+    }
+
+    public void PlayAudioOpen()
+    {
+        if (audioOpen != null)
+        {
+            AudioSource.PlayClipAtPoint(audioOpen, transform.position, 0.025f);
         }
     }
 }

@@ -16,6 +16,10 @@ public class DoorController : MonoBehaviour
 
     public GameObject mark = null;
 
+    public AudioClip audioOpen;
+
+    public AudioClip audioClose;
+
     // Sobreescribimos el disparador de colisión
     private void OnTriggerEnter(Collider other)
     {
@@ -80,6 +84,7 @@ public class DoorController : MonoBehaviour
                     }
 
                     animator.Play("doorClose", 0, 0.0f);
+                    PlayAudioClose();
                     other.gameObject.SetActive(false);
                     closed = true;
                 }
@@ -94,6 +99,7 @@ public class DoorController : MonoBehaviour
                         }
 
                         animator.Play("doorClose", 0, 0.0f);
+                        PlayAudioClose();
                         if (mark != null)
                         {
                             StartCoroutine(SetMarkAfterClose(animator.GetCurrentAnimatorStateInfo(0).length * animator.GetCurrentAnimatorStateInfo(0).speed));
@@ -114,6 +120,7 @@ public class DoorController : MonoBehaviour
     {
         yield return new WaitForSeconds(animationTime);
         animator.Play("doorOpen", 0, 0.0f);
+        PlayAudioOpen();
     }
 
     IEnumerator SetMarkAfterClose(float animationTime)
@@ -124,5 +131,21 @@ public class DoorController : MonoBehaviour
 
         mark.SetActive(true);
         gameObject.SetActive(false);
+    }
+
+    public void PlayAudioClose()
+    {
+        if (audioClose != null)
+        {
+            AudioSource.PlayClipAtPoint(audioClose, transform.position, 0.03f);
+        }
+    }
+
+    public void PlayAudioOpen()
+    {
+        if (audioOpen != null)
+        {
+            AudioSource.PlayClipAtPoint(audioOpen, transform.position, 0.025f);
+        }
     }
 }
