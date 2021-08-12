@@ -30,20 +30,7 @@ public class SaveManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            Save();
-        }
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            Load();
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            DeleteSaveData();
-        }
+        
     }
 
     public void Save()

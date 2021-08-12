@@ -8,6 +8,13 @@ public class NewGameMenu : Menu
     private string savePath;
     private string saveName = "house";
 
+    public GameObject previousMenu;
+
+    private void Awake()
+    {
+        currentMenu.SetActive(false);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +34,6 @@ public class NewGameMenu : Menu
 
     public override void Return()
     {
-        LoadScene("MenuModoUnJugador");
+        GoNextMenu(previousMenu);
     }
 }

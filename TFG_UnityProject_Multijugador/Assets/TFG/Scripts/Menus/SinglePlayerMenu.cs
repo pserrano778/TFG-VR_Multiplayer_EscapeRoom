@@ -12,6 +12,15 @@ public class SinglePlayerMenu : Menu
     public Button newGameButton;
     public Button continueGameButton;
     private bool saveActive = false;
+
+    public GameObject previousMenu;
+    public GameObject nextMenu;
+
+    private void Awake()
+    {
+        currentMenu.SetActive(false);
+    }
+
     private void Start()
     {
         string dataPath = Application.persistentDataPath;
@@ -31,7 +40,7 @@ public class SinglePlayerMenu : Menu
 
     public override void Return()
     {
-        LoadScene("MenuSeleccionModo");
+        GoNextMenu(previousMenu);
     }
 
     public void ContinuarPartida()
@@ -43,7 +52,7 @@ public class SinglePlayerMenu : Menu
     {
         if (saveActive)
         {
-            LoadScene("MenuNuevaPartida");
+            GoNextMenu(nextMenu);
         }
         else
         {

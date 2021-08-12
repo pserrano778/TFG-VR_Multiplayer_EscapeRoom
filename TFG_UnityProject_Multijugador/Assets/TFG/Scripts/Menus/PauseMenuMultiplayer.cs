@@ -21,6 +21,6 @@ public class PauseMenuMultiplayer : PauseMenu
     {
         PhotonNetwork.Disconnect();
         Destroy(voiceManager);
-        LoadScene("MenuModoMultijugador");
+        LoadScene("Menus");
     }
 }

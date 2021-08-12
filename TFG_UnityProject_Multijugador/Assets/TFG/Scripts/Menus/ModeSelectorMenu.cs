@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class ModeSelectorMenu : Menu
 {
+    public GameObject singlePlayerMenu;
+    public GameObject multiplayerMenu;
+    public GameObject previousMenu;
+
+    private void Awake()
+    {
+        currentMenu.SetActive(false);
+    }
+
     public override void Return()
     {
-        LoadScene("MenuPrincipal");
+        GoNextMenu(previousMenu);
     }
 
     public void ModoUnJugador()
     {
-        LoadScene("MenuModoUnJugador");
+        GoNextMenu(singlePlayerMenu);
     }
 
     public void ModoMultijugador()
     {
-        LoadScene("MenuModoMultijugador");
+        GoNextMenu(multiplayerMenu);
     }
 }

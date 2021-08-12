@@ -6,18 +6,21 @@ using Photon.Realtime;
 
 public class MultiplayerMenu : Menu
 {
+    public GameObject previousMenu;
+
+    private void Awake()
+    {
+        currentMenu.SetActive(false);
+    }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            SearchPlayer();
-        }
+
     }
 
     public override void Return()
     {
-        LoadScene("MenuSeleccionModo");
+        GoNextMenu(previousMenu);
     }
 
     public void SearchPlayer()

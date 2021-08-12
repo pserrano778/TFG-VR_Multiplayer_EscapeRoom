@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class MainMenu : Menu
 {
-    
+    public GameObject nextMenu;
     public void PressStartButton()
     {
-        LoadScene("MenuSeleccionModo");
+        GoNextMenu(nextMenu);
     }
-
-    
 }

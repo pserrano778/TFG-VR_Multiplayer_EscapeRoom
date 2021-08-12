@@ -20,7 +20,7 @@ public class PauseMenuSinglePlayer : PauseMenu
 
     public override void Return()
     {
-        LoadScene("MenuModoUnJugador");
+        LoadScene("Menus");
     }
 
     public void Save()
