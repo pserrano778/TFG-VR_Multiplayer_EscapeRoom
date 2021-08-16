@@ -491,6 +491,7 @@
     <Compile Include="Assets\TFG\Scripts\SaveSystem\SaveManager.cs" />
     <Compile Include="Assets\TFG\Scripts\Skull\ObjectInsideChest.cs" />
     <Compile Include="Assets\TFG\Scripts\Skull\ObjectToOpenFurnitureBehaviour.cs" />
+    <Compile Include="Assets\TFG\Scripts\WristWatchMultiplayer\MicrophoneDisplay.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerChanger.cs" />
@@ -833,6 +834,7 @@
     <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_SharedMethods.cs" />
     <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_Simulator.cs" />
     <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_VelocityEstimator.cs" />
+    <Compile Include="Assets\Wristwatch\Scripts\RealClock.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
@@ -942,6 +944,7 @@
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\FurniturePack\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Wristwatch\Shaders\AO.shader" />
     <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\Uber.shader" />

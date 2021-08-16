@@ -22,19 +22,24 @@ public class VoiceChat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Track button input
         if (OVRInput.Get(OVRInput.Button.One))
         {
+            // If button is not pressed
             if (!buttonPressed)
             {
+                // Change state
                 voice.TransmitEnabled = !voice.TransmitEnabled;
 
                 ChangeText(voice.TransmitEnabled);
 
+                // Set presed
                 buttonPressed = true;
             }
         }
         else
         {
+            // Set not presed
             buttonPressed = false;
         }
     }
