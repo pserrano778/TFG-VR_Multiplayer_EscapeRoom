@@ -9,6 +9,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     private static int player;
     private bool owner = false;
     public TextMeshProUGUI numPlayersText;
+    public GameObject waitRoom;
+    public TextMeshProUGUI numPlayersTextWaitRoom;
     // Start is called before the first frame update
     void Start()
     {
@@ -76,13 +78,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         base.OnJoinedRoom();
 
         ChangeText();
-        /*
-        // If there is 2 players, load the game
+        
+        // If there is 2 players, disable wait Room
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
-            LoadLevel("Test");
+            waitRoom.SetActive(false);
         }
-        */
+        
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
@@ -91,7 +93,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         base.OnPlayerEnteredRoom(newPlayer);
 
         ChangeText();
-
+        waitRoom.SetActive(false);
         // If there is 2 players, load the game and hide the room
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
@@ -116,6 +118,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     private void ChangeText()
     {
         numPlayersText.text = "Número de Jugadores: " + PhotonNetwork.CurrentRoom.PlayerCount;
+
+        if (waitRoom.active)
+        {
+            numPlayersTextWaitRoom.text = "Número de Jugadores: " + PhotonNetwork.CurrentRoom.PlayerCount;
+        }
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
