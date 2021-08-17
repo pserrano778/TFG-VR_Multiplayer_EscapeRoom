@@ -25,6 +25,7 @@ public class MultiplayerMenu : Menu
 
     public void SearchPlayer()
     {
+        PlayersInsideHouse.Reset();
         LoadScene("Multijugador");
     }
 }

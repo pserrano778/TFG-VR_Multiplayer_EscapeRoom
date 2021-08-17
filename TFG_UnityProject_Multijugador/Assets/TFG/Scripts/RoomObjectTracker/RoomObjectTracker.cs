@@ -19,7 +19,7 @@ public class RoomObjectTracker : MonoBehaviour
         if (!objectInsideRoom && other.CompareTag(objectTag))
         {
             // Si soy el dueño del objeto
-            if (GetComponent<PhotonView>().IsMine)
+            if (other.gameObject.GetComponent<PhotonView>() != null && other.gameObject.GetComponent<PhotonView>().IsMine)
             {
                 GetComponent<PhotonView>().RPC("SetObjectInside", RpcTarget.All);
             }
@@ -32,7 +32,7 @@ public class RoomObjectTracker : MonoBehaviour
         if (objectInsideRoom && other.CompareTag(objectTag))
         {
             // Si soy el dueño del objeto
-            if (GetComponent<PhotonView>().IsMine)
+            if (other.gameObject.GetComponent<PhotonView>() != null && other.gameObject.GetComponent<PhotonView>().IsMine)
             {
                 GetComponent<PhotonView>().RPC("SetObjectOutside", RpcTarget.All);
             }  

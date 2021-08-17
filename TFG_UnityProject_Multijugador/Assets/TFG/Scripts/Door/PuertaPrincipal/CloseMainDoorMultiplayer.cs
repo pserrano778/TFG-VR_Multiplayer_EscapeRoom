@@ -86,7 +86,7 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
     {
         if (audioClose != null)
         {
-            AudioSource.PlayClipAtPoint(audioClose, animator.gameObject.transform.position, 0.03f);
+            AudioSource.PlayClipAtPoint(audioClose, animator.gameObject.transform.position, 0.3f);
         }
     }
 }

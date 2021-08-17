@@ -35,4 +35,12 @@ public class PlayersInsideHouse
         }
         return inside;
     }
+
+    public static void Reset()
+    {
+        for (int i=0; i<playerInside.Length; i++)
+        {
+            playerInside [i] = false;
+        }
+    }
 }

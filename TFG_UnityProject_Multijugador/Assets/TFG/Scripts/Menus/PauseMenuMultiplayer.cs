@@ -19,6 +19,7 @@ public class PauseMenuMultiplayer : PauseMenu
 
     public override void Return()
     {
+        PlayersInsideHouse.Reset();
         PhotonNetwork.Disconnect();
         Destroy(voiceManager);
         LoadScene("Menus");
