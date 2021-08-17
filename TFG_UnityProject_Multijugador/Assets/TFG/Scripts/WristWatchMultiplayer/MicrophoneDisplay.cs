@@ -10,11 +10,13 @@ public class MicrophoneDisplay : MonoBehaviour
 
     public GameObject microOnIcon = null;
     public GameObject microOffIcon = null;
+    public SpriteRenderer background;
 
     private void Start()
     {
         microOffIcon.SetActive(false);
         microOnIcon.SetActive(true);
+        background.color = new Color(0.5f, 1, 0.5f);
     }
 
     // Update is called once per frame
@@ -55,11 +57,13 @@ public class MicrophoneDisplay : MonoBehaviour
         {
             microOffIcon.SetActive(false);
             microOnIcon.SetActive(true);
+            background.color = new Color(0.5f, 1, 0.5f);
         }
         else
         {
             microOnIcon.SetActive(false);
-            microOffIcon.SetActive(true);  
+            microOffIcon.SetActive(true);
+            background.color = new Color(1, 0.5f, 0.5f);
         }
     }
 }

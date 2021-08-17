@@ -60,7 +60,7 @@ public class DoorRuneController : MonoBehaviour
     {
         if (audioOpen != null)
         {
-            AudioSource.PlayClipAtPoint(audioOpen, animator.gameObject.transform.position, 0.025f);
+            AudioSource.PlayClipAtPoint(audioOpen, animator.gameObject.transform.position, 0.3f);
         }
     }
 }

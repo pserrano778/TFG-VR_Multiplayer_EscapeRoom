@@ -75,7 +75,7 @@ public class CombineObjectColliderPuzzleController : ObjectColliderPuzzleControl
     {
         if (audioOpen != null)
         {
-            AudioSource.PlayClipAtPoint(audioOpen, GetComponent<Animator>().gameObject.transform.position, 0.025f);
+            AudioSource.PlayClipAtPoint(audioOpen, GetComponent<Animator>().gameObject.transform.position, 0.3f);
         }
     }
 }

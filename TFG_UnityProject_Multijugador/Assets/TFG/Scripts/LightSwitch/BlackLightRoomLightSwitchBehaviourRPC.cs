@@ -91,7 +91,7 @@ public class BlackLightRoomLightSwitchBehaviourRPC : MonoBehaviour
     {
         if (audioClose != null)
         {
-            AudioSource.PlayClipAtPoint(audioClose, doorAnimator.gameObject.transform.position, 0.03f);
+            AudioSource.PlayClipAtPoint(audioClose, doorAnimator.gameObject.transform.position, 0.3f);
         }
     }
 }
