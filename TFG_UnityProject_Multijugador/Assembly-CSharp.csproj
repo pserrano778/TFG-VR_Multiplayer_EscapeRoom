@@ -444,6 +444,8 @@
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\CheckPlayerOutside.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\CloseMainDoorMultiplayer.cs" />
     <Compile Include="Assets\TFG\Scripts\Door\PuertaPrincipal\PlayersInsideHouse.cs" />
+    <Compile Include="Assets\TFG\Scripts\Exit\Exit.cs" />
+    <Compile Include="Assets\TFG\Scripts\Exit\ExitMultiplayer.cs" />
     <Compile Include="Assets\TFG\Scripts\Key\KeyBehaviour.cs" />
     <Compile Include="Assets\TFG\Scripts\LightSwitch\BlackLightRoomLightSwitchBehaviourRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LampLightSwitchBehaviour.cs" />
@@ -451,6 +453,8 @@
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LightSwitchBehaviour.cs" />
     <Compile Include="Assets\TFG\Scripts\LightSwitch\LightSwitchBehaviourRPC.cs" />
     <Compile Include="Assets\TFG\Scripts\Linterna\Linterna.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\CompletedMenu.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\CreditMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\MainMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\Menu.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\ModeSelectorMenu.cs" />

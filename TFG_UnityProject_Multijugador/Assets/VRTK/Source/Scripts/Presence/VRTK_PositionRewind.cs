@@ -167,6 +167,7 @@ namespace VRTK
 
         protected virtual void Update()
         {
+
             if (isColliding)
             {
                 if (collideTimer > 0f)

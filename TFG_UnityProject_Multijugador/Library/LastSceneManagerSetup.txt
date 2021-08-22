@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TFG/Scenes/Individual.unity
+- path: Assets/TFG/Scenes/Menu/Menus.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

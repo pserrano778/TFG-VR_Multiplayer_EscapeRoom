@@ -12,6 +12,8 @@ public class CombineObjectColliderPuzzleController : ObjectColliderPuzzleControl
     public SpriteRenderer[] sprites;
     public AudioClip audioOpen;
 
+    public GameObject exitObject = null;
+
     public void SetNewObjectState(bool active, GameObject newObject, int id)
     {
         // Bloqueamos el cerrojo para no escribir en el array de forma simultánea
@@ -65,7 +67,7 @@ public class CombineObjectColliderPuzzleController : ObjectColliderPuzzleControl
 
                 activeObjects[i].GetComponent<Animator>().Play("animateTo" + idsAnimation[i], 0, 0.0f);
             }
-
+            exitObject.SetActive(true);
             base.Open();
             PlayAudioOpen();
         }

@@ -21,7 +21,10 @@ public class PauseMenuMultiplayer : PauseMenu
     {
         PlayersInsideHouse.Reset();
         PhotonNetwork.Disconnect();
-        Destroy(voiceManager);
+        if (voiceManager != null)
+        {
+            Destroy(voiceManager);
+        }
         LoadScene("Menus");
     }
 }

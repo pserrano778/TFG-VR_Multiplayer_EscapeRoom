@@ -121,9 +121,11 @@ ScriptsOnlyBuild:
     - VoiceChat
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.GitUserCache
     - GitHub.Unity.RepositoryInfoCache
@@ -210,10 +212,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -7309,4 +7309,4 @@ ScriptsOnlyBuild:
   - Assets/TFG/Scenes/Menu/Menus.unity
   - Assets/TFG/Scenes/Individual.unity
   - Assets/TFG/Scenes/Multijugador.unity
-  playerPath: C:/Users/Usuario/Desktop/ElMisterioDeLaCasa.apk
+  playerPath: C:/Users/Usuario/Desktop/ElMisterioDeLaCasa_Juego.apk

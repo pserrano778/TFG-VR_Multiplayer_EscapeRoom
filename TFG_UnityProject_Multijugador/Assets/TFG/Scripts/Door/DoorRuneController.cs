@@ -7,6 +7,7 @@ public class DoorRuneController : MonoBehaviour
     public Animator animator = null;
 
     public AudioClip audioOpen;
+    public GameObject exitObject;
 
     // Sobreescribimos el disparador de colisión
     private void OnTriggerEnter(Collider other)
@@ -52,8 +53,10 @@ public class DoorRuneController : MonoBehaviour
     {
         yield return new WaitForSeconds(animationTime);
         Destroy(gameObject, 0);
+        exitObject.SetActive(true);
         animator.Play("doorOpen", 0, 0.0f);
         PlayAudioOpen();
+    
     }
 
     public void PlayAudioOpen()
