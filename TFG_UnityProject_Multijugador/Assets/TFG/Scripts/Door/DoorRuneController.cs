@@ -53,7 +53,10 @@ public class DoorRuneController : MonoBehaviour
     {
         yield return new WaitForSeconds(animationTime);
         Destroy(gameObject, 0);
-        exitObject.SetActive(true);
+        if (exitObject != null)
+        {
+            exitObject.SetActive(true);
+        }
         animator.Play("doorOpen", 0, 0.0f);
         PlayAudioOpen();
     

@@ -5,6 +5,7 @@ using Photon.Pun;
 public class ExitMultiplayer : Exit
 {
     public GameObject managerToDelete = null;
+
     private void OnTriggerEnter(Collider other)
     {
         // Se busca al jugador  

@@ -16,7 +16,6 @@ public abstract class Menu : MonoBehaviour
             Destroy(manager);
         }
         SceneManager.LoadScene(levelName);
-        
     }
 
     public void PressQuitButton()

@@ -7,6 +7,8 @@ public class Exit : MonoBehaviour
 {
     private static bool completed = false;
     public SaveManager saveManager = null;
+    public GameObject manager = null;
+
     // Sobreescribimos el disparador de colisión
     private void OnTriggerEnter(Collider other)
     {
@@ -19,12 +21,16 @@ public class Exit : MonoBehaviour
 
     protected virtual void ExitGame()
     {
+        SetCompleted(true);
         if (saveManager != null)
         {
             // Se borran los datos
             saveManager.DeleteSaveData();
         }
-        SetCompleted(true);
+        if (manager != null)
+        {
+            Destroy(manager);
+        }
         SceneManager.LoadScene("Menus");
     }
 

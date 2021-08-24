@@ -22,20 +22,23 @@ public class VRAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Se calcula la velicidad
-        Vector3 headsetSpeed = (vrRig.head.vrTarget.position - previousPos) / Time.deltaTime;
+        if (!Exit.GetCompleted())
+        {
+            // Se calcula la velicidad
+            Vector3 headsetSpeed = (vrRig.head.vrTarget.position - previousPos) / Time.deltaTime;
 
-        // Transforma las coordenadas del mundo en coordenadas locales
-        Vector3 headsetLocalSpeed = transform.InverseTransformDirection(headsetSpeed);
-        previousPos = vrRig.head.vrTarget.position;
+            // Transforma las coordenadas del mundo en coordenadas locales
+            Vector3 headsetLocalSpeed = transform.InverseTransformDirection(headsetSpeed);
+            previousPos = vrRig.head.vrTarget.position;
 
-        // Se obtienen las variables de dirección anteriores
-        float previousDirectionX = animator.GetFloat("directionX");
-        float previousDirectionY = animator.GetFloat("directionY");
+            // Se obtienen las variables de dirección anteriores
+            float previousDirectionX = animator.GetFloat("directionX");
+            float previousDirectionY = animator.GetFloat("directionY");
 
-        // Se asignan los nuevos valores a las variables de animación
-        animator.SetBool("isMoving", headsetLocalSpeed.magnitude > speedTreshold);
-        animator.SetFloat("directionX", Mathf.Lerp(previousDirectionX, Mathf.Clamp(headsetLocalSpeed.x, -1, 1), smoothing));
-        animator.SetFloat("directionY", Mathf.Lerp(previousDirectionY, Mathf.Clamp(headsetLocalSpeed.z, -1, 1), smoothing));
+            // Se asignan los nuevos valores a las variables de animación
+            animator.SetBool("isMoving", headsetLocalSpeed.magnitude > speedTreshold);
+            animator.SetFloat("directionX", Mathf.Lerp(previousDirectionX, Mathf.Clamp(headsetLocalSpeed.x, -1, 1), smoothing));
+            animator.SetFloat("directionY", Mathf.Lerp(previousDirectionY, Mathf.Clamp(headsetLocalSpeed.z, -1, 1), smoothing));
+        }
     }
 }

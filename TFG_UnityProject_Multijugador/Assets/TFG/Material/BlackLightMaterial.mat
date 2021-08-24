@@ -80,5 +80,5 @@ Material:
     - _Color: {r: 0.39999998, g: 0, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlobalPosition: {r: 0, g: 0, b: 0, a: 0}
-    - _LightDirection: {r: 0.01275829, g: -0.07118028, b: -0.99738187, a: 0}
-    - _LightPosition: {r: -30.702396, g: -0.23873341, b: 8.674784, a: 0}
+    - _LightDirection: {r: 0.010518466, g: -0.07150939, b: -0.9973845, a: 0}
+    - _LightPosition: {r: -30.702063, g: -0.2387749, b: 8.674936, a: 0}
