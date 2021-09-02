@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-08-24T19:08:36.183+02:00
-  initializedAtString: 2021-08-24T19:04:06.262+02:00
+  lastUpdatedAtString: 2021-09-02T20:30:40.799+02:00
+  initializedAtString: 2021-09-02T20:28:09.145+02:00
   entries:
   - path: TFG_UnityProject_Multijugador\.vs\TFG_UnityProject_Multijugador\v15\.suo
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\.vs\TFG_UnityProject_Multijugador\v15\.suo
@@ -40,147 +40,153 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assembly-CSharp.csproj
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\Plugins\Android\AndroidManifest.xml
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\Plugins\Android\AndroidManifest.xml
+    projectPath: Assets\Plugins\Android\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Assets\Plugins\Android\AndroidManifest.xml.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\Plugins\Android\AndroidManifest.xml.meta
+    projectPath: Assets\Plugins\Android\AndroidManifest.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Assets\TFG\Material\BlackLightMaterial.mat
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Material\BlackLightMaterial.mat
     projectPath: Assets\TFG\Material\BlackLightMaterial.mat
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual.unity
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual.unity
-    projectPath: Assets\TFG\Scenes\Individual.unity
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\LightingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Individual\LightingData.asset
+    projectPath: Assets\TFG\Scenes\Individual\LightingData.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoMultijugador.unity
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoMultijugador.unity
+    projectPath: Assets\TFG\Scenes\Menu\MenuModoMultijugador.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoMultijugador.unity.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoMultijugador.unity.meta
+    projectPath: Assets\TFG\Scenes\Menu\MenuModoMultijugador.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoUnJugador.unity
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoUnJugador.unity
+    projectPath: Assets\TFG\Scenes\Menu\MenuModoUnJugador.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoUnJugador.unity.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuModoUnJugador.unity.meta
+    projectPath: Assets\TFG\Scenes\Menu\MenuModoUnJugador.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuNuevaPartida.unity
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuNuevaPartida.unity
+    projectPath: Assets\TFG\Scenes\Menu\MenuNuevaPartida.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuNuevaPartida.unity.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuNuevaPartida.unity.meta
+    projectPath: Assets\TFG\Scenes\Menu\MenuNuevaPartida.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuPrincipal.unity
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuPrincipal.unity
+    projectPath: Assets\TFG\Scenes\Menu\MenuPrincipal.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuPrincipal.unity.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuPrincipal.unity.meta
+    projectPath: Assets\TFG\Scenes\Menu\MenuPrincipal.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\Menus.unity
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\Menus.unity
     projectPath: Assets\TFG\Scenes\Menu\Menus.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador.unity
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador.unity
-    projectPath: Assets\TFG\Scenes\Multijugador.unity
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\Menus\LightingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\Menus\LightingData.asset
+    projectPath: Assets\TFG\Scenes\Menu\Menus\LightingData.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Character\VRAnimatorController.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Character\VRAnimatorController.cs
-    projectPath: Assets\TFG\Scripts\Character\VRAnimatorController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Character\VRAnimatorControllerOnline.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Character\VRAnimatorControllerOnline.cs
-    projectPath: Assets\TFG\Scripts\Character\VRAnimatorControllerOnline.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Door\DoorRuneController.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Door\DoorRuneController.cs
-    projectPath: Assets\TFG\Scripts\Door\DoorRuneController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Exit\Exit.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Exit\Exit.cs
-    projectPath: Assets\TFG\Scripts\Exit\Exit.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Exit\ExitMultiplayer.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Exit\ExitMultiplayer.cs
-    projectPath: Assets\TFG\Scripts\Exit\ExitMultiplayer.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\Menu.cs
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\Menu.cs
-    projectPath: Assets\TFG\Scripts\Menus\Menu.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\03\036b8f6db09cef28f35d6dcf37e0d701
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\03\036b8f6db09cef28f35d6dcf37e0d701
-    projectPath: Library\Artifacts\03\036b8f6db09cef28f35d6dcf37e0d701
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuSeleccionModo.unity
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuSeleccionModo.unity
+    projectPath: Assets\TFG\Scenes\Menu\MenuSeleccionModo.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\13\131cafc49d19c7519120700d0f86a40e
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\13\131cafc49d19c7519120700d0f86a40e
-    projectPath: Library\Artifacts\13\131cafc49d19c7519120700d0f86a40e
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuSeleccionModo.unity.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Menu\MenuSeleccionModo.unity.meta
+    projectPath: Assets\TFG\Scenes\Menu\MenuSeleccionModo.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\LightingData.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scenes\Multijugador\LightingData.asset
+    projectPath: Assets\TFG\Scenes\Multijugador\LightingData.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\Permissions.cs
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\Permissions.cs
+    projectPath: Assets\TFG\Scripts\Menus\Permissions.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\19\190d0d5c80ac4acbfd0d99b7df9474f7
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\19\190d0d5c80ac4acbfd0d99b7df9474f7
-    projectPath: Library\Artifacts\19\190d0d5c80ac4acbfd0d99b7df9474f7
+  - path: TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\Permissions.cs.meta
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Assets\TFG\Scripts\Menus\Permissions.cs.meta
+    projectPath: Assets\TFG\Scripts\Menus\Permissions.cs.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Library\Artifacts\1c\1c038238b810c91b19562c4534b7021f
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\1c\1c038238b810c91b19562c4534b7021f
     projectPath: Library\Artifacts\1c\1c038238b810c91b19562c4534b7021f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\58\58c96b0caa9569b6b093f10bc5a83396
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\58\58c96b0caa9569b6b093f10bc5a83396
-    projectPath: Library\Artifacts\58\58c96b0caa9569b6b093f10bc5a83396
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\72\725a186001c833d9fc71195c2a3051fe
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\72\725a186001c833d9fc71195c2a3051fe
-    projectPath: Library\Artifacts\72\725a186001c833d9fc71195c2a3051fe
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\5b\5babb77e8cbda41ae9c5bc7498caf4bf
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\5b\5babb77e8cbda41ae9c5bc7498caf4bf
+    projectPath: Library\Artifacts\5b\5babb77e8cbda41ae9c5bc7498caf4bf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\7b\7bf0dbd8b0e23ef1304c0d12dfbbdd89
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\7b\7bf0dbd8b0e23ef1304c0d12dfbbdd89
-    projectPath: Library\Artifacts\7b\7bf0dbd8b0e23ef1304c0d12dfbbdd89
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\5e\5e0ef9ffbcf46255a5d5eedc09eb4d78
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\5e\5e0ef9ffbcf46255a5d5eedc09eb4d78
+    projectPath: Library\Artifacts\5e\5e0ef9ffbcf46255a5d5eedc09eb4d78
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\89\89c605bc2cad49f815fbb0bcd1245582
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\89\89c605bc2cad49f815fbb0bcd1245582
-    projectPath: Library\Artifacts\89\89c605bc2cad49f815fbb0bcd1245582
+  - path: TFG_UnityProject_Multijugador\Library\Artifacts\6e\6e9d281235ba11e8512599bb1de5ea19
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\6e\6e9d281235ba11e8512599bb1de5ea19
+    projectPath: Library\Artifacts\6e\6e9d281235ba11e8512599bb1de5ea19
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Library\Artifacts\ac\accac1a5d792ad16d7a1cf68a2ddc4dc
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\ac\accac1a5d792ad16d7a1cf68a2ddc4dc
     projectPath: Library\Artifacts\ac\accac1a5d792ad16d7a1cf68a2ddc4dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\e7\e753a0ced3522e53100b76d4e47b1e38
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\e7\e753a0ced3522e53100b76d4e47b1e38
-    projectPath: Library\Artifacts\e7\e753a0ced3522e53100b76d4e47b1e38
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\f3\f35aeb7176332cbfd20370568aa4666c
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\f3\f35aeb7176332cbfd20370568aa4666c
-    projectPath: Library\Artifacts\f3\f35aeb7176332cbfd20370568aa4666c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\f7\f717713dc48f8b881f9aeac305a432a3
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\f7\f717713dc48f8b881f9aeac305a432a3
-    projectPath: Library\Artifacts\f7\f717713dc48f8b881f9aeac305a432a3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\fb\fbc3b7774c21db9ea2a775c1c2be3f24
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\fb\fbc3b7774c21db9ea2a775c1c2be3f24
-    projectPath: Library\Artifacts\fb\fbc3b7774c21db9ea2a775c1c2be3f24
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Library\Artifacts\fd\fd8d66f7769195f470238e833bbbb8e1
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Artifacts\fd\fd8d66f7769195f470238e833bbbb8e1
-    projectPath: Library\Artifacts\fd\fd8d66f7769195f470238e833bbbb8e1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -190,12 +196,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Library\EditorInstance.json
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -244,15 +244,219 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: TFG_UnityProject_Multijugador\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: TFG_UnityProject_Multijugador\Library\LastBuild.buildreport
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\Occlusion\log.txt
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\Occlusion\log.txt
+    projectPath: Library\Occlusion\log.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\boot.config
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\boot.config
+    projectPath: Library\PlayerDataCache\Android\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.pdb
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.pdb
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.Platform.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.Platform.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Oculus.Platform.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.VR.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Oculus.VR.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Oculus.VR.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonChat.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonChat.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonChat.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonRealtime.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonRealtime.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonRealtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Demos.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Demos.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Demos.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Utilities.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Utilities.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonUnityNetworking.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.API.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.API.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.API.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.PUN.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.PUN.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\PhotonVoice.PUN.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Animation.Rigging.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Animation.Rigging.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Animation.Rigging.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Burst.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Burst.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Burst.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Mathematics.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Mathematics.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Mathematics.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Csg.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Csg.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Csg.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.KdTree.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.KdTree.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.KdTree.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Stl.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Stl.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.ProBuilder.Stl.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.Base.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.Base.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.Base.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Recorder.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -274,21 +478,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: TFG_UnityProject_Multijugador\Library\SourceAssetDB
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-mainStage.json
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Library\StateCache\Hierarchy\836cee-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\836cee-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -298,27 +490,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TFG_UnityProject_Multijugador\Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
+  - path: TFG_UnityProject_Multijugador\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TFG_UnityProject_Multijugador\Temp\ProcessJobs\52b1ea98ffac577be38fa48af10e003c.bakert
+    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\ProcessJobs\52b1ea98ffac577be38fa48af10e003c.bakert
+    projectPath: Temp\ProcessJobs\52b1ea98ffac577be38fa48af10e003c.bakert
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TFG_UnityProject_Multijugador\Temp\UnityLockfile
     fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-acf5fc6c1d0946645a56b9329e8b11c0
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-acf5fc6c1d0946645a56b9329e8b11c0
-    projectPath: Temp\UnityTempFile-acf5fc6c1d0946645a56b9329e8b11c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TFG_UnityProject_Multijugador\Temp\UnityTempFile-c508490180c05b44da466fdd061b50c3
-    fullPath: C:\Users\Usuario\Documents\GitHub\TFG-VR_Multiplayer_EscapeRoom\TFG_UnityProject_Multijugador\Temp\UnityTempFile-c508490180c05b44da466fdd061b50c3
-    projectPath: Temp\UnityTempFile-c508490180c05b44da466fdd061b50c3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

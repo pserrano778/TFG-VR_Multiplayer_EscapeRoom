@@ -463,6 +463,7 @@
     <Compile Include="Assets\TFG\Scripts\Menus\PauseMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\PauseMenuMultiplayer.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\PauseMenuSinglePlayer.cs" />
+    <Compile Include="Assets\TFG\Scripts\Menus\Permissions.cs" />
     <Compile Include="Assets\TFG\Scripts\Menus\SinglePlayerMenu.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\HandsAnimation.cs" />
     <Compile Include="Assets\TFG\Scripts\Network\NetworkManager.cs" />
