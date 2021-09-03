@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4420DDDB-B667-78B6-5BCE-494804CB5514}</ProjectGuid>
+    <ProjectGuid>{86D599D8-738A-3CEB-5283-3E43BDCE4823}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</AssemblyName>
@@ -265,34 +265,34 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -649,33 +649,33 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_UnityProject_Multijugador/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Usuario/Documents/GitHub/TFG-VR_Multiplayer_EscapeRoom/TFG_ProyectoUnity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{9BC17C25-F733-B49E-5555-FC061EFC50DA}</Project>
+      <Project>{9A4379AF-D1A3-5EFB-E192-225C46484C11}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{74323D22-90F0-E955-7C9D-45FEEAFBFD97}</Project>
+      <Project>{43F1EAD4-4510-C2E8-7FBE-9B9FDB15415A}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{31DAAFAB-3CDE-899F-B1B6-9C34A884653D}</Project>
+      <Project>{E19508F3-CFC7-84DB-9DB3-424E970A7623}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{0DA08138-E24E-D6E1-CC4A-DBE441F227CC}</Project>
+      <Project>{965CC6B8-7565-FCE0-2386-132609CB62F1}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

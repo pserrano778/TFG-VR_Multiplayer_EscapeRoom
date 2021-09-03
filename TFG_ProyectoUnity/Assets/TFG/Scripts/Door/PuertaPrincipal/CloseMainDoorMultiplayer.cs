@@ -29,7 +29,7 @@ public class CloseMainDoorMultiplayer : MonoBehaviour
         {   
             // Se busca al jugador  
             if (tagClose == "Player" && (other.gameObject.name == "[VRTK][AUTOGEN][BodyColliderContainer]" || other.gameObject.name == "Sphere"))
-            {
+            {            
                 // Si el jugador no había entrado
                 if (!PlayersInsideHouse.getPlayerState(NetworkManager.getPlayer()))
                 {
