@@ -1,3 +1,3 @@
 # TFG-VR_Multiplayer_EscapeRoom
 ## Pedro Serrano Pérez
-### Proyecto de Fin de Grado del Grado en Ingeniería Informática - Curso 2020/21.
+Proyecto de Fin de Grado del Grado en Ingeniería Informática - Curso 2020/21.
