@@ -6,4 +6,4 @@ Dentro de la carpeta "TFG_ProyectoUnity" se encuentra el proyecto de Unity desar
 
 En la carpeta "TFG_ProyectoUnity/Assets" se encuentra todo el contenido que se ha utilizado (modelos, librerías, etc).
 
-En la carpeta "TFG_ProyectoUnity/Assets/TFG" se encuentra principalmente el contenido que se ha desarrollado (Scripts, Controladores, Animaciones, Shaders, etc).
+En la carpeta "TFG_ProyectoUnity/Assets/TFG" se encuentra principalmente el contenido que se ha desarrollado (scripts, controladores, animaciones, shaders, etc).
